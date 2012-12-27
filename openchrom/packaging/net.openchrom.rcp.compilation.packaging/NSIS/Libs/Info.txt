@@ -1,0 +1,18 @@
+-----------------------------------------------
+NSIS (nullsoft scriptable install system)
+-----------------------------------------------
+http://nsis.sourceforge.net
+Some plug-ins and files are additionally needed:
+
+
+> InetLoad plug-in
+	http://nsis.sourceforge.net/InetLoad_plug-in
+	Copy "InetLoad.dll" to "/usr/share/nsis/Plugins/" folder.
+
+> Java Runtime Environment Dynamic Installer
+	http://nsis.sourceforge.net/Java_Runtime_Environment_Dynamic_Installer
+	Copy "JREDyna.nsh" to "/usr/share/nsis/Include/" folder.
+
+> NT Profile Paths
+	http://nsis.sourceforge.net/NT_Profile_Paths
+	Copy "NTProfiles.nsh" to "/usr/share/nsis/Include/" folder.
