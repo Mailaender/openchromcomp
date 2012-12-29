@@ -157,6 +157,10 @@ http://www.eclipse.org/legal/epl-v10.html
          id="net.openchrom.thirdpartylibraries.proteomecommons.feature"
          version="0.0.0"/>
 
+   <includes
+         id="net.openchrom.chromatogram.fid.converter.supplier.xy.feature"
+         version="0.0.0"/>
+
    <plugin
          id="net.openchrom.rcp.compilation"
          download-size="0"
