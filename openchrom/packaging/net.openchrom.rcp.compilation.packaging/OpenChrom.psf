@@ -18,6 +18,13 @@
 <project reference="1.0,git://openchrom.git.sourceforge.net/gitroot/openchrom/openchrom,develop,openchrom/plugins/net.openchrom.chromatogram.ecd.model.fragment.test"/>
 <project reference="1.0,git://openchrom.git.sourceforge.net/gitroot/openchrom/openchrom,develop,openchrom/plugins/net.openchrom.chromatogram.fid.converter"/>
 <project reference="1.0,git://openchrom.git.sourceforge.net/gitroot/openchrom/openchrom,develop,openchrom/plugins/net.openchrom.chromatogram.fid.converter.fragment.test"/>
+<project reference="1.0,git://git.code.sf.net/p/xyconverter/xyconverter,develop,openchrom/plugins/net.openchrom.chromatogram.fid.converter.supplier.xy"/>
+<project reference="1.0,git://git.code.sf.net/p/xyconverter/xyconverter,develop,openchrom/cbi/net.openchrom.chromatogram.fid.converter.supplier.xy.cbi"/>
+<project reference="1.0,git://git.code.sf.net/p/xyconverter/xyconverter,develop,openchrom/features/net.openchrom.chromatogram.fid.converter.supplier.xy.feature"/>
+<project reference="1.0,git://git.code.sf.net/p/xyconverter/xyconverter,develop,openchrom/plugins/net.openchrom.chromatogram.fid.converter.supplier.xy.fragment.test"/>
+<project reference="1.0,git://git.code.sf.net/p/xyconverter/xyconverter,develop,openchrom/plugins/net.openchrom.chromatogram.fid.converter.supplier.xy.ui"/>
+<project reference="1.0,git://git.code.sf.net/p/xyconverter/xyconverter,develop,openchrom/plugins/net.openchrom.chromatogram.fid.converter.supplier.xy.ui.fragment.test"/>
+<project reference="1.0,git://git.code.sf.net/p/xyconverter/xyconverter,develop,openchrom/sites/net.openchrom.chromatogram.fid.converter.supplier.xy.updateSite"/>
 <project reference="1.0,git://openchrom.git.sourceforge.net/gitroot/openchrom/openchrom,develop,openchrom/plugins/net.openchrom.chromatogram.fid.converter.ui"/>
 <project reference="1.0,git://openchrom.git.sourceforge.net/gitroot/openchrom/openchrom,develop,openchrom/plugins/net.openchrom.chromatogram.fid.converter.ui.fragment.test"/>
 <project reference="1.0,git://openchrom.git.sourceforge.net/gitroot/openchrom/openchrom,develop,openchrom/plugins/net.openchrom.chromatogram.fid.model"/>
@@ -282,6 +289,8 @@
 <project reference="1.0,git://officeconnector.git.sourceforge.net/gitroot/officeconnector/officeconnector,develop,openchrom/plugins/net.openchrom.rcp.connector.supplier.microsoft.office.ui"/>
 <project reference="1.0,git://officeconnector.git.sourceforge.net/gitroot/officeconnector/officeconnector,develop,openchrom/plugins/net.openchrom.rcp.connector.supplier.microsoft.office.ui.fragment.test"/>
 <project reference="1.0,git://officeconnector.git.sourceforge.net/gitroot/officeconnector/officeconnector,develop,openchrom/sites/net.openchrom.rcp.connector.supplier.microsoft.office.updateSite"/>
+<project reference="1.0,git://openchrom.git.sourceforge.net/gitroot/openchrom/openchrom,develop,openchrom/plugins/net.openchrom.rcp.extension.chromatogram.fid.ui"/>
+<project reference="1.0,git://openchrom.git.sourceforge.net/gitroot/openchrom/openchrom,develop,openchrom/plugins/net.openchrom.rcp.extension.chromatogram.fid.ui.fragment.test"/>
 <project reference="1.0,git://openchrom.git.sourceforge.net/gitroot/openchrom/openchrom,develop,openchrom/plugins/net.openchrom.rcp.extension.chromatogram.msd.ui"/>
 <project reference="1.0,git://openchrom.git.sourceforge.net/gitroot/openchrom/openchrom,develop,openchrom/plugins/net.openchrom.rcp.extension.chromatogram.msd.ui.fragment.test"/>
 <project reference="1.0,git://openchrom.git.sourceforge.net/gitroot/openchrom/openchrom,develop,openchrom/plugins/net.openchrom.rcp.extension.chromatogram.ui"/>
