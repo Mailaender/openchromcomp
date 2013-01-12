@@ -17,17 +17,17 @@
   <build>
     <plugins>
       <plugin>
-        <groupId>${tycho-groupid}</groupId>
+        <groupId>${tycho.groupid}</groupId>
         <artifactId>tycho-p2-publisher-plugin</artifactId>
-        <version>${tycho-version}</version>
+        <version>${tycho.version}</version>
         <configuration>
           <publishArtifacts>true</publishArtifacts>
         </configuration>
       </plugin>
       <plugin>
-        <groupId>${tycho-groupid}</groupId>
+        <groupId>${tycho.groupid}</groupId>
         <artifactId>tycho-p2-director-plugin</artifactId>
-        <version>${tycho-version}</version>
+        <version>${tycho.version}</version>
         <executions>
           <execution>
             <id>materialize-products</id>

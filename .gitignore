@@ -4,3 +4,8 @@ openchrom/updateSites/net.openchrom.rcp.compilation.updateSite/bin/ary/
 openchrom/updateSites/net.openchrom.rcp.compilation.updateSite/content.jar
 openchrom/updateSites/net.openchrom.rcp.compilation.updateSite/features/
 openchrom/updateSites/net.openchrom.rcp.compilation.updateSite/plugins/
+openchrom/features/net.openchrom.rcp.compilation.feature/target/
+openchrom/plugins/net.openchrom.rcp.compilation.product/target/
+openchrom/plugins/net.openchrom.rcp.compilation/target/
+openchrom/sites/net.openchrom.rcp.compilation.plugins.updateSite/target/
+openchrom/sites/net.openchrom.rcp.compilation.updateSite/target/
