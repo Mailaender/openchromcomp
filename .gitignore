@@ -7,5 +7,6 @@ openchrom/updateSites/net.openchrom.rcp.compilation.updateSite/plugins/
 openchrom/features/net.openchrom.rcp.compilation.feature/target/
 openchrom/plugins/net.openchrom.rcp.compilation.product/target/
 openchrom/plugins/net.openchrom.rcp.compilation/target/
+openchrom/plugins/net.openchrom.rcp.compilation.p2/target/
 openchrom/sites/net.openchrom.rcp.compilation.plugins.updateSite/target/
 openchrom/sites/net.openchrom.rcp.compilation.updateSite/target/
