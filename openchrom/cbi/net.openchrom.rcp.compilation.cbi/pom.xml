@@ -52,6 +52,7 @@
   -->
   <modules>
     <module>../../plugins/net.openchrom.rcp.compilation</module>
+    <module>../../plugins/net.openchrom.rcp.compilation.fragment.icons</module>
     <module>../../features/net.openchrom.rcp.compilation.feature</module>
     <module>../../plugins/net.openchrom.rcp.compilation.p2</module>
     <module>../../sites/net.openchrom.rcp.compilation.plugins.updateSite</module>
