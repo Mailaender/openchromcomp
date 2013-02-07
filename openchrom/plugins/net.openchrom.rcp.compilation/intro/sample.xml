@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<introContent>
+  	<extensionContent id="netopenchromrcpcompilation-introExtension" style="css/sample.css" name="Sample Extension" path="overview/@">
+		<group style-id="content-group" id="netopenchromrcpcompilation-introLink-group">
+       		<link label="OpenChrom Community" url="http://www.openchrom.net" id="netopenchromrcpcompilation-introLink" style-id="content-link">
+          		<text>OpenChrom is a software to analyze chromatographic / mass spectrometric data in a very flexible and advanced way.</text>
+       		</link>
+       	</group>
+  	</extensionContent>
+</introContent>

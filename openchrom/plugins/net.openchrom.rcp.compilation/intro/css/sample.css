@@ -1,0 +1,7 @@
+a#netopenchromrcpcompilation-introLink img {
+	background-image:url('../../icons/logo_48x48.png');
+}
+
+a#netopenchromrcpcompilation-introLink:hover img {
+	background-image:url('../../icons/logo_64x64.png');
+}

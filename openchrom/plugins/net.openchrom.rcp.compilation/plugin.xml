@@ -46,6 +46,14 @@
                name="applicationCSS"
                value="platform:/plugin/net.openchrom.rcp.app.ui/css/openchrom.css">
          </property>
+         <property
+               name="introBrandingImage"
+               value="product:icons/logo_64x64.png">
+         </property>
+         <property
+               name="introTitle"
+               value="OpenChrom Community Edition Dempster Preview Release">
+         </property>          
       </product>
    </extension>   
    <extension
@@ -54,6 +62,20 @@
             productId="net.openchrom.rcp.compilation.product"
             splashId="net.openchrom.rcp.splash.openChromSplashHandler">
       </splashHandlerProductBinding>
-   </extension>     
+   </extension>
+   <extension
+         point="org.eclipse.ui.intro">
+      <introProductBinding
+            introId="org.eclipse.ui.intro.universal"
+            productId="net.openchrom.rcp.compilation.product">
+      </introProductBinding>
+   </extension>
+   <extension
+         point="org.eclipse.ui.intro.configExtension">
+      <configExtension
+            configId="org.eclipse.ui.intro.universalConfig"
+            content="intro/sample.xml">
+      </configExtension>
+   </extension>
 
 </plugin>
