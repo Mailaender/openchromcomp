@@ -48,7 +48,7 @@
          </property>
          <property
                name="lifeCycleURI"
-               value="bundleclass://net.openchrom.rcp.app.ui/net.openchrom.rcp.app.ui.ApplicationLifecycle">
+               value="bundleclass://net.openchrom.rcp.compilation/net.openchrom.rcp.compilation.ApplicationLifecycle">
          </property>              
          <property
                name="introBrandingImage"
