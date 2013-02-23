@@ -45,11 +45,7 @@
          <property
                name="applicationCSS"
                value="platform:/plugin/net.openchrom.rcp.app.ui/css/openchrom.css">
-         </property>
-         <property
-               name="lifeCycleURI"
-               value="bundleclass://net.openchrom.rcp.compilation/net.openchrom.rcp.compilation.ApplicationLifecycle">
-         </property>              
+         </property>       
          <property
                name="introBrandingImage"
                value="product:icons/logo_64x64.png">

@@ -16,7 +16,7 @@
    <launcherArgs>
       <vmArgs>-Xms128M
 -Xmx500M
--Dosgi.requiredJavaVersion=1.7
+-Dosgi.requiredJavaVersion=1.6
 -Dosgi.install.area.readOnly
 -Dosgi.instance.area=@user.home/OpenChrom/workspace
 -Dosgi.user.area=@user.home/.openchrom/0.8.0/Settings
