@@ -177,6 +177,10 @@ http://www.eclipse.org/legal/epl-v10.html
          id="net.openchrom.chromatogram.msd.identifier.supplier.manual.feature"
          version="0.0.0"/>
 
+   <includes
+         id="net.openchrom.chromatogram.msd.baseline.detector.supplier.snip.feature"
+         version="0.0.0"/>
+
    <plugin
          id="net.openchrom.rcp.compilation"
          download-size="0"
