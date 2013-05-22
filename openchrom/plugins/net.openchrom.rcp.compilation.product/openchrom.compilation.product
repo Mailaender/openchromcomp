@@ -14,6 +14,7 @@
    </configIni>
 
    <launcherArgs>
+      <programArgs>-clearPersistedState</programArgs>
       <vmArgs>-Xms128M
 -Xmx500M
 -Dosgi.requiredJavaVersion=1.6
