@@ -19,6 +19,8 @@
 -Xmx500M
 -Dosgi.requiredJavaVersion=1.6
 -Dosgi.install.area.readOnly
+-DApplicationWorkspaceFolder=OpenChrom
+-DApplicationSettingsFolder=.openchrom
 -Dosgi.instance.area=@user.home/OpenChrom/workspace
 -Dosgi.user.area=@user.home/.openchrom/0.8.0/Settings
 -Dsun.awt.xembedserver=true</vmArgs>
