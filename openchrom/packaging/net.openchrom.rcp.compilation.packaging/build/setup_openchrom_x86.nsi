@@ -1,5 +1,5 @@
 #*******************************************************************************
-# Copyright (c) 2011, 2013 Philip (eselmeister) Wenig.
+# Copyright (c) 2011, 2013 Dr. Philip Wenig.
 #
 # All rights reserved.
 # This program and the accompanying materials are made available under the
@@ -42,17 +42,16 @@ SetCompressor lzma
 #
 # SOURCE CODE, PROCESSOR DEFINITIONS
 #
-# x86_64
+# x86
 #
-!define PROCESSOR_TYPE "x86_64"
+!define PROCESSOR_TYPE "x86"
 !define SOURCE_CODE "win32.win32.${PROCESSOR_TYPE}\OpenChrom"
 
 #
 # DETECT AND DOWNLOAD AN APPROPRIATE JRE (1.7)
 #
 !define JRE_VERSION "1.7"
-!define JRE_URL "http://www.openchrom.net/main/downloads/JRE/runtime-x86_64.exe"
-
+!define JRE_URL "http://www.openchrom.net/main/downloads/JRE/runtime-x86.exe"
 
 #
 # MULTIUSER SYMBOL DEFINITIONS
@@ -225,9 +224,10 @@ Section -OpenChrom SEC0000
     File "${SOURCE_CODE}\keystore"
 
     File "${SOURCE_CODE}\bookmarks.xml"
+    File "${SOURCE_CODE}\CHANGELOG.txt"
     File "${SOURCE_CODE}\README.txt"
     File "${SOURCE_CODE}\LICENSE.txt"
-    File "${SOURCE_CODE}\CHANGELOG.txt"
+    File "${SOURCE_CODE}\INFO-TRADEMARK.txt"    
 
     #File "${SOURCE_CODE}\epl-v10.html"
     #File "${SOURCE_CODE}\notice.html"
@@ -325,6 +325,7 @@ Section -un.post UNSEC0001
     Delete /REBOOTOK "$INSTDIR\CHANGELOG.txt"
     Delete /REBOOTOK "$INSTDIR\README.txt"
     Delete /REBOOTOK "$INSTDIR\LICENSE.txt"
+    Delete /REBOOTOK "$INSTDIR\INFO-TRADEMARK.txt"
 
     Delete /REBOOTOK "$INSTDIR\*.log"
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #*******************************************************************************
-# Copyright (c) 2012 Philip (eselmeister) Wenig.
+# Copyright (c) 2012, 2013 Dr. Philip Wenig.
 #
 # All rights reserved.
 # This program and the accompanying materials are made available under the

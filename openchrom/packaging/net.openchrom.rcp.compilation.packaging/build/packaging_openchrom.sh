@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #*******************************************************************************
-# Copyright (c) 2011, 2012 Philip (eselmeister) Wenig.
+# Copyright (c) 2011, 2013 Dr. Philip Wenig.
 #
 # All rights reserved.
 # This program and the accompanying materials are made available under the
@@ -40,11 +40,32 @@ if [ -z $path_packaging ]; then
 fi
 
 #
-# Additional files.
+# Version
 #
-path_mac_starter=$path_packaging'/MacOSX-Java7'
 version=0.8.0-PREV
 package_version=0.8.0_prev-1
+
+#
+# Copies the Maven/Tycho builds of OpenChrom.
+#
+function fetchOsPackage {
+
+  package=$1
+  #
+  # Replaces
+  # linux.gtk.x86_64 -> linux/gtk/x86_64
+  #
+  packageTychoBuild=${package//\./\/}
+  echo "-----------------------------------"
+  echo $package \($packageTychoBuild\)
+  echo "-----------------------------------"
+  echo "delete existing files"
+  rm -Rf $package	
+  echo "prepare to fetch files from: ../"$packageTychoBuild
+    mkdir -p $package/OpenChrom
+    cp -R ../$packageTychoBuild/* ./$package/OpenChrom
+  echo "done"
+}
 
 #
 # Copies the README, CHANGELOG and LICENSE files and zips the package.
@@ -52,7 +73,7 @@ package_version=0.8.0_prev-1
 function releaseOsPackage {
 
   package=$1
-
+  fetchOsPackage $package
   echo "-----------------------------------"
   echo $package
   echo "-----------------------------------"
@@ -62,26 +83,11 @@ function releaseOsPackage {
     cp $path_compilation/CHANGELOG.txt ./$package/OpenChrom/
     cp $path_compilation/LICENSE.txt ./$package/OpenChrom/
     cp $path_compilation/bookmarks.xml ./$package/OpenChrom/
+    cp $path_compilation/INFO-TRADEMARK.txt ./$package/OpenChrom/
     cp $path_keys/keystore ./$package/OpenChrom/
   echo "zip: " $package
     zip -r 'openchrom_'$package'_'$version'.zip' $package/
   echo "done"
-}
-
-#
-# Modifies the Mac OS X package
-#
-function modifyMacOSXPackage {
-
-  package=$1
-
-  echo "-----------------------------------"
-  echo $package
-  echo "-----------------------------------"
-
-  echo "modify: " $package
-    rm -Rf ./$package/OpenChrom/Eclipse.app
-    cp $path_mac_starter/start.sh ./$package/OpenChrom/openchrom.app/Contents/MacOS/
 }
 
 #
@@ -101,11 +107,8 @@ cp -R $path_packaging'/deb/' ./
 #
 releaseOsPackage linux.gtk.x86
 releaseOsPackage linux.gtk.x86_64
-modifyMacOSXPackage macosx.cocoa.ppc
 releaseOsPackage macosx.cocoa.ppc
-modifyMacOSXPackage macosx.cocoa.x86
 releaseOsPackage macosx.cocoa.x86
-modifyMacOSXPackage macosx.cocoa.x86_64
 releaseOsPackage macosx.cocoa.x86_64
 releaseOsPackage solaris.gtk.x86
 releaseOsPackage win32.win32.x86
@@ -117,9 +120,7 @@ releaseOsPackage win32.win32.x86_64
 #releaseOsPackage hpux.motif.ia64_32
 #releaseOsPackage linux.gtk.ppc
 #releaseOsPackage linux.motif.x86
-#modifyMacOSXPackage macosx.carbon.ppc 
 #releaseOsPackage macosx.carbon.ppc
-#modifyMacOSXPackage macosx.carbon.x86 
 #releaseOsPackage macosx.carbon.x86
 #releaseOsPackage solaris.gtk.sparc
 

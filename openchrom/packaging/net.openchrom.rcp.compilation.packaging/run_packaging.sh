@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #*******************************************************************************
-# Copyright (c) 2012 Philip (eselmeister) Wenig.
+# Copyright (c) 2012, 2013 Dr. Philip Wenig.
 #
 # All rights reserved.
 # This program and the accompanying materials are made available under the
@@ -12,11 +12,14 @@
 # Philip (eselmeister) Wenig - initial API and implementation
 #*******************************************************************************
 
-path_openchrom='/home/openchrom/www.openchrom.net/Development/OpenChrom/0.8.0/workspace/openchrom/openchrom/'
-path_compilation=$path_openchrom'plugins/net.openchrom.rcp.compilation.product'
+workspace='/home/openchrom/www.openchrom.net/Development/OpenChrom/0.8.0/workspace/'
+path_openchrom=$workspace'openchrom/openchrom/'
 path_keys=$path_openchrom'plugins/net.openchrom.keystore/keys'
-path_packaging=$path_openchrom'packaging/net.openchrom.rcp.compilation.packaging'
+path_compilation=$workspace'openchromcomp/openchrom/plugins/net.openchrom.rcp.compilation.product'
+path_packaging=$workspace'openchromcomp/openchrom/packaging/net.openchrom.rcp.compilation.packaging'
 
+cp -R $path_packaging/build/ ./
+cd ./build/
 ./packaging_openchrom.sh $path_compilation $path_keys $path_packaging | tee openchrom_0.8.0.0-PREV.log
 
 echo "Done - Please test and upload files."
