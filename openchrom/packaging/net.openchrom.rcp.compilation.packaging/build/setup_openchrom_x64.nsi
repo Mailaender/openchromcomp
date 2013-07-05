@@ -36,7 +36,7 @@ SetCompressor lzma
 #
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION 0.8.0-PREV
-!define COMPANY "Philip (eselmeister) Wenig"
+!define COMPANY "OpenChrom"
 !define URL http://www.openchrom.net
 
 #
@@ -228,7 +228,8 @@ Section -OpenChrom SEC0000
     File "${SOURCE_CODE}\CHANGELOG.txt"
     File "${SOURCE_CODE}\README.txt"
     File "${SOURCE_CODE}\LICENSE.txt"
-    File "${SOURCE_CODE}\INFO-TRADEMARK.txt"   
+    File "${SOURCE_CODE}\INFO-TRADEMARK.txt"
+    File "${SOURCE_CODE}\DemoChromatogram.ocb"       
 
     #File "${SOURCE_CODE}\epl-v10.html"
     #File "${SOURCE_CODE}\notice.html"
@@ -327,6 +328,7 @@ Section -un.post UNSEC0001
     Delete /REBOOTOK "$INSTDIR\README.txt"
     Delete /REBOOTOK "$INSTDIR\LICENSE.txt"
     Delete /REBOOTOK "$INSTDIR\INFO-TRADEMARK.txt"
+    Delete /REBOOTOK "$INSTDIR\DemoChromatogram.ocb"    
 
     Delete /REBOOTOK "$INSTDIR\*.log"
 

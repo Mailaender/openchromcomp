@@ -84,6 +84,7 @@ function releaseOsPackage {
     cp $path_compilation/LICENSE.txt ./$package/OpenChrom/
     cp $path_compilation/bookmarks.xml ./$package/OpenChrom/
     cp $path_compilation/INFO-TRADEMARK.txt ./$package/OpenChrom/
+    cp $path_compilation/DemoChromatogram.ocb ./$package/OpenChrom/
     cp $path_keys/keystore ./$package/OpenChrom/
   echo "zip: " $package
     zip -r 'openchrom_'$package'_'$version'.zip' $package/
