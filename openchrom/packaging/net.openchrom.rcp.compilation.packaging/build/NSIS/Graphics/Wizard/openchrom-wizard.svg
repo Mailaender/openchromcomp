@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -13,11 +14,11 @@
    height="314"
    id="svg2"
    version="1.0"
-   inkscape:version="0.46"
-   sodipodi:docname="openchrom.svg"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="openchrom-wizard.svg"
    sodipodi:version="0.32"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   inkscape:export-filename="openchrom.png"
+   inkscape:export-filename="openchrom-nsis.png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300">
   <defs
@@ -326,16 +327,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.58719994"
-     inkscape:cx="377.45172"
-     inkscape:cy="84.520459"
+     inkscape:zoom="1.9125566"
+     inkscape:cx="107.31242"
+     inkscape:cy="167.30983"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1279"
-     inkscape:window-height="949"
-     inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-width="1920"
+     inkscape:window-height="1056"
+     inkscape:window-x="1920"
+     inkscape:window-y="24"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -360,6 +361,10 @@
        orientation="1,0"
        position="163.48775,313.35153"
        id="guide2488" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="135.29618,218.86147"
+       id="guide3073" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -369,7 +374,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -571,6 +576,31 @@
          id="path3504"
          d="M 223.49622,-378.23467 C 224.89281,-378.43824 226.15891,-379.60517 227.33291,-381.4241 C 236.21986,-395.19313 238.7186,-449.77369 254.81864,-399.76312 C 270.91869,-349.75256 261.81705,-434.74893 279.48229,-391.75849 C 297.18259,-348.68272 296.89276,-434.62914 305.84217,-408.85303 C 330.48788,-337.86826 321.21548,-422.51235 333.69142,-395.22827 C 346.07494,-368.14631 335.36469,-387.19913 387.26862,-382.1071"
          style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:3.38321447;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       transform="matrix(0.25657794,0,0,0.25657794,-71.694966,135.92979)"
+       id="g3093">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3093"
+         y="-25.177435"
+         x="798.05853"
+         style="font-size:25.57697678px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         xml:space="preserve"><tspan
+           y="-25.177435"
+           x="798.05853"
+           id="tspan3095"
+           sodipodi:role="line">R</tspan></text>
+      <path
+         transform="matrix(1.8221138,0,0,1.8221138,605.31423,-382.2772)"
+         d="m 119.17378,190.95706 c 0,4.76612 -3.86371,8.62983 -8.62983,8.62983 -4.76612,0 -8.62982,-3.86371 -8.62982,-8.62983 0,-4.76612 3.8637,-8.62982 8.62982,-8.62982 4.76612,0 8.62983,3.8637 8.62983,8.62982 z"
+         sodipodi:ry="8.6298246"
+         sodipodi:rx="8.6298246"
+         sodipodi:cy="190.95706"
+         sodipodi:cx="110.54395"
+         id="path3097"
+         style="fill:none;stroke:#ffffff;stroke-opacity:1"
+         sodipodi:type="arc" />
     </g>
   </g>
 </svg>
