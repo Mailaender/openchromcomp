@@ -9,57 +9,49 @@
 # Contributors:
 # Philip (eselmeister) Wenig - initial API and implementation
 #*******************************************************************************
-#
-# OPENCHROM SETUP
-#
-# COMPILATION: CHECK $VERSION and $PROCESSOR_TYPE
-#
 
-Name OpenChrom
+#
+# PARAMETERS WILL BE PASSED BY makensis:
+# makensis -DARCHITECTURE=x64 setup_openchrom.nsi
+#
+!if ${ARCHITECTURE} == x64
+  !define PROCESSOR_TYPE "x86_64"
+  !define JRE_URL "http://www.openchrom.net/main/downloads/JRE/runtime-x86_64.exe"
+!else
+  !define PROCESSOR_TYPE "x86"
+  !define JRE_URL "http://www.openchrom.net/main/downloads/JRE/runtime-x86.exe"
+!endif
 
 #
 # COMPRESSION
-#   /SOLID lzma
-#   lzma
-#   bzip2
-#   zlib
 # USE lzma, otherwise Windows will throw an error when the script was compiled under linux.
 #
 SetCompressor lzma
 
 #
-#--------------------------------------------------------------DEFINITIONS
-#
-
-#
 # GENERAL SYMBOL DEFINITIONS
 #
+Name OpenChrom
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 0.8.0-PREV
+!define VERSION 0.8.0
 !define COMPANY "OpenChrom"
 !define URL http://www.openchrom.net
 
 #
 # SOURCE CODE, PROCESSOR DEFINITIONS
 #
-# x86_64
-#
-!define PROCESSOR_TYPE "x86_64"
 !define SOURCE_CODE "win32.win32.${PROCESSOR_TYPE}\OpenChrom"
 
 #
 # DETECT AND DOWNLOAD AN APPROPRIATE JRE (1.7)
 #
 !define JRE_VERSION "1.7"
-!define JRE_URL "http://www.openchrom.net/main/downloads/JRE/runtime-x86_64.exe"
 
 #
 # MULTIUSER SYMBOL DEFINITIONS
 #
-!define MULTIUSER_EXECUTIONLEVEL Highest
 !define MULTIUSER_MUI
-!define MULTIUSER_INSTALLMODE_DEFAULT_REGISTRY_KEY "${REGKEY}"
-!define MULTIUSER_INSTALLMODE_DEFAULT_REGISTRY_VALUENAME MultiUserInstallMode
+!define MULTIUSER_EXECUTIONLEVEL Highest
 !define MULTIUSER_INSTALLMODE_COMMANDLINE
 !define MULTIUSER_INSTALLMODE_INSTDIR OpenChrom
 !define MULTIUSER_INSTALLMODE_INSTDIR_REGISTRY_KEY "${REGKEY}"
@@ -89,7 +81,7 @@ SetCompressor lzma
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
 !define MUI_STARTMENUPAGE_DEFAULTFOLDER OpenChrom
-!define MUI_FINISHPAGE_RUN $PROGRAMFILES64\OpenChrom\OpenChrom.exe
+!define MUI_FINISHPAGE_RUN $INSTDIR\OpenChrom.exe
 !define MUI_FINISHPAGE_SHOWREADME $INSTDIR\README.txt
 
 #
@@ -130,18 +122,14 @@ Var StartMenuGroup
 
 #
 # WELCOME AND LICENSE
+# JRE DETECTION PAGE
+# INSTALLMODE ...
 #
 !insertmacro MUI_PAGE_WELCOME
 !insertmacro MUI_PAGE_LICENSE "${SOURCE_CODE}\LICENSE.txt"
-
-# JRE DETECTION PAGE
 !insertmacro CUSTOM_PAGE_JREINFO
-
-#
-# INSTALLMODE ...
-#
-!insertmacro MULTIUSER_PAGE_INSTALLMODE
 !insertmacro MUI_PAGE_DIRECTORY
+!insertmacro MULTIUSER_PAGE_INSTALLMODE
 !insertmacro MUI_PAGE_STARTMENU Application $StartMenuGroup
 !insertmacro MUI_PAGE_INSTFILES
 !insertmacro MUI_PAGE_FINISH
@@ -162,7 +150,7 @@ Var StartMenuGroup
 # INSTALLER VALUES
 #
 OutFile openchrom_${VERSION}_${PROCESSOR_TYPE}_win-setup.exe
-InstallDir OpenChrom
+InstallDir $INSTDIR
 CRCCheck on
 XPStyle on
 ShowInstDetails show
@@ -226,7 +214,7 @@ Section -OpenChrom SEC0000
     File "${SOURCE_CODE}\README.txt"
     File "${SOURCE_CODE}\LICENSE.txt"
     File "${SOURCE_CODE}\INFO-TRADEMARK.txt"
-    File "${SOURCE_CODE}\DemoChromatogram.ocb"       
+    File "${SOURCE_CODE}\DemoChromatogram.ocb"    
 
     #File "${SOURCE_CODE}\epl-v10.html"
     #File "${SOURCE_CODE}\notice.html"
@@ -245,7 +233,6 @@ Section -post SEC0001
     SetOutPath $INSTDIR
     WriteUninstaller $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_BEGIN Application
-
     #
     # MENU/PROGRAM ICONS
     #
@@ -399,20 +386,22 @@ FunctionEnd
 Function .onInit
     #
     # SET THE CORRECT REGISTRY ACCESS
-    #    
-    SetRegView 64
-
+    #
+    !if ${ARCHITECTURE} == x64
+      SetRegView 64
+    !else
+      SetRegView 32
+    !endif
     #
     # INSTALL
     #
     InitPluginsDir
-	    # SHOW LOGO
-	    #Push $R1
-	    #File /oname=$PLUGINSDIR\spltmp.bmp openchrom.bmp
-	    #advsplash::show 1000 600 400 -1 $PLUGINSDIR\spltmp
-	    #Pop $R1
-	    #Pop $R1
     !insertmacro MULTIUSER_INIT
+    !if ${ARCHITECTURE} == x64
+      StrCpy $INSTDIR $PROGRAMFILES64
+    !else
+      StrCpy $INSTDIR $PROGRAMFILES
+    !endif
 FunctionEnd
 
 #
@@ -422,7 +411,7 @@ Function un.onInit
     #
     # SET THE CORRECT REGISTRY ACCESS
     #    
-    SetRegView 64
+    SetRegView 32
 
     #
     # UNINSTALL

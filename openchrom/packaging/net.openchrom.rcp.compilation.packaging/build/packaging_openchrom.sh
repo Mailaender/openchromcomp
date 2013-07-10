@@ -73,7 +73,10 @@ function fetchOsPackage {
 function releaseOsPackage {
 
   package=$1
-  fetchOsPackage $package
+  echo "-----------------------------------"
+  echo "Enable fetchOSPackage when using Maven/Tycho."
+  echo "-----------------------------------"
+  #fetchOsPackage $package
   echo "-----------------------------------"
   echo $package
   echo "-----------------------------------"
@@ -94,8 +97,7 @@ function releaseOsPackage {
 #
 # Copy NSIS folder and *.nsi files
 #
-cp $path_packaging'/setup_openchrom_x86.nsi' ./
-cp $path_packaging'/setup_openchrom_x64.nsi' ./
+cp $path_packaging'/setup_openchrom.nsi' ./
 cp -R $path_packaging'/NSIS/' ./
 
 #
@@ -134,8 +136,8 @@ zip -r repository.zip repository/
 # Build Windows installer
 #
 rm openchrom_*.exe
-makensis setup_openchrom_x86.nsi
-makensis setup_openchrom_x64.nsi
+makensis -DARCHITECTURE=x32 setup_openchrom.nsi
+makensis -DARCHITECTURE=x64 setup_openchrom.nsi
 
 #
 # Build deb packages
