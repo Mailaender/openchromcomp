@@ -185,6 +185,9 @@ ShowUninstDetails show
 # SEC0000
 #
 Section -OpenChrom SEC0000
+    #
+    # SET THE INSTALL PATH
+    #
     SetOutPath $INSTDIR
     SetOverwrite on
     File "${SOURCE_CODE}\LICENSE.txt"
@@ -192,7 +195,6 @@ Section -OpenChrom SEC0000
     #
     # INSTALL JRE IF NEEDED
     #
-    SetRegView 32
     call DownloadAndInstallJREIfNecessary
     
     #
@@ -236,6 +238,9 @@ SectionEnd
 # SEC0001
 #
 Section -post SEC0001
+    #
+    # GET THE INSTALL PATH
+    #
     WriteRegStr HKLM "${REGKEY}" Path $INSTDIR
     SetOutPath $INSTDIR
     WriteUninstaller $INSTDIR\uninstall.exe
@@ -336,7 +341,7 @@ Section -un.post UNSEC0001
     RMDir /R /REBOOTOK "$SMPROGRAMS\$StartMenuGroup"
 
     #
-    # RMDir /REBOOTOK "$INSTDIR (DELETE IF NOT EMPTY => WITHOUT /R)
+    # RMDir /REBOOTOK $INSTDIR (DELETE IF NOT EMPTY => WITHOUT /R)
     #
     RMDir /R /REBOOTOK "$INSTDIR\configuration"
     RMDir /R /REBOOTOK "$INSTDIR\features"
@@ -391,6 +396,14 @@ FunctionEnd
 # INSTALLER
 #
 Function .onInit
+    #
+    # SET THE CORRECT REGISTRY ACCESS
+    #    
+    SetRegView 32
+
+    #
+    # INSTALL
+    #
     InitPluginsDir
 	    # SHOW LOGO
 	    #Push $R1
@@ -405,6 +418,14 @@ FunctionEnd
 # UNINSTALLER
 #
 Function un.onInit
+    #
+    # SET THE CORRECT REGISTRY ACCESS
+    #    
+    SetRegView 32
+
+    #
+    # UNINSTALL
+    #
     SetAutoClose true
     !insertmacro MUI_STARTMENU_GETFOLDER Application $StartMenuGroup
     !insertmacro MULTIUSER_UNINIT
