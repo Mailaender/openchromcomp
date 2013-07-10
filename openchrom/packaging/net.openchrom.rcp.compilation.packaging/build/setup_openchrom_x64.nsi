@@ -53,7 +53,6 @@ SetCompressor lzma
 !define JRE_VERSION "1.7"
 !define JRE_URL "http://www.openchrom.net/main/downloads/JRE/runtime-x86_64.exe"
 
-
 #
 # MULTIUSER SYMBOL DEFINITIONS
 #
@@ -90,7 +89,7 @@ SetCompressor lzma
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
 !define MUI_STARTMENUPAGE_DEFAULTFOLDER OpenChrom
-!define MUI_FINISHPAGE_RUN $PROGRAMFILES\OpenChrom\OpenChrom.exe
+!define MUI_FINISHPAGE_RUN $PROGRAMFILES64\OpenChrom\OpenChrom.exe
 !define MUI_FINISHPAGE_SHOWREADME $INSTDIR\README.txt
 
 #
@@ -179,11 +178,6 @@ InstallDirRegKey HKLM "${REGKEY}" Path
 ShowUninstDetails show
 
 #
-#--------------------------------------------------------------INCLUDES
-#
-
-
-#
 #--------------------------------------------------------------INSTALL SECTIONS
 #
 
@@ -198,6 +192,7 @@ Section -OpenChrom SEC0000
     #
     # INSTALL JRE IF NEEDED
     #
+    SetRegView 64
     call DownloadAndInstallJREIfNecessary
     
     #

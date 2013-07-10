@@ -89,7 +89,7 @@ SetCompressor lzma
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
 !define MUI_STARTMENUPAGE_DEFAULTFOLDER OpenChrom
-!define MUI_FINISHPAGE_RUN $PROGRAMFILES\OpenChrom\OpenChrom.exe
+!define MUI_FINISHPAGE_RUN $PROGRAMFILES32\OpenChrom\OpenChrom.exe
 !define MUI_FINISHPAGE_SHOWREADME $INSTDIR\README.txt
 
 #
@@ -178,11 +178,6 @@ InstallDirRegKey HKLM "${REGKEY}" Path
 ShowUninstDetails show
 
 #
-#--------------------------------------------------------------INCLUDES
-#
-
-
-#
 #--------------------------------------------------------------INSTALL SECTIONS
 #
 
@@ -197,6 +192,7 @@ Section -OpenChrom SEC0000
     #
     # INSTALL JRE IF NEEDED
     #
+    SetRegView 32
     call DownloadAndInstallJREIfNecessary
     
     #
