@@ -12,7 +12,7 @@
 # Philip (eselmeister) Wenig - initial API and implementation
 #*******************************************************************************
 
-workspace='/home/openchrom/www.openchrom.net/Development/OpenChrom/0.8.0/workspace/'
+workspace='/home/openchrom/www.openchrom.net/Development/OpenChrom/0.8.x/workspace/'
 path_openchrom=$workspace'openchrom/openchrom/'
 path_keys=$path_openchrom'plugins/net.openchrom.keystore/keys'
 path_compilation=$workspace'openchromcomp/openchrom/plugins/net.openchrom.rcp.compilation.product'
