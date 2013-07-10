@@ -17,9 +17,18 @@ path_openchrom=$workspace'openchrom/openchrom/'
 path_keys=$path_openchrom'plugins/net.openchrom.keystore/keys'
 path_compilation=$workspace'openchromcomp/openchrom/plugins/net.openchrom.rcp.compilation.product'
 path_packaging=$workspace'openchromcomp/openchrom/packaging/net.openchrom.rcp.compilation.packaging'
+#
+# Use Tycho or PDE
+#
+type_builder='PDE'
+#
+# Build folder
+#
+build_folder='Community'
 
-cp -R $path_packaging/build/ ./
-cd ./build/
-./packaging_openchrom.sh $path_compilation $path_keys $path_packaging | tee openchrom_0.8.0.0-PREV.log
+mkdir $build_folder
+cp -R $path_packaging/build/* ./$build_folder/
+cd ./$build_folder/
+./packaging_openchrom.sh $path_compilation $path_keys $path_packaging $type_builder | tee openchrom_0.8.0.0.log
 
 echo "Done - Please test and upload files."

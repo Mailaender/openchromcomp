@@ -40,6 +40,15 @@ if [ -z $path_packaging ]; then
 fi
 
 #
+# Maven/Tycho or PDE
+#
+type_builder=$4
+if [ -z $type_builder ]; then
+  echo "No valid builder type (Tycho or PDE)."
+  exit
+fi
+
+#
 # Version
 #
 version=0.8.0-PREV
@@ -73,10 +82,12 @@ function fetchOsPackage {
 function releaseOsPackage {
 
   package=$1
-  echo "-----------------------------------"
-  echo "Enable fetchOSPackage when using Maven/Tycho."
-  echo "-----------------------------------"
-  #fetchOsPackage $package
+  if [ "$type_builder" == "Tycho" ]; then
+    echo "-----------------------------------"
+    echo "Run fetchOSPackage > Maven/Tycho."
+    echo "-----------------------------------"
+    fetchOsPackage $package
+  fi
   echo "-----------------------------------"
   echo $package
   echo "-----------------------------------"
