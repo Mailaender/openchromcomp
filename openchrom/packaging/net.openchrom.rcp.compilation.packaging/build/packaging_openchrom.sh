@@ -51,8 +51,8 @@ fi
 #
 # Version
 #
-version=0.8.0-PREV
-package_version=0.8.0_prev-1
+version=0.8.0-REL
+package_version=0.8.0_rel-1
 
 #
 # Copies the Maven/Tycho builds of OpenChrom.
@@ -147,8 +147,8 @@ zip -r repository.zip repository/
 # Build Windows installer
 #
 rm openchrom_*.exe
-makensis -DARCHITECTURE=x32 setup_openchrom.nsi
-makensis -DARCHITECTURE=x64 setup_openchrom.nsi
+makensis -DARCHITECTURE=x32 -DSOFTWARE_VERSION=$version setup_openchrom.nsi
+makensis -DARCHITECTURE=x64 -DSOFTWARE_VERSION=$version setup_openchrom.nsi
 
 #
 # Build deb packages

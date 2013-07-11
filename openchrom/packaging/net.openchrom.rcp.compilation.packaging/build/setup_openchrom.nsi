@@ -11,6 +11,12 @@
 #*******************************************************************************
 
 #
+# COMPRESSION
+# USE lzma, otherwise Windows will throw an error when the script was compiled under linux.
+#
+SetCompressor lzma
+
+#
 # PARAMETERS WILL BE PASSED BY makensis:
 # makensis -DARCHITECTURE=x64 setup_openchrom.nsi
 #
@@ -23,18 +29,12 @@
 !endif
 
 #
-# COMPRESSION
-# USE lzma, otherwise Windows will throw an error when the script was compiled under linux.
-#
-SetCompressor lzma
-
-#
 # GENERAL SYMBOL DEFINITIONS
 #
 Name OpenChrom
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 0.8.0
-!define COMPANY "OpenChrom"
+!define VERSION ${SOFTWARE_VERSION}
+!define COMPANY OpenChrom
 !define URL http://www.openchrom.net
 
 #
@@ -53,7 +53,7 @@ Name OpenChrom
 !define MULTIUSER_MUI
 !define MULTIUSER_EXECUTIONLEVEL Highest
 !define MULTIUSER_INSTALLMODE_COMMANDLINE
-!define MULTIUSER_INSTALLMODE_INSTDIR OpenChrom
+!define MULTIUSER_INSTALLMODE_INSTDIR "OpenChrom"
 !define MULTIUSER_INSTALLMODE_INSTDIR_REGISTRY_KEY "${REGKEY}"
 !define MULTIUSER_INSTALLMODE_INSTDIR_REGISTRY_VALUE "Path"
 
@@ -80,7 +80,7 @@ Name OpenChrom
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
-!define MUI_STARTMENUPAGE_DEFAULTFOLDER OpenChrom
+!define MUI_STARTMENUPAGE_DEFAULTFOLDER "OpenChrom"
 !define MUI_FINISHPAGE_RUN $INSTDIR\OpenChrom.exe
 !define MUI_FINISHPAGE_SHOWREADME $INSTDIR\README.txt
 
@@ -129,7 +129,12 @@ Var StartMenuGroup
 !insertmacro MUI_PAGE_LICENSE "${SOURCE_CODE}\LICENSE.txt"
 !insertmacro CUSTOM_PAGE_JREINFO
 !insertmacro MUI_PAGE_DIRECTORY
-!insertmacro MULTIUSER_PAGE_INSTALLMODE
+#
+# The Multiuser page doesn't use the
+# selected installation directory.
+# Hence, it will be not used.
+#
+#!insertmacro MULTIUSER_PAGE_INSTALLMODE
 !insertmacro MUI_PAGE_STARTMENU Application $StartMenuGroup
 !insertmacro MUI_PAGE_INSTFILES
 !insertmacro MUI_PAGE_FINISH
@@ -411,8 +416,11 @@ Function un.onInit
     #
     # SET THE CORRECT REGISTRY ACCESS
     #    
-    SetRegView 32
-
+    !if ${ARCHITECTURE} == x64
+      SetRegView 64
+    !else
+      SetRegView 32
+    !endif
     #
     # UNINSTALL
     #

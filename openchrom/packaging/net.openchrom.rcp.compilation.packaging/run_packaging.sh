@@ -12,7 +12,7 @@
 # Philip (eselmeister) Wenig - initial API and implementation
 #*******************************************************************************
 
-workspace='/home/openchrom/www.openchrom.net/Development/OpenChrom/0.8.x/workspace/'
+workspace='/home/www.openchrom.net/Development/OpenChrom/0.8.x/workspace/'
 path_openchrom=$workspace'openchrom/openchrom/'
 path_keys=$path_openchrom'plugins/net.openchrom.keystore/keys'
 path_compilation=$workspace'openchromcomp/openchrom/plugins/net.openchrom.rcp.compilation.product'
@@ -25,10 +25,14 @@ type_builder='PDE'
 # Build folder
 #
 build_folder='Community'
-
+#
+# Copy build files and start the compilation.
+#
 mkdir $build_folder
 cp -R $path_packaging/build/* ./$build_folder/
 cd ./$build_folder/
-./packaging_openchrom.sh $path_compilation $path_keys $path_packaging $type_builder | tee openchrom_0.8.0.0.log
-
+./packaging_openchrom.sh $path_compilation $path_keys $path_packaging $type_builder | tee openchrom_0.8.0.0-REL.log
+#
+# Finish
+#
 echo "Done - Please test and upload files."

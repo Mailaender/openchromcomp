@@ -1,8 +1,8 @@
 [Desktop Entry]
 Name=OpenChrom 0.8.0 (Dempster)
-GenericName=OpenChrom 0.8.0 (Dempster) Preview Release - Community Edition
-Comment=OpenChrom 0.8.0 (Dempster) Preview Release - Community Edition
-Exec=/opt/OpenChrom/0.8.0-PREV/OpenChrom/start.sh
+GenericName=OpenChrom 0.8.0 (Dempster) Release - Community Edition
+Comment=OpenChrom 0.8.0 (Dempster) Release - Community Edition
+Exec=/opt/OpenChrom/0.8.0-REL/OpenChrom/start.sh
 Terminal=false
 Type=Application
 StartupNotify=true
