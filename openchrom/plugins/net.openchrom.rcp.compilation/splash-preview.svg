@@ -15,7 +15,7 @@
    id="svg2"
    version="1.0"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="splash-preview.svg"
+   sodipodi:docname="splash.svg"
    sodipodi:version="0.32"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    inkscape:export-filename="splash.png"
@@ -327,15 +327,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.5264322"
-     inkscape:cx="185.34835"
-     inkscape:cy="155.45345"
+     inkscape:zoom="19.640789"
+     inkscape:cx="299.63295"
+     inkscape:cy="91.886444"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1056"
-     inkscape:window-x="1920"
+     inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
      showguides="true"
@@ -358,7 +358,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -627,17 +627,17 @@
     <text
        id="text2892"
        y="195.69872"
-       x="216.51279"
+       x="298.42111"
        style="font-size:27.13738823px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
        xml:space="preserve"
        inkscape:export-filename="openchrom-splash.png"
        inkscape:export-xdpi="90.040428"
        inkscape:export-ydpi="90.040428"><tspan
          y="195.69872"
-         x="216.51279"
+         x="298.42111"
          id="tspan2894"
          sodipodi:role="line"
-         style="font-size:10px">Snapshot Release</tspan></text>
+         style="font-size:10px;text-align:end;text-anchor:end">Snapshot Release</tspan></text>
     <g
        transform="matrix(0.25657794,0,0,0.25657794,90.991176,174.4058)"
        id="g3093">

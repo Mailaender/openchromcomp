@@ -327,15 +327,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.92544437"
-     inkscape:cx="409.61116"
-     inkscape:cy="10.449264"
+     inkscape:zoom="1.2779953"
+     inkscape:cx="280.6625"
+     inkscape:cy="51.029545"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1056"
-     inkscape:window-x="1920"
+     inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
      showguides="true"
@@ -343,8 +343,12 @@
      showborder="true">
     <sodipodi:guide
        orientation="1,0"
-       position="297.92026,162.59476"
+       position="500.75699,80.432471"
        id="guide3205" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="298.0086,119.93158"
+       id="guide3074" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -381,14 +385,14 @@
        x="-3.8349815e-05"
        y="0"
        ry="0"
-       inkscape:export-filename="splash.png"
+       inkscape:export-filename="openchrom-splash.png"
        inkscape:export-xdpi="90.040428"
        inkscape:export-ydpi="90.040428" />
     <g
        id="g3382"
        transform="matrix(2.0051162,0,0,2.0051162,-1243.1099,-19.449689)"
        style="opacity:0.8;fill:#ffffff"
-       inkscape:export-filename="splash.png"
+       inkscape:export-filename="openchrom-splash.png"
        inkscape:export-xdpi="90.040428"
        inkscape:export-ydpi="90.040428">
       <path
@@ -556,7 +560,7 @@
        width="175.13777"
        id="rect3496"
        style="fill:#800000;fill-opacity:1;stroke:none"
-       inkscape:export-filename="splash.png"
+       inkscape:export-filename="openchrom-splash.png"
        inkscape:export-xdpi="90.040428"
        inkscape:export-ydpi="90.040428" />
     <rect
@@ -568,7 +572,7 @@
        y="543.17249"
        ry="20.635721"
        transform="matrix(0.4229018,0,0,0.4229018,111.41616,-189.89246)"
-       inkscape:export-filename="splash.png"
+       inkscape:export-filename="openchrom-splash.png"
        inkscape:export-xdpi="90.040428"
        inkscape:export-ydpi="90.040428" />
     <rect
@@ -579,7 +583,7 @@
        x="136.45312"
        y="32.046062"
        ry="8.7268839"
-       inkscape:export-filename="splash.png"
+       inkscape:export-filename="openchrom-splash.png"
        inkscape:export-xdpi="90.040428"
        inkscape:export-ydpi="90.040428" />
     <text
@@ -588,7 +592,7 @@
        x="148.87079"
        y="185.311"
        id="text3498"
-       inkscape:export-filename="splash.png"
+       inkscape:export-filename="openchrom-splash.png"
        inkscape:export-xdpi="90.040428"
        inkscape:export-ydpi="90.040428"><tspan
          sodipodi:role="line"
@@ -602,7 +606,7 @@
        d="m 151.74172,149.16062 c 1.39659,-0.20357 2.66269,-1.3705 3.83669,-3.18943 8.88695,-13.76903 11.38569,-68.349589 27.48573,-18.33902 16.10005,50.01056 6.99841,-34.985807 24.66365,8.00463 17.7003,43.07577 17.41047,-42.87065 26.35988,-17.09454 24.64571,70.98477 15.37331,-13.65932 27.84925,13.62476 12.38352,27.08196 1.67327,8.02914 53.5772,13.12117"
        id="path3504"
        sodipodi:nodetypes="cszzszs"
-       inkscape:export-filename="splash.png"
+       inkscape:export-filename="openchrom-splash.png"
        inkscape:export-xdpi="90.040428"
        inkscape:export-ydpi="90.040428"
        inkscape:connector-curvature="0" />
@@ -612,13 +616,52 @@
        x="149.60706"
        style="font-size:27.13738823px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
        xml:space="preserve"
-       inkscape:export-filename="splash.png"
+       inkscape:export-filename="openchrom-splash.png"
        inkscape:export-xdpi="90.040428"
        inkscape:export-ydpi="90.040428"><tspan
          y="162.21338"
          x="149.60706"
          id="tspan2454"
          sodipodi:role="line"
-         style="font-size:10px">Community Edition - Nernst</tspan></text>
+         style="font-size:10px">Community Edition - Dempster</tspan></text>
+    <text
+       id="text2892"
+       y="195.69872"
+       x="298.42111"
+       style="font-size:27.13738823px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"
+       inkscape:export-filename="openchrom-splash.png"
+       inkscape:export-xdpi="90.040428"
+       inkscape:export-ydpi="90.040428"><tspan
+         y="195.69872"
+         x="298.42111"
+         id="tspan2894"
+         sodipodi:role="line"
+         style="font-size:10px;text-align:end;text-anchor:end">Official Release</tspan></text>
+    <g
+       transform="matrix(0.25657794,0,0,0.25657794,90.991176,174.4058)"
+       id="g3093">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3093"
+         y="-25.177435"
+         x="798.05853"
+         style="font-size:25.57697678px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         xml:space="preserve"><tspan
+           y="-25.177435"
+           x="798.05853"
+           id="tspan3095"
+           sodipodi:role="line">R</tspan></text>
+      <path
+         transform="matrix(1.8221138,0,0,1.8221138,605.31423,-382.2772)"
+         d="m 119.17378,190.95706 c 0,4.76612 -3.86371,8.62983 -8.62983,8.62983 -4.76612,0 -8.62982,-3.86371 -8.62982,-8.62983 0,-4.76612 3.8637,-8.62982 8.62982,-8.62982 4.76612,0 8.62983,3.8637 8.62983,8.62982 z"
+         sodipodi:ry="8.6298246"
+         sodipodi:rx="8.6298246"
+         sodipodi:cy="190.95706"
+         sodipodi:cx="110.54395"
+         id="path3097"
+         style="fill:none;stroke:#ffffff;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
   </g>
 </svg>
