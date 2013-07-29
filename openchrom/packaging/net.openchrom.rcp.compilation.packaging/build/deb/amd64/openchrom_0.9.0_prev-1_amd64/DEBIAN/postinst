@@ -1,0 +1,4 @@
+#!/bin/sh
+
+groupadd openchrom
+chown -R $(whoami):openchrom /opt/OpenChrom/0.9.0-PREV/

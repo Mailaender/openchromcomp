@@ -18,7 +18,7 @@
    sodipodi:docname="splash.svg"
    sodipodi:version="0.32"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   inkscape:export-filename="splash.png"
+   inkscape:export-filename="/home/pwenig/Arbeitsfläche/splash.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -327,9 +327,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.2779953"
-     inkscape:cx="280.6625"
-     inkscape:cy="51.029545"
+     inkscape:zoom="0.66249954"
+     inkscape:cx="821.41302"
+     inkscape:cy="-122.85858"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -623,7 +623,7 @@
          x="149.60706"
          id="tspan2454"
          sodipodi:role="line"
-         style="font-size:10px">Community Edition - Dempster</tspan></text>
+         style="font-size:10px">Community Edition - Mattauch</tspan></text>
     <text
        id="text2892"
        y="195.69872"
@@ -637,7 +637,7 @@
          x="298.42111"
          id="tspan2894"
          sodipodi:role="line"
-         style="font-size:10px;text-align:end;text-anchor:end">Official Release</tspan></text>
+         style="font-size:10px;text-align:end;text-anchor:end">Preview Release</tspan></text>
     <g
        transform="matrix(0.25657794,0,0,0.25657794,90.991176,174.4058)"
        id="g3093">

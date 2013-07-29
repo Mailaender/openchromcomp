@@ -12,8 +12,8 @@
 # Philip (eselmeister) Wenig - initial API and implementation
 #*******************************************************************************
 
-openchrom_amd64='openchrom_0.8.0_rel-1_amd64'
-openchrom_i386='openchrom_0.8.0_rel-1_i386'
+openchrom_amd64='openchrom_0.9.0_prev-1_amd64'
+openchrom_i386='openchrom_0.9.0_prev-1_i386'
 
 sudo rm *.deb
 sudo rm *.rpm

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="OpenChrom Community Edition Dempster" uid="net.openchrom.rcp.compilation.product.id" id="net.openchrom.rcp.compilation.product" application="net.openchrom.rcp.application" version="0.8.0.0" useFeatures="true" includeLaunchers="true">
+<product name="OpenChrom Community Edition Dempster - Preview Release" uid="net.openchrom.rcp.compilation.product.id" id="net.openchrom.rcp.compilation.product" application="net.openchrom.rcp.application" version="0.9.0.0" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
       <image path="/net.openchrom.rcp.compilation/icons/about_250x330.png"/>
       <text>
-         OpenChrom Community Edition Dempster - the open source software for chromatography and mass spectrometry
+         OpenChrom Community Edition Mattauch - the open source software for chromatography and mass spectrometry
       </text>
    </aboutInfo>
 
@@ -22,7 +22,7 @@
 -DApplicationWorkspaceFolder=OpenChrom
 -DApplicationSettingsFolder=.openchrom
 -Dosgi.instance.area=@user.home/OpenChrom/workspace
--Dosgi.user.area=@user.home/.openchrom/0.8.0/Settings
+-Dosgi.user.area=@user.home/.openchrom/0.9.0/Settings
 -Dsun.awt.xembedserver=true</vmArgs>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
    </launcherArgs>

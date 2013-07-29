@@ -51,8 +51,8 @@ fi
 #
 # Version
 #
-version=0.8.0-REL
-package_version=0.8.0_rel-1
+version=0.9.0-PREV
+package_version=0.9.0_prev-1
 
 #
 # Copies the Maven/Tycho builds of OpenChrom.
