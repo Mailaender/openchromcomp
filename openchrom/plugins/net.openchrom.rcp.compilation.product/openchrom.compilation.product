@@ -70,7 +70,7 @@ Contributors:
    </plugins>
 
    <features>
-      <feature id="net.openchrom.rcp.compilation.feature" version="0.8.0.qualifier"/>
+      <feature id="net.openchrom.rcp.compilation.feature" version="0.9.0.qualifier"/>
    </features>
 
    <configurations>
