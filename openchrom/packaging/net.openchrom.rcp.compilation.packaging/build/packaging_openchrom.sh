@@ -168,7 +168,7 @@ cp -R ./linux.gtk.x86_64/OpenChrom/ ./deb/amd64/$v_amd64_opt
 cp ./deb/start.sh ./deb/i386/$v_i386_opt'OpenChrom/'
 cp ./deb/start.sh ./deb/amd64/$v_amd64_opt'OpenChrom/'
 chmod a+x ./deb/i386/$v_i386_opt'OpenChrom/start.sh'
-chmod a+x /deb/amd64/$v_amd64_opt'OpenChrom/start.sh'
+chmod a+x ./deb/amd64/$v_amd64_opt'OpenChrom/start.sh'
 
 # Create md5sums
 cd deb/i386/$v_i386/
