@@ -12,3 +12,7 @@ openchrom/sites/net.openchrom.rcp.compilation.plugins.updateSite/target/
 openchrom/sites/net.openchrom.rcp.compilation.updateSite/target/
 openchrom/cbi/net.openchrom.rcp.compilation.cbi/workspace/
 openchrom/plugins/net.openchrom.rcp.compilation.fragment.icons/bin/
+openchrom/sites/net.openchrom.rcp.compilation.plugins.updateSite/artifacts.jar
+openchrom/sites/net.openchrom.rcp.compilation.plugins.updateSite/content.jar
+openchrom/sites/net.openchrom.rcp.compilation.plugins.updateSite/features/
+openchrom/sites/net.openchrom.rcp.compilation.plugins.updateSite/plugins/
