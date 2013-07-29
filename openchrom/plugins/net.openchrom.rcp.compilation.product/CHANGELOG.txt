@@ -3,6 +3,59 @@ OpenChrom Community Edition
 ****************************************
 
 ----------------------------------------
+"0.8.0 Dempster"
+----------------------------------------
+The OpenChrom *.ocb format has been updated to version 0.8.0.3 to include baseline signals too.
+
+Methods in the peak/chromatogram integrator have been optimized. There is a check-box now, whether to include/exclude the background of the peak to the integrated area.
+
+The ion 0 is displayed as "TIC" now.
+
+The report formats the values with country specific encoding too.
+
+All listed values are formatted with country specific encoding.
+
+The NIST connector has been improved to parse the substance names without UTF-8 / ISO-8859-1 problems.
+
+OpenChrom offers an enhanced quantitation support now.
+
+The Perkin-Elmer "*.idx" chromatogram format is supported now.
+
+The VG "*.DAT_001;1" chromatogram format is supported now.
+
+The Finnigan "*.RAW" chromatogram format is supported now.
+
+The Finnigan MAT95 "*.dat" chromatogram format is supported now.
+
+The Agilent FID "*.ch" chromatogram format is supported now.
+
+The Bruker Flex "fid" mass spectrum format is supported now.
+
+The Chromtech "*.dat" chromatogram format is supported now.
+
+The JCAMP-DX "*.JDX" chromatogram format is supported now.
+
+The Waters "*.IDX" chromatogram format is supported now.
+
+Two normalizing filters have been added.
+
+A view has been added to display chromatograms by selected ions.
+
+OpenChrom has been migrated to Eclipse 4.3.0 Kepler.
+
+OpenChrom is based on Java 6 again to support Mac OS X users.
+
+The report supplier has been optimized.
+
+Web-Views for SciFinder, MassBank and MaSC are available.
+
+There is an option to import chromatograms to *.ocb format.
+
+There is an option to open several chromatogram in one step.
+
+The database plug-in ChromIdent, MultiScanIdent and PeakIdent offer support for remote databases now.
+
+----------------------------------------
 "0.7.0 Nernst"
 ----------------------------------------
 A new peak integrator (PeakMax) has been added.

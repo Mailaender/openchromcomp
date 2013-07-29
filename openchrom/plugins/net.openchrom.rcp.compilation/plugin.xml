@@ -5,14 +5,14 @@
          point="org.eclipse.core.runtime.products">
       <product
             application="net.openchrom.rcp.application"
-            name="OpenChrom Community Edition Dempster - Preview Release">
+            name="OpenChrom Community Edition Dempster">
          <property
                name="windowImages"
                value="icons/logo_16x16.png,icons/logo_32x32.png,icons/logo_48x48.png,icons/logo_64x64.png,icons/logo_128x128.png">
          </property>
          <property
                name="aboutText"
-               value="OpenChrom Community Edition Dempster Preview Release - the open source software for chromatography and mass spectrometry">
+               value="OpenChrom Community Edition Dempster - the open source software for chromatography and mass spectrometry">
          </property>
          <property
                name="aboutImage"
@@ -23,16 +23,16 @@
                value="000000">
          </property>
          <property
-               name="startupProgressRect"
-               value="5,275,445,15">
-         </property>
-         <property
                name="startupMessageRect"
                value="7,252,445,20">
          </property>
          <property
+               name="startupProgressRect"
+               value="5,275,445,15">
+         </property>  
+         <property
                name="appName"
-               value="OpenChrom Community Edition Dempster - Preview Release">
+               value="OpenChrom Community Edition Dempster">
          </property>
          <property
                name="preferenceCustomization"
@@ -45,7 +45,7 @@
          <property
                name="applicationCSS"
                value="platform:/plugin/net.openchrom.rcp.app.ui/css/openchrom.css">
-         </property>
+         </property>     
       </product>
    </extension>   
    <extension
@@ -54,6 +54,6 @@
             productId="net.openchrom.rcp.compilation.product"
             splashId="net.openchrom.rcp.splash.openChromSplashHandler">
       </splashHandlerProductBinding>
-   </extension>     
+   </extension>
 
 </plugin>

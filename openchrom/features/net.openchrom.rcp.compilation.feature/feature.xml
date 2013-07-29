@@ -10,11 +10,11 @@
    </description>
 
    <copyright url="http://www.openchrom.net/compilation">
-      Copyright (c) 2008, 2012 Philip (eselmeister) Wenig.
+      Copyright (c) 2008, 2013 Philip (eselmeister) Wenig.
    </copyright>
 
    <license url="http://www.eclipse.org/legal/epl-v10.html">
-      Copyright (c) 2008, 2012 Philip (eselmeister) Wenig.
+      Copyright (c) 2008, 2013 Philip (eselmeister) Wenig.
 All rights reserved. This program and the accompanying materials
 are made available under the terms of the Eclipse Public License
 v1.0 which accompanies this distribution, and is available at
@@ -146,15 +146,39 @@ http://www.eclipse.org/legal/epl-v10.html
          version="0.0.0"/>
 
    <includes
-         id="net.openchrom.thirdpartylibraries.orientdb.feature"
-         version="0.0.0"/>
-
-   <includes
          id="net.openchrom.thirdpartylibraries.pdfjet.feature"
          version="0.0.0"/>
 
    <includes
          id="net.openchrom.thirdpartylibraries.proteomecommons.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.chromatogram.fid.converter.supplier.xy.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.rcp.app.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.chromatogram.msd.converter.supplier.jcampdx.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.chromatogram.msd.quantitation.supplier.openchrom.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.chromatogram.msd.identifier.supplier.manual.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.chromatogram.msd.baseline.detector.supplier.snip.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.chromatogram.msd.filter.supplier.subtract.feature"
          version="0.0.0"/>
 
    <plugin

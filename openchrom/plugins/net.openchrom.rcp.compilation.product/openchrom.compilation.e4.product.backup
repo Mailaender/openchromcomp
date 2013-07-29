@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="OpenChrom Community Edition Dempster" uid="net.openchrom.rcp.compilation.product.id" id="net.openchrom.rcp.compilation.product" application="net.openchrom.rcp.application" version="0.8.0.0" useFeatures="true" includeLaunchers="true">
+<product name="OpenChrom Community Edition Dempster - Preview Release" uid="net.openchrom.rcp.compilation.product.id" id="net.openchrom.rcp.compilation.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="0.8.0.0" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
       <image path="/net.openchrom.rcp.compilation/icons/about_250x330.png"/>
       <text>
-         OpenChrom Community Edition Dempster - the open source software for chromatography and mass spectrometry
+         OpenChrom Community Edition Dempster Preview Release - the open source software for chromatography and mass spectrometry
       </text>
    </aboutInfo>
 
@@ -14,13 +14,10 @@
    </configIni>
 
    <launcherArgs>
-      <programArgs>-clearPersistedState</programArgs>
       <vmArgs>-Xms128M
 -Xmx500M
--Dosgi.requiredJavaVersion=1.6
+-Dosgi.requiredJavaVersion=1.7
 -Dosgi.install.area.readOnly
--DApplicationWorkspaceFolder=OpenChrom
--DApplicationSettingsFolder=.openchrom
 -Dosgi.instance.area=@user.home/OpenChrom/workspace
 -Dosgi.user.area=@user.home/.openchrom/0.8.0/Settings
 -Dsun.awt.xembedserver=true</vmArgs>
@@ -47,14 +44,13 @@
       </win>
    </launcher>
 
-
    <vm>
    </vm>
 
    <license>
         <url>http://www.openchrom.net</url>
         <text>
-   Copyright (c) 2008, 2013 Dr. Philip Wenig
+   Copyright (c) 2008, 2013 Philip (eselmeister) Wenig
 
 All rights reserved. This program and the accompanying materials
 are made available under the terms of the Eclipse Public License v1.0
@@ -62,7 +58,7 @@ which accompanies this distribution, and is available at
 http://www.eclipse.org/legal/epl-v10.html
 
 Contributors:
-	Dr. Philip Wenig - initial API and implementation
+	Philip (eselmeister) Wenig - initial API and implementation
          </text>
    </license>
 
@@ -71,15 +67,16 @@ Contributors:
 
    <features>
       <feature id="net.openchrom.rcp.compilation.feature" version="0.8.0.qualifier"/>
+      <feature id="net.openchrom.rcp.app.feature" version="0.8.0.qualifier"/>
    </features>
 
    <configurations>
-      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="4" />
+      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
       <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
-      <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="1" />
       <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
-      <plugin id="org.eclipse.osgi" autoStart="true" startLevel="0" />
-      <plugin id="org.eclipse.update.configurator" autoStart="true" startLevel="4" />
+      <plugin id="org.eclipse.osgi" autoStart="true" startLevel="-1" />
+      <plugin id="org.eclipse.update.configurator" autoStart="true" startLevel="3" />
    </configurations>
 
 </product>

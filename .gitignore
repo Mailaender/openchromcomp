@@ -4,3 +4,15 @@ openchrom/updateSites/net.openchrom.rcp.compilation.updateSite/bin/ary/
 openchrom/updateSites/net.openchrom.rcp.compilation.updateSite/content.jar
 openchrom/updateSites/net.openchrom.rcp.compilation.updateSite/features/
 openchrom/updateSites/net.openchrom.rcp.compilation.updateSite/plugins/
+openchrom/features/net.openchrom.rcp.compilation.feature/target/
+openchrom/plugins/net.openchrom.rcp.compilation.product/target/
+openchrom/plugins/net.openchrom.rcp.compilation/target/
+openchrom/plugins/net.openchrom.rcp.compilation.p2/target/
+openchrom/sites/net.openchrom.rcp.compilation.plugins.updateSite/target/
+openchrom/sites/net.openchrom.rcp.compilation.updateSite/target/
+openchrom/cbi/net.openchrom.rcp.compilation.cbi/workspace/
+openchrom/plugins/net.openchrom.rcp.compilation.fragment.icons/bin/
+openchrom/sites/net.openchrom.rcp.compilation.plugins.updateSite/artifacts.jar
+openchrom/sites/net.openchrom.rcp.compilation.plugins.updateSite/content.jar
+openchrom/sites/net.openchrom.rcp.compilation.plugins.updateSite/features/
+openchrom/sites/net.openchrom.rcp.compilation.plugins.updateSite/plugins/

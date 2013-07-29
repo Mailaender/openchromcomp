@@ -15,7 +15,7 @@
    id="svg2"
    version="1.0"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="splash-preview.svg"
+   sodipodi:docname="splash.svg"
    sodipodi:version="0.32"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    inkscape:export-filename="splash.png"
@@ -327,9 +327,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.3534097"
-     inkscape:cx="281.79552"
-     inkscape:cy="227.77254"
+     inkscape:zoom="19.640789"
+     inkscape:cx="299.63295"
+     inkscape:cy="91.886444"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -343,8 +343,12 @@
      showborder="true">
     <sodipodi:guide
        orientation="1,0"
-       position="297.92026,162.59476"
+       position="500.75699,80.432471"
        id="guide3205" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="298.0086,119.93158"
+       id="guide3074" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -354,7 +358,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -623,16 +627,41 @@
     <text
        id="text2892"
        y="195.69872"
-       x="216.51279"
+       x="298.42111"
        style="font-size:27.13738823px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
        xml:space="preserve"
        inkscape:export-filename="openchrom-splash.png"
        inkscape:export-xdpi="90.040428"
        inkscape:export-ydpi="90.040428"><tspan
          y="195.69872"
-         x="216.51279"
+         x="298.42111"
          id="tspan2894"
          sodipodi:role="line"
-         style="font-size:10px">Snapshot Release</tspan></text>
+         style="font-size:10px;text-align:end;text-anchor:end">Snapshot Release</tspan></text>
+    <g
+       transform="matrix(0.25657794,0,0,0.25657794,90.991176,174.4058)"
+       id="g3093">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3093"
+         y="-25.177435"
+         x="798.05853"
+         style="font-size:25.57697678px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         xml:space="preserve"><tspan
+           y="-25.177435"
+           x="798.05853"
+           id="tspan3095"
+           sodipodi:role="line">R</tspan></text>
+      <path
+         transform="matrix(1.8221138,0,0,1.8221138,605.31423,-382.2772)"
+         d="m 119.17378,190.95706 c 0,4.76612 -3.86371,8.62983 -8.62983,8.62983 -4.76612,0 -8.62982,-3.86371 -8.62982,-8.62983 0,-4.76612 3.8637,-8.62982 8.62982,-8.62982 4.76612,0 8.62983,3.8637 8.62983,8.62982 z"
+         sodipodi:ry="8.6298246"
+         sodipodi:rx="8.6298246"
+         sodipodi:cy="190.95706"
+         sodipodi:cx="110.54395"
+         id="path3097"
+         style="fill:none;stroke:#ffffff;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
   </g>
 </svg>

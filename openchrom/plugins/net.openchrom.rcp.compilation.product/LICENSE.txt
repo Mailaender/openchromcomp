@@ -1,7 +1,9 @@
-The release "OpenChrom Community Edition (0.7.0 Nernst)" contains several additional plug-ins, published under
+The release "OpenChrom Community Edition (0.8.0 Dempster)" contains several additional plug-ins, published under
 distinct OSI (http://www.opensource.org) approved open source licenses. All bundles and licenses of the 
 compilation are listed below. Furthermore, there is an OpenChrom marketplace available, where additional plug-ins
 can be fetched.
+
+OpenChrom is a trademark of Dr. Philip Wenig.
 
 ---------------------------------------------
 RCP (Rich Client Platform)
@@ -14,11 +16,11 @@ OpenChrom is based on the Eclipse Rich Client Platform.
 ---------------------------------------------
 Base
 ---------------------------------------------
-OpenChrom 0.7.0:
+OpenChrom 0.8.0:
 	http://sourceforge.net/projects/openchrom
 	Eclipse Public License (EPL) v1.0
 	
-	Copyright (c) 2008, 2012 Philip (eselmeister) Wenig.
+	Copyright (c) 2008, 2013 Philip (eselmeister) Wenig.
 	All rights reserved. This program and the accompanying materials
 	are made available under the terms of the Eclipse Public License v1.0
 	which accompanies this distribution, and is available at
@@ -27,43 +29,58 @@ OpenChrom 0.7.0:
 ---------------------------------------------
 Baseline Detectors
 ---------------------------------------------
-Baseline Detector Smoothed 0.7.0:
+Baseline Detector Smoothed 0.8.0:
 	http://sourceforge.net/projects/baselinedetec
+	Eclipse Public License (EPL) v1.0
+	http://www.eclipse.org/legal/epl-v10.html
+
+Baseline Detector SNIP 0.8.0:
+	http://sourceforge.net/projects/baselinesnip
 	Eclipse Public License (EPL) v1.0
 	http://www.eclipse.org/legal/epl-v10.html
 
 ---------------------------------------------
 Converters
 ---------------------------------------------
-OpenChrom Converter 0.7.0:
+OpenChrom Converter 0.8.0:
 	http://sourceforge.net/projects/openchromms
 	Eclipse Public License (EPL) v1.0
 	http://www.eclipse.org/legal/epl-v10.html
 	
-OpenChromX Converter 0.7.0:
+OpenChromX Converter 0.8.0:
 	http://sourceforge.net/projects/openchrommsx	
 	Eclipse Public License (EPL) v1.0
 	http://www.eclipse.org/legal/epl-v10.html
 	
-mzXML Converter 0.7.0:
+mzXML Converter 0.8.0:
 	http://sourceforge.net/projects/mzxmlmschrom
 	Apache License v2.0
 	http://www.apache.org/licenses/LICENSE-2.0	
 
-AMDIS File Converter 0.7.0:
+AMDIS File Converter 0.8.0:
 	http://sourceforge.net/projects/amdismsdata		
 	Eclipse Public License (EPL) v1.0
 	http://www.eclipse.org/legal/epl-v10.html
 	
-Matlab Parafac File Converter 0.7.0:
+Matlab Parafac File Converter 0.8.0:
 	http://sourceforge.net/projects/matlabparafac
+	Eclipse Public License (EPL) v1.0
+	http://www.eclipse.org/legal/epl-v10.html	
+
+JCAMP-DX File Converter 0.8.0:
+	http://sourceforge.net/projects/ocjcampdx
+	Eclipse Public License (EPL) v1.0
+	http://www.eclipse.org/legal/epl-v10.html	
+
+FID XY File Converter 0.8.0:
+	http://sourceforge.net/projects/xyconverter
 	Eclipse Public License (EPL) v1.0
 	http://www.eclipse.org/legal/epl-v10.html	
 
 ---------------------------------------------
 Classifier
 ---------------------------------------------
-WNC Classifier 0.7.0:
+WNC Classifier 0.8.0:
 	http://sourceforge.net/projects/classifierwnc	
 	Eclipse Public License (EPL) v1.0
 	http://www.eclipse.org/legal/epl-v10.html
@@ -71,45 +88,50 @@ WNC Classifier 0.7.0:
 ---------------------------------------------
 Filter
 ---------------------------------------------
-Ion Remover 0.7.0:
+Ion Remover 0.8.0:
 	http://sourceforge.net/projects/filtermfremover
 	Eclipse Public License (EPL) v1.0
 	http://www.eclipse.org/legal/epl-v10.html
 
-Savitzky-Golay Filter 0.7.0:
+Savitzky-Golay Filter 0.8.0:
 	http://sourceforge.net/projects/filtersavgolay
 	Eclipse Public License (EPL) v1.0
 	http://www.eclipse.org/legal/epl-v10.html	
 	
-Denoising Filter 0.7.0:
+Denoising Filter 0.8.0:
 	http://sourceforge.net/projects/filterdenoising
 	Eclipse Public License (EPL) v1.0
 	http://www.eclipse.org/legal/epl-v10.html	
 
-CODA Filter 0.7.0:
+CODA Filter 0.8.0:
 	http://sourceforge.net/projects/filtercoda
 	Eclipse Public License (EPL) v1.0
 	http://www.eclipse.org/legal/epl-v10.html	
 	
-Backfolding Filter 0.7.0:
+Backfolding Filter 0.8.0:
 	http://sourceforge.net/projects/filterbackfold
 	Eclipse Public License (EPL) v1.0
 	http://www.eclipse.org/legal/epl-v10.html
 	
-Retention Time Shift Filter 0.7.0:
+Retention Time Shift Filter 0.8.0:
 	http://sourceforge.net/projects/rtshifter
 	Eclipse Public License (EPL) v1.0
 	http://www.eclipse.org/legal/epl-v10.html	
 
+MS Subtract Filter 0.8.0:
+	http://sourceforge.net/projects/subtractfilter
+	Eclipse Public License (EPL) v1.0
+	http://www.eclipse.org/legal/epl-v10.html
+
 ---------------------------------------------
 Peak Detectors
 ---------------------------------------------
-Peak Detector #1 0.7.0:
+Peak Detector #1 0.8.0:
 	http://sourceforge.net/projects/peakdetecchemst
 	Eclipse Public License (EPL) v1.0
 	http://www.eclipse.org/legal/epl-v10.html	
 		
-Peak Detector Manual 0.7.0:
+Peak Detector Manual 0.8.0:
 	http://sourceforge.net/projects/peakdetecmanual
 	Eclipse Public License (EPL) v1.0
 	http://www.eclipse.org/legal/epl-v10.html			
@@ -117,17 +139,17 @@ Peak Detector Manual 0.7.0:
 ---------------------------------------------
 Peak Integrators
 ---------------------------------------------
-Integrator #1 0.7.0:
+Integrator #1 0.8.0:
 	http://sourceforge.net/projects/peakintegrchems
 	Eclipse Public License (EPL) v1.0
 	http://www.eclipse.org/legal/epl-v10.html
 	
-Sumarea Integrator 0.7.0:
+Sumarea Integrator 0.8.0:
 	http://sourceforge.net/projects/sumarea
 	Eclipse Public License (EPL) v1.0
 	http://www.eclipse.org/legal/epl-v10.html
 	
-PeakMax Integrator 0.7.0:
+PeakMax Integrator 0.8.0:
 	http://sourceforge.net/p/peakmax
 	Eclipse Public License (EPL) v1.0
 	http://www.eclipse.org/legal/epl-v10.html	
@@ -135,17 +157,17 @@ PeakMax Integrator 0.7.0:
 ---------------------------------------------
 Processors
 ---------------------------------------------
-Chromatogram Batch Process 0.7.0:
+Chromatogram Batch Process 0.8.0:
 	http://sourceforge.net/projects/openchrombatchj
 	Eclipse Public License (EPL) v1.0
 	http://www.eclipse.org/legal/epl-v10.html	
 	
-Peak Identification Batch Process 0.7.0:
+Peak Identification Batch Process 0.8.0:
 	http://sourceforge.net/projects/peakidentbatch
 	Eclipse Public License (EPL) v1.0
 	http://www.eclipse.org/legal/epl-v10.html
 	
-Groovy-Script Process Support 0.7.0:
+Groovy-Script Process Support 0.8.0:
 	http://sourceforge.net/projects/openchromgroovy
 	Eclipse Public License (EPL) v1.0
 	http://www.eclipse.org/legal/epl-v10.html
@@ -153,7 +175,7 @@ Groovy-Script Process Support 0.7.0:
 ---------------------------------------------
 Mass Spectrum Comparators
 ---------------------------------------------	
-MS Comparator #1 0.7.0:
+MS Comparator #1 0.8.0:
 	http://sourceforge.net/projects/compmsincos
 	Eclipse Public License (EPL) v1.0
 	http://www.eclipse.org/legal/epl-v10.html	
@@ -161,7 +183,7 @@ MS Comparator #1 0.7.0:
 ---------------------------------------------
 Reporting
 ---------------------------------------------	
-OpenChrom Report 0.7.0:
+OpenChrom Report 0.8.0:
 	http://sourceforge.net/projects/occhromareport
 	Eclipse Public License (EPL) v1.0
 	http://www.eclipse.org/legal/epl-v10.html	
@@ -169,7 +191,7 @@ OpenChrom Report 0.7.0:
 ---------------------------------------------
 Miscellaneous
 ---------------------------------------------
-Microsoft Office Connector 0.7.0:
+Microsoft Office Connector 0.8.0:
 	http://sourceforge.net/projects/officeconnector
 	Eclipse Public License (EPL) v1.0
 	http://www.eclipse.org/legal/epl-v10.html
@@ -206,64 +228,53 @@ SWT-XY-Graph 2.0.1:
 	Eclipse Public License (EPL) v1.0
 	http://www.eclipse.org/legal/epl-v10.html
 
-ProteomeCommons 6.21:
-	http://proteomecommons.org/current/531
-	Apache License v2.0
-	http://www.apache.org/licenses/LICENSE-2.0
-
-Apache Commons Math 2.0:
-	http://commons.apache.org/math
-	Apache License v2.0
-	http://www.apache.org/licenses/LICENSE-2.0
-	
 Apache Commons POI 3.7.0:
 	http://poi.apache.org
 	Apache License v2.0
 	http://www.apache.org/licenses/LICENSE-2.0	
 
-SuperCSV 1.52.0:
-	http://supercsv.sourceforge.net
-	Apache License v2.0
-	http://www.apache.org/licenses/LICENSE-2.0
-	
-Groovy 2.0.2:
-	http://groovy.codehaus.org
-	Apache License v2.0
-	http://www.apache.org/licenses/LICENSE-2.0	
-	
 Apache Geronimo Stax 1.0.0:
 	http://thirdpartylibraries.openchrom.net/geronimostaxapi
 	Apache License v2.0
-	http://www.apache.org/licenses/LICENSE-2.0		
-	
-Apache XMLBeans 2.5.0:
-	http://xmlbeans.apache.org 2.5.0
-	Apache License v2.0
 	http://www.apache.org/licenses/LICENSE-2.0	
-
-dom4j 1.6.1:
-	http://dom4j.sourceforge.net
-	BSD License
-
+	
 Apache XercesJ 2.11.0:
 	http://xerces.apache.org
 	Apache License v2.0
 	http://www.apache.org/licenses/LICENSE-2.0
 
+Apache XMLBeans 2.5.0:
+	http://xmlbeans.apache.org 2.5.0
+	Apache License v2.0
+	http://www.apache.org/licenses/LICENSE-2.0		
+	
+dom4j 1.6.1:
+	http://dom4j.sourceforge.net
+	BSD License
 
-JavaBase64 1.3.1:
-	http://sourceforge.net/projects/java-base64
-	LGPL v2.1
-	http://www.gnu.org/licenses/lgpl-2.1.html
+Groovy 2.0.2:
+	http://groovy.codehaus.org
+	Apache License v2.0
+	http://www.apache.org/licenses/LICENSE-2.0	
 	
-PDFJet Open Source Edition 2.81.0:
-	http://pdfjet.com/os/edition.html
-	Open Source License
-	
-OrientDB 1.0.1:
+OrientDB 1.4.0:
 	http://www.orientechnologies.com
 	Apache License v2.0
 	http://www.apache.org/licenses/LICENSE-2.0	
+
+PDFJet Open Source Edition 2.81.0:
+	http://pdfjet.com/os/edition.html
+	Open Source License	
+	
+SuperCSV 1.52.0:
+	http://supercsv.sourceforge.net
+	Apache License v2.0
+	http://www.apache.org/licenses/LICENSE-2.0
+		
+ProteomeCommons 6.21:
+	http://proteomecommons.org/current/531
+	Apache License v2.0
+	http://www.apache.org/licenses/LICENSE-2.0
 	
 ---------------------------------------------
 NSIS Installer
