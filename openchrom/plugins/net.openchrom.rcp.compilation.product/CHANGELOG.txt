@@ -5,6 +5,10 @@ OpenChrom Community Edition
 ----------------------------------------
 "0.8.0 Dempster"
 ----------------------------------------
+The OpenChrom *.ocb format has been updated to version 0.8.0.3 to include baseline signals too.
+
+Methods in the peak/chromatogram integrator have been optimized. There is a check-box now, whether to include/exclude the background of the peak to the integrated area.
+
 The ion 0 is displayed as "TIC" now.
 
 The report formats the values with country specific encoding too.
@@ -43,7 +47,7 @@ OpenChrom is based on Java 6 again to support Mac OS X users.
 
 The report supplier has been optimized.
 
-Webviews for SciFinder, MassBank and MaSC are available.
+Web-Views for SciFinder, MassBank and MaSC are available.
 
 There is an option to import chromatograms to *.ocb format.
 
