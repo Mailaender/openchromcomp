@@ -1,99 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/net.openchrom.chromatogram.msd.baseline.detector.supplier.smoothed.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.msd.baseline.detector.supplier.smoothed.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.msd.baseline.detector.supplier.smoothed.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.msd.baseline.detector.supplier.smoothed.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.chromatogram.msd.filter.supplier.ionremover.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.msd.filter.supplier.ionremover.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.msd.filter.supplier.ionremover.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.msd.filter.supplier.ionremover.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.chromatogram.msd.integrator.supplier.chemstation.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.msd.integrator.supplier.chemstation.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.msd.integrator.supplier.chemstation.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.msd.integrator.supplier.chemstation.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.chromatogram.msd.peak.detector.supplier.chemstation.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.msd.peak.detector.supplier.chemstation.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.msd.peak.detector.supplier.chemstation.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.msd.peak.detector.supplier.chemstation.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.chromatogram.msd.converter.supplier.cdf.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.msd.converter.supplier.cdf.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.msd.converter.supplier.cdf.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.msd.converter.supplier.cdf.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.chromatogram.msd.converter.supplier.openchrom.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.msd.converter.supplier.openchrom.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.msd.converter.supplier.openchrom.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.msd.converter.supplier.openchrom.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.chromatogram.msd.converter.supplier.mzxml.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.msd.converter.supplier.mzxml.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.msd.converter.supplier.mzxml.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.msd.converter.supplier.mzxml.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.chromatogram.msd.converter.supplier.amdis.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.msd.converter.supplier.amdis.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.msd.converter.supplier.amdis.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.msd.converter.supplier.amdis.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.chromatogram.msd.filter.supplier.denoising.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.msd.filter.supplier.denoising.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.msd.filter.supplier.denoising.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.msd.filter.supplier.denoising.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.chromatogram.msd.filter.supplier.savitzkygolay.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.msd.filter.supplier.savitzkygolay.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.msd.filter.supplier.savitzkygolay.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.msd.filter.supplier.savitzkygolay.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.chromatogram.msd.peak.detector.supplier.manual.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.msd.peak.detector.supplier.manual.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.msd.peak.detector.supplier.manual.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.msd.peak.detector.supplier.manual.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.chromatogram.msd.classifier.supplier.wnc.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.msd.classifier.supplier.wnc.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.msd.classifier.supplier.wnc.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.msd.classifier.supplier.wnc.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.chromatogram.msd.filter.supplier.rtshifter.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.msd.filter.supplier.rtshifter.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.msd.filter.supplier.rtshifter.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.msd.filter.supplier.rtshifter.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.chromatogram.msd.integrator.supplier.sumarea.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.msd.integrator.supplier.sumarea.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.msd.integrator.supplier.sumarea.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.msd.integrator.supplier.sumarea.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.rcp.connector.supplier.microsoft.office.feature_0.8.0.201307291101.jar" id="net.openchrom.rcp.connector.supplier.microsoft.office.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.rcp.connector.supplier.microsoft.office.feature_0.9.0.qualifier.jar" id="net.openchrom.rcp.connector.supplier.microsoft.office.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.chromatogram.msd.filter.supplier.coda.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.msd.filter.supplier.coda.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.msd.filter.supplier.coda.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.msd.filter.supplier.coda.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.chromatogram.msd.filter.supplier.backfolding.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.msd.filter.supplier.backfolding.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.msd.filter.supplier.backfolding.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.msd.filter.supplier.backfolding.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.chromatogram.msd.converter.supplier.matlab.parafac.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.msd.converter.supplier.matlab.parafac.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.msd.converter.supplier.matlab.parafac.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.msd.converter.supplier.matlab.parafac.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.chromatogram.msd.process.supplier.peakidentification.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.msd.process.supplier.peakidentification.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.msd.process.supplier.peakidentification.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.msd.process.supplier.peakidentification.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.chromatogram.msd.comparison.supplier.incos.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.msd.comparison.supplier.incos.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.msd.comparison.supplier.incos.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.msd.comparison.supplier.incos.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.chromatogram.msd.report.supplier.openchrom.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.msd.report.supplier.openchrom.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.msd.report.supplier.openchrom.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.msd.report.supplier.openchrom.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.chromatogram.msd.converter.supplier.openchromx.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.msd.converter.supplier.openchromx.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.msd.converter.supplier.openchromx.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.msd.converter.supplier.openchromx.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.chromatogram.msd.integrator.supplier.peakmax.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.msd.integrator.supplier.peakmax.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.msd.integrator.supplier.peakmax.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.msd.integrator.supplier.peakmax.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.chromatogram.msd.process.supplier.batchprocess.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.msd.process.supplier.batchprocess.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.msd.process.supplier.batchprocess.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.msd.process.supplier.batchprocess.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.chromatogram.msd.process.supplier.groovy.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.msd.process.supplier.groovy.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.msd.process.supplier.groovy.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.msd.process.supplier.groovy.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.chromatogram.msd.process.supplier.peakidentification.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.msd.process.supplier.peakidentification.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.msd.process.supplier.peakidentification.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.msd.process.supplier.peakidentification.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.chromatogram.fid.converter.supplier.xy.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.fid.converter.supplier.xy.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.fid.converter.supplier.xy.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.fid.converter.supplier.xy.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.chromatogram.msd.baseline.detector.supplier.snip.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.msd.baseline.detector.supplier.snip.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.msd.baseline.detector.supplier.snip.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.msd.baseline.detector.supplier.snip.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.chromatogram.msd.converter.supplier.jcampdx.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.msd.converter.supplier.jcampdx.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.msd.converter.supplier.jcampdx.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.msd.converter.supplier.jcampdx.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.chromatogram.msd.filter.supplier.subtract.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.msd.filter.supplier.subtract.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.msd.filter.supplier.subtract.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.msd.filter.supplier.subtract.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.chromatogram.msd.identifier.supplier.manual.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.msd.identifier.supplier.manual.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.msd.identifier.supplier.manual.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.msd.identifier.supplier.manual.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
-   <feature url="features/net.openchrom.chromatogram.msd.quantitation.supplier.openchrom.feature_0.8.0.201307291101.jar" id="net.openchrom.chromatogram.msd.quantitation.supplier.openchrom.feature" version="0.8.0.201307291101">
+   <feature url="features/net.openchrom.chromatogram.msd.quantitation.supplier.openchrom.feature_0.9.0.qualifier.jar" id="net.openchrom.chromatogram.msd.quantitation.supplier.openchrom.feature" version="0.9.0.qualifier">
       <category name="net.openchrom.rcp.compilation.plugins"/>
    </feature>
    <category-def name="net.openchrom.rcp.compilation.plugins" label="OpenChrom Compilation Plug-ins"/>
