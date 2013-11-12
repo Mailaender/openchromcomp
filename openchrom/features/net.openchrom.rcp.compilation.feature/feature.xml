@@ -181,6 +181,22 @@ http://www.eclipse.org/legal/epl-v10.html
          id="net.openchrom.chromatogram.msd.filter.supplier.subtract.feature"
          version="0.0.0"/>
 
+   <includes
+         id="net.openchrom.thirdpartylibraries.opsin.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.thirdpartylibraries.apache.batik.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.supplier.cdk.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.rcp.compilation.extras.feature"
+         version="0.0.0"/>
+
    <plugin
          id="net.openchrom.rcp.compilation"
          download-size="0"
