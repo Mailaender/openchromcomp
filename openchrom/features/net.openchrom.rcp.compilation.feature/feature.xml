@@ -194,7 +194,23 @@ http://www.eclipse.org/legal/epl-v10.html
          version="0.0.0"/>
 
    <includes
+         id="net.openchrom.chromatogram.msd.converter.supplier.mzml.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.thirdpartylibraries.jmzml.feature"
+         version="0.0.0"/>
+
+   <includes
          id="net.openchrom.rcp.compilation.extras.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.thirdpartylibraries.apache.commons.io.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.thirdpartylibraries.xxindex.feature"
          version="0.0.0"/>
 
    <plugin
