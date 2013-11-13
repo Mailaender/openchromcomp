@@ -213,6 +213,10 @@ http://www.eclipse.org/legal/epl-v10.html
          id="net.openchrom.thirdpartylibraries.xxindex.feature"
          version="0.0.0"/>
 
+   <includes
+         id="net.openchrom.thirdpartylibraries.neuroph.feature"
+         version="0.0.0"/>
+
    <plugin
          id="net.openchrom.rcp.compilation"
          download-size="0"
