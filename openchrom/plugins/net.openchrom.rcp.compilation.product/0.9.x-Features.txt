@@ -1,0 +1,15 @@
+CHANGES
+
+=== Compilation Extras ===
+LGPL	net.openchrom.thirdpartylibraries.cdk.feature
+
+=== Compilation ===
+EPL	net.openchrom.supplier.cdk.feature
+Apache	net.openchrom.thirdpartylibraries.apache.batik.feature
+Artistic	net.openchrom.thirdpartylibraries.opsin.feature
+Apache	net.openchrom.thirdpartylibraries.jmzml.feature
+Apache	net.openchrom.thirdpartylibraries.apache.commons.io.feature
+Apache	net.openchrom.thirdpartylibraries.xxindex.feature
+EPL	net.openchrom.chromatogram.msd.converter.supplier.mzml.feature
+MIT	net.openchrom.thirdpartylibraries.netcdf.feature
+EPL	net.openchrom.chromatogram.msd.converter.supplier.cdf.feature
