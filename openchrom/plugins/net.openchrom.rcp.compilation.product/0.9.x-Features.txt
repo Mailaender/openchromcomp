@@ -13,3 +13,4 @@ Apache	net.openchrom.thirdpartylibraries.xxindex.feature
 EPL	net.openchrom.chromatogram.msd.converter.supplier.mzml.feature
 MIT	net.openchrom.thirdpartylibraries.netcdf.feature
 EPL	net.openchrom.chromatogram.msd.converter.supplier.cdf.feature
+PD net.openchrom.chromatogram.msd.converter.supplier.imagej.feature
