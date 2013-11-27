@@ -233,6 +233,10 @@ http://www.eclipse.org/legal/epl-v10.html
          id="net.openchrom.thirdpartylibraries.matlabcontrol.feature"
          version="0.0.0"/>
 
+   <includes
+         id="net.openchrom.chromatogram.msd.converter.supplier.svg.feature"
+         version="0.0.0"/>
+
    <plugin
          id="net.openchrom.rcp.compilation"
          download-size="0"
