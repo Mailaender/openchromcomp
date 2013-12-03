@@ -15,3 +15,5 @@ MIT	net.openchrom.thirdpartylibraries.netcdf.feature
 EPL	net.openchrom.chromatogram.msd.converter.supplier.cdf.feature
 PD net.openchrom.chromatogram.msd.converter.supplier.imagej.feature
 BSD net.openchrom.chromatogram.msd.converter.supplier.matlabcontrol.feature
+Apache	net.openchrom.thirdpartylibraries.barcode4j.feature
+Apache	net.openchrom.thirdpartylibraries.neuroph.feature
