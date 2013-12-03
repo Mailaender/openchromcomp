@@ -1,7 +1,9 @@
 CHANGES
 
-=== Compilation Extras ===
+=== Compilation Extras (remove from next compilation - only for testing) ===
 LGPL	net.openchrom.thirdpartylibraries.cdk.feature
+LGPL	net.openchrom.thirdpartylibraries.biojava.feature
+LGPL	net.openchrom.thirdpartylibraries.jmol.feature
 
 === Compilation ===
 EPL	net.openchrom.supplier.cdk.feature
