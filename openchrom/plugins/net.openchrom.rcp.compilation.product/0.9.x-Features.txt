@@ -19,3 +19,4 @@ PD net.openchrom.chromatogram.msd.converter.supplier.imagej.feature
 BSD net.openchrom.chromatogram.msd.converter.supplier.matlabcontrol.feature
 Apache	net.openchrom.thirdpartylibraries.barcode4j.feature
 Apache	net.openchrom.thirdpartylibraries.neuroph.feature
+Apache	net.openchrom.thirdpartylibraries.ejml.feature
