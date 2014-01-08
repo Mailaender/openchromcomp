@@ -1,0 +1,14 @@
+Package: ---PACKAGENAME---
+Version: ---VERSIONPLACEHOLDER---
+Section: science
+Priority: extra
+Architecture: i386
+Source: ---PACKAGENAME---
+Depends: openjdk-7-jre
+Maintainer: Dr. Philip Wenig <philip.wenig@openchrom.net>
+Recommends: bioclipse
+Description: ---PACKAGENAME---
+ OpenChrom is open source software for the mass spectrometric analysis of chromatographic data. Its focus is to handle native data files from several mass spectrometry systems (e.g. GC/MS, LC/MS, Py-GC/MS, HPLC-MS). OpenChrom is able to import chromatographic data, such as (*.D) chromatograms from Agilent Technologies, Finnigan ITS40 (*.ms), NetCDF (*.cdf), MzXML (*.mzxml) and other formats. Recently, a support to save chromatograms in an own file format (*.ocb) together with peaks and identification results has been added. Moreover, it offers a smooth and customizable graphical user interface. A basic set of methods to detect baselines and to detect and integrate peaks is provided. Preprocessing steps, for instance to remove certain mass fragments (m/z) such as nitrogen (28) or water (18), are supported by applying filter on the chromatogram or mass spectrum. Extensions are appreciated and can be easily integrated since OpenChrom is open source and uses a modular approach, which allows other developers to implement their own methods, algorithms, filters, detectors or integrators. Therefore, OpenChrom is an efficient system to process mass spectrometric, chromatographic data using an extensible and flexible plugin architecture. OpenChrom is built on the Eclipse Rich Client Platform (RCP), hence it is available for various operating systems, e.g. Microsoft Windows, Linux and Mac OS X. It is distributed under the Eclipse Public License 1.0 (EPL). Third-party libraries are separated into single bundles and are released under various OSI compatible licenses.
+ .
+ This package is the basis for all XReport extensions.
+Installed-Size: 89664

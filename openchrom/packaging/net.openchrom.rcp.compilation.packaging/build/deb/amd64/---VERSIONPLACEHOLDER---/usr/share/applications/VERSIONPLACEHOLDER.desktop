@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=---PACKAGENAME--- ---VERSIONPLACEHOLDER---
+GenericName=---PACKAGENAME--- ---VERSIONPLACEHOLDER---
+Comment=---PACKAGENAME--- ---VERSIONPLACEHOLDER--- by Lablicate UG (haftungsbeschränkt)
+Exec=/opt/---PACKAGENAME---/---VERSIONPLACEHOLDER---/---PACKAGENAME---/start.sh
+Terminal=false
+Type=Application
+StartupNotify=true
+Icon=/usr/share/icons/hicolor/scalable/apps/---EXECUTABLEPLACEHOLDER---.svg
+Categories=GNOME;Application;Development;
+Name[de]=VERSIONPLACEHOLDER
