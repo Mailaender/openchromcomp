@@ -9,7 +9,7 @@
  * Contributors:
  * Dr. Philip Wenig - initial API and implementation
  *******************************************************************************/
-package net.openchrom.rcp.compilation;
+package net.openchrom.rcp.compilation.ui;
 
 import java.util.HashMap;
 import java.util.Map;

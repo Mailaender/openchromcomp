@@ -51,20 +51,9 @@
 	MODULES
   -->
   <modules>
-    <module>../../plugins/net.openchrom.rcp.compilation</module>
+    <module>../../plugins/net.openchrom.rcp.compilation.ui</module>
     <module>../../features/net.openchrom.rcp.compilation.extras.feature</module>
     <module>../../features/net.openchrom.rcp.compilation.feature</module>
-    <module>../../plugins/net.openchrom.rcp.compilation.p2</module>
-    <module>../../sites/net.openchrom.rcp.compilation.plugins.updateSite</module>
-    <module>../../sites/net.openchrom.rcp.compilation.updateSite</module>
     <module>../../plugins/net.openchrom.rcp.compilation.product</module>
   </modules>
-  <!--
-	SOURCE CODE MANAGEMENT
-  -->
-  <scm>
-    <connection>scm:git:git://openchrom.git.sourceforge.net/gitroot/openchrom/openchrom</connection>
-    <developerConnection>scm:git:ssh://openchrom.git.sourceforge.net/gitroot/openchrom/openchrom</developerConnection>
-    <url>http://openchrom.git.sourceforge.net/git/gitweb-index.cgi</url>
-  </scm>
 </project>
