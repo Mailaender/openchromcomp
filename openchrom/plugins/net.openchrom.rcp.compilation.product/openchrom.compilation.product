@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="OpenChrom Community Edition Mattauch - Preview Release" uid="net.openchrom.rcp.compilation.product.id" id="net.openchrom.rcp.compilation.product" application="net.openchrom.rcp.application" version="0.9.0.0" useFeatures="true" includeLaunchers="true">
+<product name="OpenChrom Community Edition Mattauch - Preview Release" uid="net.openchrom.rcp.compilation.product.id" id="net.openchrom.rcp.compilation.ui.product" application="net.openchrom.rcp.application" version="0.9.0.0" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
-      <image path="/net.openchrom.rcp.compilation/icons/about_250x330.png"/>
+      <image path="/net.openchrom.rcp.compilation.ui/icons/about_250x330.png"/>
       <text>
          OpenChrom Community Edition Mattauch - the open source software for chromatography and mass spectrometry
       </text>
@@ -27,7 +27,7 @@
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
    </launcherArgs>
 
-   <windowImages i16="/net.openchrom.rcp.compilation/icons/logo_16x16.png" i32="/net.openchrom.rcp.compilation/icons/logo_32x32.png" i48="/net.openchrom.rcp.compilation/icons/logo_48x48.png" i64="/net.openchrom.rcp.compilation/icons/logo_64x64.png" i128="/net.openchrom.rcp.compilation/icons/logo_128x128.png"/>
+   <windowImages i16="/net.openchrom.rcp.compilation.ui/icons/logo_16x16.png" i32="/net.openchrom.rcp.compilation.ui/icons/logo_32x32.png" i48="/net.openchrom.rcp.compilation.ui/icons/logo_48x48.png" i64="/net.openchrom.rcp.compilation.ui/icons/logo_64x64.png" i128="/net.openchrom.rcp.compilation.ui/icons/logo_128x128.png"/>
 
    <splash
       location="net.openchrom.rcp.compilation"
@@ -46,6 +46,7 @@
             winLargeLow="/net.openchrom.rcp.compilation.product/icons/windows/48x48-8.bmp"/>
       </win>
    </launcher>
+
 
    <vm>
    </vm>
