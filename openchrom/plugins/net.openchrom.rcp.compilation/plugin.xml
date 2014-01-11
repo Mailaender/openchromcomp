@@ -55,5 +55,10 @@
             splashId="net.openchrom.rcp.splash.openChromSplashHandler">
       </splashHandlerProductBinding>
    </extension>
+   <extension
+         point="org.eclipse.ui.startup">
+      <startup
+            class="net.openchrom.rcp.compilation.PluginStartup"></startup>
+   </extension>     
 
 </plugin>
