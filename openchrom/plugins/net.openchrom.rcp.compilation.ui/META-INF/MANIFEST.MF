@@ -12,4 +12,4 @@ Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.ui.intro.universal;bundle-version="3.2.600",
  org.eclipse.e4.ui.workbench;bundle-version="0.10.100",
  net.openchrom.rcp.ui.icons;bundle-version="0.9.0",
- net.openchrom.rcp.ui;bundle-version="0.9.0"
+ net.openchrom.rcp.app.ui;bundle-version="0.9.0"

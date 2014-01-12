@@ -4,7 +4,7 @@
          id="product"
          point="org.eclipse.core.runtime.products">
       <product
-            application="net.openchrom.rcp.application"
+            application="net.openchrom.rcp.app.ui.net.openchrom.rcp.application"
             name="OpenChrom Community Edition Mattauch - Preview Release">
          <property
                name="windowImages"
@@ -52,7 +52,7 @@
          point="org.eclipse.ui.splashHandlers">
       <splashHandlerProductBinding
             productId="net.openchrom.rcp.compilation.product"
-            splashId="net.openchrom.rcp.splash.openChromSplashHandler">
+            splashId="net.openchrom.rcp.app.ui.splash.openChromSplashHandler">
       </splashHandlerProductBinding>
    </extension>
    <extension

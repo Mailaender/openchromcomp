@@ -16,7 +16,7 @@ import java.util.Map;
 
 import org.eclipse.ui.IStartup;
 
-import net.openchrom.rcp.ui.support.UpdateSiteSupport;
+import net.openchrom.rcp.app.ui.support.UpdateSiteSupport;
 
 public class PluginStartup implements IStartup {
 
