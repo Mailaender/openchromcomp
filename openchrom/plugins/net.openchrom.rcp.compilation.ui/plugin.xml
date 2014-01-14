@@ -66,16 +66,16 @@
          point="org.eclipse.ui.startup">
       <startup
             class="net.openchrom.rcp.compilation.ui.PluginStartup"></startup>
-   </extension>
+   </extension>    
    <extension
          point="org.eclipse.ui.preferencePages">
       <page
-            category="net.openchrom.rcp.app.ui.preferences.openChromPreferencePage"      
+            category="net.openchrom.rcp.app.ui.preferences.settingsPreferencePage"      
             class="net.openchrom.rcp.compilation.ui.preferences.MarketplacePreferencePage"
             id="net.openchrom.rcp.compilation.ui.preferences.marketplacePreferencePage"
             name="OpenChrom Marketplace">
-      </page>        
-   </extension>        
+      </page>
+   </extension>
    <extension
          point="org.eclipse.epp.mpc.ui.catalog">
          <catalog
@@ -85,6 +85,6 @@
 		    url="http://openchrom.dyndns.org/"
 		    selfContained="false">
 	    </catalog>
-   </extension> 
+   </extension>
 
 </plugin>

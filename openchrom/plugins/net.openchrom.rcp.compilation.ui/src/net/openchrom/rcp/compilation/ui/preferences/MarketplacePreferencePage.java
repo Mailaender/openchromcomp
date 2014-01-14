@@ -38,7 +38,7 @@ public class MarketplacePreferencePage extends FieldEditorPreferencePage impleme
 	public MarketplacePreferencePage() {
 
 		super(GRID);
-		setPreferenceStore(Activator.getDefault().getPreferenceStore());
+		// The preference store is not needed.
 		setDescription("Add the OpenChrom Marketplace on demand, to fetch additional plug-ins. It is still included in the OpenChrom release. Hence, it's only needed when using the OpenChrom plug-ins in a regular Eclipse IDE.");
 	}
 
