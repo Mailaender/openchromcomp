@@ -202,10 +202,6 @@ http://www.eclipse.org/legal/epl-v10.html
          version="0.0.0"/>
 
    <includes
-         id="net.openchrom.rcp.compilation.extras.feature"
-         version="0.0.0"/>
-
-   <includes
          id="net.openchrom.thirdpartylibraries.apache.commons.io.feature"
          version="0.0.0"/>
 
@@ -248,12 +244,5 @@ http://www.eclipse.org/legal/epl-v10.html
    <includes
          id="net.openchrom.chromatogram.msd.process.supplier.pca.feature"
          version="0.0.0"/>
-
-   <plugin
-         id="net.openchrom.rcp.compilation.ui"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
 
 </feature>

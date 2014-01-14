@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin>
    <extension
+         id="net.openchrom.rcp.compilation.ui.modelContribution"
+         point="org.eclipse.e4.workbench.model">
+      <fragment
+            uri="fragment.e4xmi">
+      </fragment>
+   </extension>
+   <extension
          id="product"
          point="org.eclipse.core.runtime.products">
       <product
@@ -59,6 +66,25 @@
          point="org.eclipse.ui.startup">
       <startup
             class="net.openchrom.rcp.compilation.ui.PluginStartup"></startup>
-   </extension>     
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            category="net.openchrom.rcp.app.ui.preferences.openChromPreferencePage"
+            class="net.openchrom.rcp.compilation.ui.preferences.MarketplacePreferencePage"
+            id="net.openchrom.rcp.compilation.ui.preferences.marketplacePreferencePage"
+            name="OpenChrom Marketplace">
+      </page>        
+   </extension>        
+   <extension
+         point="org.eclipse.epp.mpc.ui.catalog">
+         <catalog
+		    description="Install new plug-ins from the OpenChrom marketplace."
+		    icon="icons/logo_32x32.png"
+		    label="OpenChrom Marketplace"
+		    url="http://openchrom.dyndns.org/"
+		    selfContained="false">
+	    </catalog>
+   </extension> 
 
 </plugin>

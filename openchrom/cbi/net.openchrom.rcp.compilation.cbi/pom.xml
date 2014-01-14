@@ -54,6 +54,7 @@
     <module>../../plugins/net.openchrom.rcp.compilation.ui</module>
     <module>../../features/net.openchrom.rcp.compilation.extras.feature</module>
     <module>../../features/net.openchrom.rcp.compilation.feature</module>
+    <module>../../features/net.openchrom.rcp.compilation.ui.feature</module>    
     <module>../../plugins/net.openchrom.rcp.compilation.product</module>
   </modules>
 </project>
