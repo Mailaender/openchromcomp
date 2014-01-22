@@ -64,7 +64,7 @@ public class EnhancedSplashHandler extends BasicSplashHandler {
 
 				e.gc.setForeground(getForeground());
 				String version = Activator.getDefault().getBundle().getHeaders().get("Bundle-Version");
-				e.gc.drawText(version, 100, 220, true);
+				e.gc.drawText(version, 155, 220, true);
 			}
 		});
 	}
