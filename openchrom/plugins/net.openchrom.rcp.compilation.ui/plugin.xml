@@ -26,18 +26,6 @@
                value="icons/about_250x330.png">
          </property>
          <property
-               name="startupForegroundColor"
-               value="000000">
-         </property>
-         <property
-               name="startupMessageRect"
-               value="7,252,445,20">
-         </property>
-         <property
-               name="startupProgressRect"
-               value="5,275,445,15">
-         </property>  
-         <property
                name="appName"
                value="OpenChrom Community Edition Mattauch - Preview Release">
          </property>
@@ -54,12 +42,16 @@
                value="platform:/plugin/net.openchrom.rcp.app.ui/css/openchrom.css">
          </property>     
       </product>
-   </extension>   
+   </extension>
    <extension
          point="org.eclipse.ui.splashHandlers">
+      <splashHandler
+            class="net.openchrom.rcp.compilation.ui.splash.EnhancedSplashHandler"
+            id="net.openchrom.rcp.compilation.ui.splash.enhancedSplashHandler">
+      </splashHandler>         
       <splashHandlerProductBinding
-            productId="net.openchrom.rcp.compilation.product"
-            splashId="net.openchrom.rcp.app.ui.splash.openChromSplashHandler">
+            productId="net.openchrom.rcp.compilation.ui.product"
+            splashId="net.openchrom.rcp.compilation.ui.splash.enhancedSplashHandler">
       </splashHandlerProductBinding>
    </extension>
    <extension
