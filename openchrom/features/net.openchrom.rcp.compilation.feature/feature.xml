@@ -30,11 +30,11 @@ http://www.eclipse.org/legal/epl-v10.html
          version="0.0.0"/>
 
    <includes
-         id="net.openchrom.chromatogram.msd.integrator.supplier.chemstation.feature"
+         id="net.openchrom.chromatogram.xxd.integrator.supplier.trapezoid.feature"
          version="0.0.0"/>
 
    <includes
-         id="net.openchrom.chromatogram.msd.peak.detector.supplier.chemstation.feature"
+         id="net.openchrom.chromatogram.xxd.peak.detector.supplier.firstderivative.feature"
          version="0.0.0"/>
 
    <includes
