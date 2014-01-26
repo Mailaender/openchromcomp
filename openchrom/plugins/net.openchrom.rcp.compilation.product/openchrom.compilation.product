@@ -19,11 +19,12 @@
 -Xmx500M
 -Dosgi.requiredJavaVersion=1.6
 -Dosgi.install.area.readOnly
--DApplicationWorkspaceFolder=OpenChrom
--DApplicationSettingsFolder=.openchrom
 -Dosgi.instance.area=@user.home/OpenChrom/workspace
 -Dosgi.user.area=@user.home/.openchrom/0.9.0/Settings
--Dsun.awt.xembedserver=true</vmArgs>
+-Dsun.awt.xembedserver=true
+-DApplicationName=OpenChrom
+-DApplicationWorkspaceFolder=OpenChrom
+-DApplicationSettingsFolder=.openchrom</vmArgs>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
    </launcherArgs>
 
