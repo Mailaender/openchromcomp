@@ -11,23 +11,15 @@
  *******************************************************************************/
 package net.openchrom.rcp.compilation.ui.splash;
 
-import net.openchrom.logging.core.Logger;
-import net.openchrom.rcp.compilation.ui.Activator;
-
 import org.eclipse.core.runtime.IProduct;
 import org.eclipse.core.runtime.Platform;
 import org.eclipse.jface.resource.StringConverter;
-import org.eclipse.swt.events.PaintEvent;
-import org.eclipse.swt.events.PaintListener;
-import org.eclipse.swt.graphics.RGB;
 import org.eclipse.swt.graphics.Rectangle;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.ui.branding.IProductConstants;
 import org.eclipse.ui.splash.BasicSplashHandler;
 
 public class EnhancedSplashHandler extends BasicSplashHandler {
-
-	private static final Logger logger = Logger.getLogger(EnhancedSplashHandler.class);
 
 	@Override
 	public void init(Shell splash) {
@@ -47,25 +39,5 @@ public class EnhancedSplashHandler extends BasicSplashHandler {
 		setProgressRect(progressRect);
 		Rectangle messageRect = StringConverter.asRectangle(messageString, new Rectangle(7, 252, 445, 20));
 		setMessageRect(messageRect);
-		/*
-		 * Set black as the font color.
-		 */
-		try {
-			setForeground(new RGB(0, 0, 0));
-		} catch(IllegalArgumentException e) {
-			logger.warn(e);
-		}
-		/*
-		 * Set the software version.
-		 */
-		getContent().addPaintListener(new PaintListener() {
-
-			public void paintControl(PaintEvent e) {
-
-				e.gc.setForeground(getForeground());
-				String version = Activator.getDefault().getBundle().getHeaders().get("Bundle-Version");
-				e.gc.drawText(version, 155, 220, true);
-			}
-		});
 	}
 }
