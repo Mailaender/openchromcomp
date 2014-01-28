@@ -314,7 +314,7 @@
        xlink:href="#linearGradient3536"
        id="linearGradient3252"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.4229018,0,0,0.4229018,76.759785,-209.19475)"
+       gradientTransform="matrix(0.4229018,0,0,0.4229018,76.759785,-217.19475)"
        x1="121.25256"
        y1="531.36938"
        x2="298.72696"
@@ -327,9 +327,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.0984673"
-     inkscape:cx="459.90481"
-     inkscape:cy="-59.271861"
+     inkscape:zoom="1.2632089"
+     inkscape:cx="105.04868"
+     inkscape:cy="173.98979"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -340,16 +340,7 @@
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true"
-     showborder="true">
-    <sodipodi:guide
-       orientation="1,0"
-       position="500.75699,80.432471"
-       id="guide3205" />
-    <sodipodi:guide
-       orientation="1,0"
-       position="298.56246,111.30227"
-       id="guide3074" />
-  </sodipodi:namedview>
+     showborder="true" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -358,7 +349,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -390,7 +381,7 @@
        inkscape:export-ydpi="90.040428" />
     <g
        id="g3382"
-       transform="matrix(2.0051162,0,0,2.0051162,-1242.3026,-19.007034)"
+       transform="matrix(2.0051162,0,0,2.0051162,-1242.3026,-19.348319)"
        style="opacity:0.8;fill:#ffffff"
        inkscape:export-filename="openchrom-splash.png"
        inkscape:export-xdpi="90.040428"
@@ -554,24 +545,24 @@
     </g>
     <rect
        ry="8.7268839"
-       y="32.046062"
+       y="24.046062"
        x="136.45312"
        height="175.13777"
        width="175.13777"
        id="rect3496"
-       style="fill:#004646;fill-opacity:1;stroke:none"
+       style="fill:#1c4747;fill-opacity:1;stroke:none"
        inkscape:export-filename="openchrom-splash.png"
        inkscape:export-xdpi="90.040428"
        inkscape:export-ydpi="90.040428" />
     <rect
-       style="opacity:0.69999999999999996;fill:#004646;fill-opacity:1;stroke:none;filter:url(#filter3642)"
+       style="opacity:0.7;fill:#1c4747;fill-opacity:1;stroke:none;filter:url(#filter3642)"
        id="rect3548"
        width="414.13342"
        height="414.13342"
        x="75.650764"
        y="543.17249"
        ry="20.635721"
-       transform="matrix(0.4229018,0,0,0.4229018,111.41616,-189.89246)"
+       transform="matrix(0.4229018,0,0,0.4229018,111.41616,-197.89246)"
        inkscape:export-filename="openchrom-splash.png"
        inkscape:export-xdpi="90.040428"
        inkscape:export-ydpi="90.040428" />
@@ -581,141 +572,149 @@
        width="175.13777"
        height="175.13777"
        x="136.45312"
-       y="32.046062"
+       y="24.046062"
        ry="8.7268839"
        inkscape:export-filename="openchrom-splash.png"
        inkscape:export-xdpi="90.040428"
        inkscape:export-ydpi="90.040428" />
-    <text
-       xml:space="preserve"
-       style="font-size:27.13738823px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
-       x="148.87079"
-       y="185.311"
-       id="text3498"
-       inkscape:export-filename="openchrom-splash.png"
-       inkscape:export-xdpi="90.040428"
-       inkscape:export-ydpi="90.040428"><tspan
-         sodipodi:role="line"
-         id="tspan3500"
-         x="148.87079"
-         y="185.311"><tspan
-   style="font-weight:bold;-inkscape-font-specification:Arial Bold"
-   id="tspan3066">Chem</tspan>Clipse</tspan></text>
-    <path
-       style="fill:none;stroke:#ffffff;stroke-width:3.38321447;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 151.74172,149.16062 c 1.39659,-0.20357 2.66269,-1.3705 3.83669,-3.18943 8.88695,-13.76903 11.38569,-68.349589 27.48573,-18.33902 16.10005,50.01056 6.99841,-34.985807 24.66365,8.00463 17.7003,43.07577 17.41047,-42.87065 26.35988,-17.09454 24.64571,70.98477 15.37331,-13.65932 27.84925,13.62476 12.38352,27.08196 1.67327,8.02914 53.5772,13.12117"
-       id="path3504"
-       sodipodi:nodetypes="cszzszs"
-       inkscape:export-filename="openchrom-splash.png"
-       inkscape:export-xdpi="90.040428"
-       inkscape:export-ydpi="90.040428"
-       inkscape:connector-curvature="0" />
-    <text
-       id="text2452"
-       y="162.21338"
-       x="149.60706"
-       style="font-size:27.13738823px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
-       xml:space="preserve"
-       inkscape:export-filename="openchrom-splash.png"
-       inkscape:export-xdpi="90.040428"
-       inkscape:export-ydpi="90.040428"><tspan
-         y="162.21338"
-         x="149.60706"
-         id="tspan2454"
-         sodipodi:role="line"
-         style="font-size:10px">Community Edition - Mattauch</tspan></text>
-    <text
-       id="text2892"
-       y="199.69872"
-       x="299.02118"
-       style="font-size:27.13738823px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
-       xml:space="preserve"
-       inkscape:export-filename="openchrom-splash.png"
-       inkscape:export-xdpi="90.040428"
-       inkscape:export-ydpi="90.040428"><tspan
-         y="199.69872"
-         x="299.02118"
-         id="tspan2894"
-         sodipodi:role="line"
-         style="font-size:10px;text-align:end;text-anchor:end">Preview Release</tspan></text>
     <g
-       id="g3949"
-       transform="translate(-8.8851186,2)">
-      <g
-         transform="matrix(0.77136202,0,0,0.77136202,81.849201,126.36992)"
-         id="g4109">
-        <text
-           xml:space="preserve"
-           style="font-size:9.3849926px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
-           x="433.83719"
-           y="128.08392"
-           id="text3093"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan3095"
-             x="433.83719"
-             y="128.08392">R</tspan></text>
-        <path
-           sodipodi:type="arc"
-           style="fill:none;stroke:#666666;stroke-opacity:1"
-           id="path3097"
-           sodipodi:cx="110.54395"
-           sodipodi:cy="190.95706"
-           sodipodi:rx="8.6298246"
-           sodipodi:ry="8.6298246"
-           d="m 119.17378,190.95706 c 0,4.76612 -3.86371,8.62983 -8.62983,8.62983 -4.76612,0 -8.62982,-3.86371 -8.62982,-8.62983 0,-4.76612 3.8637,-8.62982 8.62982,-8.62982 4.76612,0 8.62983,3.8637 8.62983,8.62982 z"
-           transform="matrix(0.66859053,0,0,0.66859053,363.1133,-2.9471442)" />
-      </g>
-      <g
-         transform="matrix(0.48135539,0,0,0.48135539,210.09507,209.60483)"
-         id="g3875">
-        <g
-           id="g3868">
-          <rect
-             ry="8.9145203"
-             y="30.75906"
-             x="26.025684"
-             height="37.67104"
-             width="53.657982"
-             style="fill:none;stroke:#990000;stroke-width:7.2554121;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-             id="rect3788" />
-          <text
-             transform="scale(0.98635298,1.0138358)"
-             sodipodi:linespacing="125%"
-             id="text3757"
-             y="71.025307"
-             x="87.746132"
-             style="font-size:60.54641342px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
-             xml:space="preserve"><tspan
-               style="font-weight:bold;-inkscape-font-specification:Arial Bold"
-               y="71.025307"
-               x="87.746132"
-               id="tspan3759"
-               sodipodi:role="line"><tspan
-                 id="tspan3848"
-                 style="fill:#990000;fill-opacity:1">OPEN</tspan><tspan
-                 id="tspan3850"
-                 style="font-weight:normal;fill:#333333;fill-opacity:1;-inkscape-font-specification:Arial">Chrom</tspan></tspan></text>
-        </g>
-        <path
-           style="fill:none;stroke:#333333;stroke-width:4.9000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-           d="m 11.609891,66.153541 c 0,0 18.537832,2.86762 23.55497,-0.775677 5.017139,-3.643298 4.607766,-18.954274 7.172145,-22.248049 2.564379,-3.293774 4.044248,21.704711 8.490709,17.673374 4.446461,-4.031337 3.544098,-22.962502 7.090902,-23.071407 3.546804,-0.108904 3.993178,13.782444 5.85901,19.621813 2.030985,6.356238 8.396837,3.366637 8.396837,3.366637"
-           id="path3761"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="czzzzsc" />
-      </g>
+       id="g3925"
+       transform="translate(0,-10)">
       <text
          sodipodi:linespacing="125%"
          id="text3901"
-         y="237.68169"
-         x="47.915115"
+         y="223.3"
+         x="179.63216"
          style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
          xml:space="preserve"><tspan
-           style="font-size:18px;fill:#333333;fill-opacity:1"
-           y="237.68169"
-           x="47.915115"
+           style="font-size:10px;fill:#333333;fill-opacity:1"
+           y="223.3"
+           x="179.63216"
            id="tspan3903"
            sodipodi:role="line">kindly supported by:</tspan></text>
+      <g
+         transform="translate(-1.1999329,6)"
+         id="g3881">
+        <g
+           id="g4109"
+           transform="matrix(0.77136202,0,0,0.77136202,-10.992075,125.98092)">
+          <text
+             sodipodi:linespacing="125%"
+             id="text3093"
+             y="128.08392"
+             x="433.83719"
+             style="font-size:9.3849926px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+             xml:space="preserve"><tspan
+               y="128.08392"
+               x="433.83719"
+               id="tspan3095"
+               sodipodi:role="line">R</tspan></text>
+          <path
+             transform="matrix(0.66859053,0,0,0.66859053,363.1133,-2.9471442)"
+             d="m 119.17378,190.95706 c 0,4.76612 -3.86371,8.62983 -8.62983,8.62983 -4.76612,0 -8.62982,-3.86371 -8.62982,-8.62983 0,-4.76612 3.8637,-8.62982 8.62982,-8.62982 4.76612,0 8.62983,3.8637 8.62983,8.62982 z"
+             sodipodi:ry="8.6298246"
+             sodipodi:rx="8.6298246"
+             sodipodi:cy="190.95706"
+             sodipodi:cx="110.54395"
+             id="path3097"
+             style="fill:none;stroke:#666666;stroke-opacity:1"
+             sodipodi:type="arc" />
+        </g>
+        <g
+           id="g3875"
+           transform="matrix(0.48135539,0,0,0.48135539,115.21577,209.67671)">
+          <g
+             id="g3868">
+            <rect
+               id="rect3788"
+               style="fill:none;stroke:#990000;stroke-width:7.2554121;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+               width="53.657982"
+               height="37.67104"
+               x="26.025684"
+               y="30.75906"
+               ry="8.9145203" />
+            <text
+               xml:space="preserve"
+               style="font-size:60.54641342px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+               x="87.746132"
+               y="71.025307"
+               id="text3757"
+               sodipodi:linespacing="125%"
+               transform="scale(0.98635298,1.0138358)"><tspan
+                 sodipodi:role="line"
+                 id="tspan3759"
+                 x="87.746132"
+                 y="71.025307"
+                 style="font-weight:bold;-inkscape-font-specification:Arial Bold"><tspan
+                   style="fill:#990000;fill-opacity:1"
+                   id="tspan3848">OPEN</tspan><tspan
+                   style="font-weight:normal;fill:#333333;fill-opacity:1;-inkscape-font-specification:Arial"
+                   id="tspan3850">Chrom</tspan></tspan></text>
+          </g>
+          <path
+             sodipodi:nodetypes="czzzzsc"
+             inkscape:connector-curvature="0"
+             id="path3761"
+             d="m 11.609891,66.153541 c 0,0 18.537832,2.86762 23.55497,-0.775677 5.017139,-3.643298 4.607766,-18.954274 7.172145,-22.248049 2.564379,-3.293774 4.044248,21.704711 8.490709,17.673374 4.446461,-4.031337 3.544098,-22.962502 7.090902,-23.071407 3.546804,-0.108904 3.993178,13.782444 5.85901,19.621813 2.030985,6.356238 8.396837,3.366637 8.396837,3.366637"
+             style="fill:none;stroke:#333333;stroke-width:4.9000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g3991"
+       transform="translate(0,-8)">
+      <text
+         inkscape:export-ydpi="90.040428"
+         inkscape:export-xdpi="90.040428"
+         inkscape:export-filename="openchrom-splash.png"
+         id="text3498"
+         y="185.311"
+         x="148.87079"
+         style="font-size:27.13738823px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         xml:space="preserve"><tspan
+           y="185.311"
+           x="148.87079"
+           id="tspan3500"
+           sodipodi:role="line"><tspan
+   id="tspan3066"
+   style="font-weight:bold;-inkscape-font-specification:Arial Bold">Chem</tspan>Clipse</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         inkscape:export-ydpi="90.040428"
+         inkscape:export-xdpi="90.040428"
+         inkscape:export-filename="openchrom-splash.png"
+         sodipodi:nodetypes="cszzszs"
+         id="path3504"
+         d="m 151.74172,149.16062 c 1.39659,-0.20357 2.66269,-1.3705 3.83669,-3.18943 8.88695,-13.76903 11.38569,-68.349589 27.48573,-18.33902 16.10005,50.01056 6.99841,-34.985807 24.66365,8.00463 17.7003,43.07577 17.41047,-42.87065 26.35988,-17.09454 24.64571,70.98477 15.37331,-13.65932 27.84925,13.62476 12.38352,27.08196 1.67327,8.02914 53.5772,13.12117"
+         style="fill:none;stroke:#ffffff;stroke-width:3.38321447;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         inkscape:export-ydpi="90.040428"
+         inkscape:export-xdpi="90.040428"
+         inkscape:export-filename="openchrom-splash.png"
+         xml:space="preserve"
+         style="font-size:27.13738823px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         x="149.60706"
+         y="162.21338"
+         id="text2452"><tspan
+           style="font-size:10px"
+           sodipodi:role="line"
+           id="tspan2454"
+           x="149.60706"
+           y="162.21338">Community Edition - Mattauch</tspan></text>
+      <text
+         inkscape:export-ydpi="90.040428"
+         inkscape:export-xdpi="90.040428"
+         inkscape:export-filename="openchrom-splash.png"
+         xml:space="preserve"
+         style="font-size:27.13738823px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         x="299.02118"
+         y="199.69872"
+         id="text2892"><tspan
+           style="font-size:10px;text-align:end;text-anchor:end"
+           sodipodi:role="line"
+           id="tspan2894"
+           x="299.02118"
+           y="199.69872">Preview Release</tspan></text>
     </g>
   </g>
 </svg>
