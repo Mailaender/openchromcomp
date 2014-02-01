@@ -214,11 +214,11 @@ http://www.eclipse.org/legal/epl-v10.html
          version="0.0.0"/>
 
    <includes
-         id="net.openchrom.chromatogram.msd.converter.supplier.cdf.feature"
+         id="net.openchrom.thirdpartylibraries.netcdf.feature"
          version="0.0.0"/>
 
    <includes
-         id="net.openchrom.thirdpartylibraries.netcdf.feature"
+         id="net.openchrom.chromatogram.msd.converter.supplier.cdf.feature"
          version="0.0.0"/>
 
    <includes
