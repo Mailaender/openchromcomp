@@ -29,13 +29,19 @@ SetCompressor lzma
 !endif
 
 #
+# Company
+#
+!define COMPANY_NAME "Lablicate UG (haftungsbeschränkt)"
+!define COMPANY_URL "http://www.lablicate.com"
+
+#
 # GENERAL SYMBOL DEFINITIONS
 #
 Name ${PACKAGE_NAME}
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION ${SOFTWARE_VERSION}
-!define COMPANY Lablicate UG (haftungsbeschränkt)
-!define URL http://www.lablicate.com
+!define COMPANY "${COMPANY_NAME}"
+!define URL "${COMPANY_URL}"
 
 #
 # SOURCE CODE, PROCESSOR DEFINITIONS
@@ -160,13 +166,13 @@ CRCCheck on
 XPStyle on
 ShowInstDetails show
 VIProductVersion 0.2.0.0
-VIAddVersionKey /LANG=${LANG_ENGLISH} ProductName ${PACKAGE_NAME}
+VIAddVersionKey /LANG=${LANG_ENGLISH} ProductName "${PACKAGE_NAME}"
 VIAddVersionKey /LANG=${LANG_ENGLISH} ProductVersion "${VERSION}"
 VIAddVersionKey /LANG=${LANG_ENGLISH} CompanyName "${COMPANY}"
 VIAddVersionKey /LANG=${LANG_ENGLISH} CompanyWebsite "${URL}"
 VIAddVersionKey /LANG=${LANG_ENGLISH} FileVersion "${VERSION}"
 VIAddVersionKey /LANG=${LANG_ENGLISH} FileDescription ""
-VIAddVersionKey /LANG=${LANG_ENGLISH} LegalCopyright "Lablicate UG (haftungsbeschränkt)"
+VIAddVersionKey /LANG=${LANG_ENGLISH} LegalCopyright "${COMPANY_NAME}"
 InstallDirRegKey HKLM "${REGKEY}" Path
 ShowUninstDetails show
 
@@ -242,7 +248,6 @@ Section -post SEC0001
     SetOutPath $SMPROGRAMS\$StartMenuGroup
     SetOutPath $INSTDIR
     CreateShortcut "$SMPROGRAMS\$StartMenuGroup\$(^UninstallLink).lnk" "$INSTDIR\uninstall.exe"
-    
     CreateShortCut "$SMPROGRAMS\$StartMenuGroup\${PACKAGE_NAME}.lnk" "$INSTDIR\${PACKAGE_NAME_LC}.exe"
     CreateShortCut "$DESKTOP\${PACKAGE_NAME}.lnk" "$INSTDIR\${PACKAGE_NAME_LC}.exe"
     CreateShortCut "$QUICKLAUNCH\${PACKAGE_NAME}.lnk" "$INSTDIR\${PACKAGE_NAME_LC}.exe"
@@ -397,9 +402,9 @@ Function .onInit
     InitPluginsDir
     !insertmacro MULTIUSER_INIT
     !if ${ARCHITECTURE} == x64
-      StrCpy $INSTDIR $PROGRAMFILES64
+      StrCpy $INSTDIR $PROGRAMFILES64\${PACKAGE_NAME}
     !else
-      StrCpy $INSTDIR $PROGRAMFILES
+      StrCpy $INSTDIR $PROGRAMFILES\${PACKAGE_NAME}
     !endif
 FunctionEnd
 
