@@ -25,8 +25,8 @@ identifier='0.9.0_prev'
 #
 build_folder='Compilation'
 path_repository='../../repository'
-path_compilation='../../../../net.openchrom.rcp.compilation.product'
-path_packaging='../../../../../packaging/net.openchrom.rcp.compilation.packaging'
+path_compilation='../../../../net.chemclipse.rcp.compilation.community.product'
+path_packaging='../../../../../packaging/net.chemclipse.rcp.compilation.community.packaging'
 #
 # Prepare and copy the build files
 #
