@@ -27,7 +27,7 @@
          </property>
          <property
                name="appName"
-               value="chemclipse Community Edition Mattauch - Preview Release">
+               value="ChemClipse Community Edition Mattauch - Preview Release">
          </property>
          <property
                name="preferenceCustomization"
@@ -35,7 +35,7 @@
          </property>
          <property
                name="applicationXMI"
-               value="net.chemclipse.rcp.app.ui/Application.e4xmi">
+               value="net.openchrom.rcp.app.ui/Application.e4xmi">
          </property>
          <property
                name="applicationCSS"
