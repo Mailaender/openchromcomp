@@ -34,4 +34,8 @@ http://www.eclipse.org/legal/epl-v10.html
          id="net.openchrom.thirdpartylibraries.jmol.feature"
          version="0.0.0"/>
 
+   <includes
+         id="net.openchrom.chromatogram.msd.identifier.supplier.cdk.feature"
+         version="0.0.0"/>
+
 </feature>
