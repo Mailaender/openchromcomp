@@ -11,7 +11,7 @@
          id="product"
          point="org.eclipse.core.runtime.products">
       <product
-            application="net.openchrom.rcp.app.ui.net.openchrom.rcp.application"
+            application="net.chemclipse.rcp.app.ui.net.chemclipse.rcp.application"
             name="ChemClipse Community Edition Mattauch - Preview Release">
          <property
                name="windowImages"
@@ -35,11 +35,11 @@
          </property>
          <property
                name="applicationXMI"
-               value="net.openchrom.rcp.app.ui/Application.e4xmi">
+               value="net.chemclipse.rcp.app.ui/Application.e4xmi">
          </property>
          <property
                name="applicationCSS"
-               value="platform:/plugin/net.openchrom.rcp.app.ui/css/openchrom.css">
+               value="platform:/plugin/net.chemclipse.rcp.app.ui/css/chemclipse.css">
          </property>     
       </product>
    </extension>
@@ -62,19 +62,19 @@
    <extension
          point="org.eclipse.ui.preferencePages">
       <page
-            category="net.openchrom.rcp.app.ui.preferences.settingsPreferencePage"      
+            category="net.chemclipse.rcp.app.ui.preferences.settingsPreferencePage"      
             class="net.chemclipse.rcp.compilation.community.ui.preferences.MarketplacePreferencePage"
             id="net.chemclipse.rcp.compilation.community.ui.preferences.marketplacePreferencePage"
-            name="OpenChrom Marketplace">
+            name="ChemClipse Marketplace">
       </page>
    </extension>
    <extension
          point="org.eclipse.epp.mpc.ui.catalog">
          <catalog
-		    description="Install new plug-ins from the OpenChrom marketplace."
+		    description="Install new plug-ins from the ChemClipse marketplace."
 		    icon="icons/logo_32x32.png"
-		    label="OpenChrom Marketplace"
-		    url="http://openchrom.dyndns.org/"
+		    label="ChemClipse Marketplace"
+		    url="http://chemclipse.dyndns.org/"
 		    selfContained="false">
 	    </catalog>
    </extension>

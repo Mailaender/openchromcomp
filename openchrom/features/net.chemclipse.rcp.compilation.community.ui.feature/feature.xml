@@ -3,13 +3,13 @@
       id="net.chemclipse.rcp.compilation.community.ui.feature"
       label="Feature"
       version="0.9.0.qualifier"
-      provider-name="OpenChrom">
+      provider-name="ChemClipse">
 
-   <description url="http://www.openchrom.net/compilation">
-      This is the OpenChrom UI feature to add the marketplace.
+   <description url="http://www.chemclipse.net/compilation">
+      This is the ChemClipse UI feature to add the marketplace.
    </description>
 
-   <copyright url="http://www.openchrom.net/compilation">
+   <copyright url="http://www.chemclipse.net/compilation">
       Copyright (c) 2014 Dr. Philip Wenig.
    </copyright>
 

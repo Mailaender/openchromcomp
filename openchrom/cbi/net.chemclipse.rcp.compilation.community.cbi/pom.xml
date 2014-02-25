@@ -21,9 +21,9 @@
   -->
   <name>ChemClipse</name>
   <description>
-	ChemClipse is an open source workbench to edit and modify chromatographic data. ChemClipse is kindly supported by OpenChrom.
+	ChemClipse is an open source workbench to edit and modify chromatographic data. ChemClipse is kindly supported by ChemClipse.
   </description>
-  <url>http://sourceforge.net/projects/openchrom</url>
+  <url>http://sourceforge.net/projects/chemclipse</url>
   <!--
 	LICENSES
   -->
