@@ -65,16 +65,16 @@
             category="net.chemclipse.rcp.app.ui.preferences.settingsPreferencePage"      
             class="net.chemclipse.rcp.compilation.community.ui.preferences.MarketplacePreferencePage"
             id="net.chemclipse.rcp.compilation.community.ui.preferences.marketplacePreferencePage"
-            name="ChemClipse Marketplace">
+            name="OpenChrom Marketplace">
       </page>
    </extension>
    <extension
          point="org.eclipse.epp.mpc.ui.catalog">
          <catalog
-		    description="Install new plug-ins from the ChemClipse marketplace."
+		    description="Install new plug-ins from the OpenChrom marketplace."
 		    icon="icons/logo_32x32.png"
-		    label="ChemClipse Marketplace"
-		    url="http://chemclipse.dyndns.org/"
+		    label="OpenChrom Marketplace"
+		    url="http://openchrom.dyndns.org/"
 		    selfContained="false">
 	    </catalog>
    </extension>
