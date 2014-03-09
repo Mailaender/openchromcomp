@@ -6,7 +6,7 @@
   <fragments xsi:type="fragment:StringModelFragment" xmi:id="_rXXqEHzzEeOENN5Yh22Wyw" featurename="handlers" parentElementId="net.chemclipse.rcp.ide.application">
     <elements xsi:type="commands:Handler" xmi:id="_tPN8gHzzEeOENN5Yh22Wyw" elementId="net.chemclipse.rcp.compilation.community.ui.handler.marketplace" contributionURI="bundleclass://net.chemclipse.rcp.compilation.community.ui/net.chemclipse.rcp.compilation.community.ui.handlers.MarketplaceHandler" command="_jzDkEHzzEeOENN5Yh22Wyw"/>
   </fragments>
-  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_9H7hoHzzEeOENN5Yh22Wyw" featurename="children" parentElementId="net.chemlipse.rcp.app.ui.menu.plugins">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_9H7hoHzzEeOENN5Yh22Wyw" featurename="children" parentElementId="net.chemclipse.rcp.app.ui.menu.plugins">
     <elements xsi:type="menu:HandledMenuItem" xmi:id="_DJRZAHz0EeOENN5Yh22Wyw" elementId="net.chemclipse.rcp.compilation.community.ui.handledmenuitem.marketplace" label="Marketplace" iconURI="platform:/plugin/net.chemclipse.rcp.ui.icons/icons/16x16/marketplace.gif" command="_jzDkEHzzEeOENN5Yh22Wyw"/>
   </fragments>
   <fragments xsi:type="fragment:StringModelFragment" xmi:id="_JGPGsHz0EeOENN5Yh22Wyw" featurename="children" parentElementId="net.chemclipse.rcp.app.ui.toolbar.perspectives">
