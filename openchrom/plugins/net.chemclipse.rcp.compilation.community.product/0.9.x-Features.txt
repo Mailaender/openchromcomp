@@ -6,7 +6,7 @@ LGPL	net.openchrom.thirdpartylibraries.biojava.feature
 LGPL	net.openchrom.thirdpartylibraries.jmol.feature
 
 === Compilation ===
-EPL	net.openchrom.supplier.cdk.feature
+EPL	net.chemclipse.chromatogram.msd.identifier.supplier.cdk.feature
 Apache	net.openchrom.thirdpartylibraries.apache.batik.feature
 Artistic	net.openchrom.thirdpartylibraries.opsin.feature
 Apache	net.openchrom.thirdpartylibraries.jmzml.feature
