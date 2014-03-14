@@ -17,14 +17,7 @@
       <programArgs>-clearPersistedState</programArgs>
       <vmArgs>-Xms128M
 -Xmx500M
--Dosgi.requiredJavaVersion=1.6
--Dosgi.install.area.readOnly
--Dosgi.instance.area=@user.home/ChemClipse/workspace
--Dosgi.user.area=@user.home/.chemclipse/0.9.0/Settings
--Dsun.awt.xembedserver=true
--DApplicationName=ChemClipse
--DApplicationWorkspaceFolder=ChemClipse
--DApplicationSettingsFolder=.chemclipse</vmArgs>
+-Dapplication.name=ChemClipse</vmArgs>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
    </launcherArgs>
 
@@ -80,6 +73,9 @@ Contributors:
       <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
       <plugin id="org.eclipse.update.configurator" autoStart="true" startLevel="4" />
       <property name="org.eclipse.update.reconcile" value="false" />
+      <property name="osgi.install.area.readOnly" value="" />
+      <property name="osgi.requiredJavaVersion" value="1.6" />
+      <property name="sun.awt.xembedserver" value="true" />
    </configurations>
 
 </product>
