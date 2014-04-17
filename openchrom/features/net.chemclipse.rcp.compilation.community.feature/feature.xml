@@ -245,4 +245,8 @@ http://www.eclipse.org/legal/epl-v10.html
          id="net.chemclipse.chromatogram.fid.converter.supplier.cdf.feature"
          version="0.0.0"/>
 
+   <includes
+         id="net.chemclipse.ux.feature"
+         version="0.0.0"/>
+
 </feature>
