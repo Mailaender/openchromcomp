@@ -38,7 +38,7 @@ http://www.eclipse.org/legal/epl-v10.html
          version="0.0.0"/>
 
    <includes
-         id="net.chemclipse.chromatogram.msd.converter.supplier.chemclipse.feature"
+         id="net.chemclipse.chromatogram.msd.converter.supplier.openchrom.feature"
          version="0.0.0"/>
 
    <includes
@@ -130,7 +130,7 @@ http://www.eclipse.org/legal/epl-v10.html
          version="0.0.0"/>
 
    <includes
-         id="net.chemclipse.chromatogram.msd.converter.supplier.chemclipsex.feature"
+         id="net.chemclipse.chromatogram.msd.converter.supplier.openchromx.feature"
          version="0.0.0"/>
 
    <includes
