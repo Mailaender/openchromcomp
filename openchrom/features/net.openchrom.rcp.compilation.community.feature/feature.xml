@@ -253,4 +253,8 @@ http://www.eclipse.org/legal/epl-v10.html
          id="net.chemclipse.chromatogram.xxd.peak.detector.supplier.thirdderivative.feature"
          version="0.0.0"/>
 
+   <includes
+         id="net.chemclipse.chromatogram.xxd.filter.supplier.amdiscalri.feature"
+         version="0.0.0"/>
+
 </feature>
