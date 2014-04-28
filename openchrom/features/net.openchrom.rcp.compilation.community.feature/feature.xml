@@ -66,30 +66,6 @@ http://www.eclipse.org/legal/epl-v10.html
          version="0.0.0"/>
 
    <includes
-         id="net.chemclipse.thirdpartylibraries.apache.commons.poi.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.thirdpartylibraries.apache.geronimo.stax.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.thirdpartylibraries.apache.xmlbeans.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.thirdpartylibraries.dom4j.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.thirdpartylibraries.supercsv.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.thirdpartylibraries.apache.xercesj.feature"
-         version="0.0.0"/>
-
-   <includes
          id="net.chemclipse.chromatogram.msd.filter.supplier.rtshifter.feature"
          version="0.0.0"/>
 
@@ -138,27 +114,11 @@ http://www.eclipse.org/legal/epl-v10.html
          version="0.0.0"/>
 
    <includes
-         id="net.chemclipse.thirdpartylibraries.groovy.feature"
-         version="0.0.0"/>
-
-   <includes
          id="net.chemclipse.chromatogram.msd.process.supplier.groovy.feature"
          version="0.0.0"/>
 
    <includes
-         id="net.chemclipse.thirdpartylibraries.pdfjet.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.thirdpartylibraries.proteomecommons.feature"
-         version="0.0.0"/>
-
-   <includes
          id="net.chemclipse.chromatogram.fid.converter.supplier.xy.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.rcp.app.feature"
          version="0.0.0"/>
 
    <includes
@@ -182,47 +142,11 @@ http://www.eclipse.org/legal/epl-v10.html
          version="0.0.0"/>
 
    <includes
-         id="net.chemclipse.thirdpartylibraries.opsin.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.thirdpartylibraries.apache.batik.feature"
-         version="0.0.0"/>
-
-   <includes
          id="net.chemclipse.chromatogram.msd.converter.supplier.mzml.feature"
          version="0.0.0"/>
 
    <includes
-         id="net.chemclipse.thirdpartylibraries.jmzml.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.thirdpartylibraries.apache.commons.io.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.thirdpartylibraries.xxindex.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.thirdpartylibraries.neuroph.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.thirdpartylibraries.netcdf.feature"
-         version="0.0.0"/>
-
-   <includes
          id="net.chemclipse.chromatogram.msd.converter.supplier.cdf.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.thirdpartylibraries.imagej.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.thirdpartylibraries.matlabcontrol.feature"
          version="0.0.0"/>
 
    <includes
@@ -234,10 +158,6 @@ http://www.eclipse.org/legal/epl-v10.html
          version="0.0.0"/>
 
    <includes
-         id="net.chemclipse.thirdpartylibraries.ejml.feature"
-         version="0.0.0"/>
-
-   <includes
          id="net.chemclipse.chromatogram.msd.process.supplier.pca.feature"
          version="0.0.0"/>
 
@@ -246,15 +166,15 @@ http://www.eclipse.org/legal/epl-v10.html
          version="0.0.0"/>
 
    <includes
-         id="net.chemclipse.ux.feature"
-         version="0.0.0"/>
-
-   <includes
          id="net.chemclipse.chromatogram.xxd.peak.detector.supplier.thirdderivative.feature"
          version="0.0.0"/>
 
    <includes
          id="net.chemclipse.chromatogram.xxd.filter.supplier.amdiscalri.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.rcp.compilation.community.base.feature"
          version="0.0.0"/>
 
 </feature>

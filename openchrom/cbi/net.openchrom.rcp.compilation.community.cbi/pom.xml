@@ -52,6 +52,7 @@
   -->
   <modules>
     <module>../../plugins/net.openchrom.rcp.compilation.community.ui</module>
+    <module>../../features/net.openchrom.rcp.compilation.community.base.feature</module>
     <module>../../features/net.openchrom.rcp.compilation.community.extras.feature</module>
     <module>../../features/net.openchrom.rcp.compilation.community.feature</module>
     <module>../../features/net.openchrom.rcp.compilation.community.ui.feature</module>    
