@@ -126,7 +126,7 @@ MS Subtract Filter 0.9.0:
 ---------------------------------------------
 Peak Detectors
 ---------------------------------------------
-Peak Detector #1 0.9.0:
+Peak Detector First Derivative 0.9.0:
 	http://sourceforge.net/projects/peakdetecchemst
 	Eclipse Public License (EPL) v1.0
 	http://www.eclipse.org/legal/epl-v10.html	
