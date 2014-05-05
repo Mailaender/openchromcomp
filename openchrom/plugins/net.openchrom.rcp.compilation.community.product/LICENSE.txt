@@ -1,4 +1,4 @@
-The release "ChemClipse Community Edition (0.9.0 Mattauch)" contains several additional plug-ins, published under
+The release "OpenChrom Community Edition (0.9.0 Mattauch)" contains several additional plug-ins, published under
 distinct OSI (http://www.opensource.org) approved open source licenses. All bundles and licenses of the 
 compilation are listed below. Furthermore, there is an OpenChrom marketplace available, where additional plug-ins
 can be fetched.
