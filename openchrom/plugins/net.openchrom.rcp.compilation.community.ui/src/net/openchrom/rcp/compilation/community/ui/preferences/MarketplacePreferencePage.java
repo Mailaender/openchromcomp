@@ -70,7 +70,7 @@ public class MarketplacePreferencePage extends FieldEditorPreferencePage impleme
 				messageBox.setMessage("Do you really want to add the marketplace?");
 				if(messageBox.open() == SWT.YES) {
 					try {
-						URL url = new URL("http://openchrom.dyndns.org/");
+						URL url = new URL("http://www.openchrom.net/");
 						CatalogDescriptor catalogDescriptor = new CatalogDescriptor(url, "OpenChrom Marketplace");
 						catalogDescriptor.setDescription("Install new plug-ins from the marketplace.");
 						catalogDescriptor.setIcon(Activator.imageDescriptorFromPlugin(Activator.PLUGIN_ID, "icons/logo_32x32.png"));
