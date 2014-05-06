@@ -78,7 +78,6 @@ echo "-----------------------------------"
     cp README.txt ./$package/$package_name/
     cp CHANGELOG.txt ./$package/$package_name/
     cp LICENSE.txt ./$package/$package_name/
-    cp bookmarks.xml ./$package/$package_name/
     cp INFO-TRADEMARK.txt ./$package/$package_name/
     cp DemoChromatogram.ocb ./$package/$package_name/
     cp keystore ./$package/$package_name/

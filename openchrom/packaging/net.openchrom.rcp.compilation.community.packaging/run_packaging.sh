@@ -39,7 +39,6 @@ cp -R $path_repository ./$build_folder
 cp $path_compilation/README.txt ./$build_folder/
 cp $path_compilation/CHANGELOG.txt ./$build_folder/
 cp $path_compilation/LICENSE.txt ./$build_folder/
-cp $path_compilation/bookmarks.xml ./$build_folder/
 cp $path_compilation/INFO-TRADEMARK.txt ./$build_folder/
 cp $path_compilation/DemoChromatogram.ocb ./$build_folder/
 cp $path_compilation/keystore ./$build_folder/

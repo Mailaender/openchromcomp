@@ -15,8 +15,8 @@
 
    <launcherArgs>
       <programArgs>-clearPersistedState</programArgs>
-      <vmArgs>-Xms128M
--Xmx500M
+      <vmArgs>-Xms256M
+-Xmx512M
 -Dapplication.name=OpenChromCE</vmArgs>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
    </launcherArgs>
