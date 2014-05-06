@@ -3,6 +3,24 @@ OpenChrom Community Edition
 ****************************************
 
 ----------------------------------------
+"0.9.0 Mattauch"
+----------------------------------------
+FID data is supported fully now.
+Libraries can be shown in a distinct editor. Library synonyms will be shown too.
+An AMDIS connector to detect deconvoluted peaks has been added.
+The Agilent ICP-MS is supported now.
+The Varian FID is supported in experimental status now.
+The Shimadzu FID format is supported now.
+The PerkinElmer FID is supported in experimental status now.
+The Arw FID is supported in now.
+An experimental ABSciex DAD has been added.
+It's possible to set Retention Indices now via the AMDIS *.cal file.
+A PCA editor to process *.ocb files has been added.
+A perspective to show chemical structures via the CDK package has been added.
+The mzML format has been added.
+The NetCDF FID format is supported now.
+
+----------------------------------------
 "0.8.0 Dempster"
 ----------------------------------------
 The OpenChrom *.ocb format has been updated to version 0.8.0.3 to include baseline signals too.
