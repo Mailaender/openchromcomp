@@ -32,10 +32,11 @@ public class PluginStartup implements IStartup {
 		 * Set unique new update sites.
 		 */
 		Map<String, String> updateSites = new HashMap<String, String>();
-		updateSites.put("ChemClipse", "http://updates.openchrom.net/chemclipse/0.9.x/repository");
-		updateSites.put("OpenChrom Keys", "http://updates.openchrom.net/plugins/keys/updates/0.9.x");
-		updateSites.put("OpenChrom Icons", "http://updates.openchrom.net/plugins/icons/updates/0.9.x"); // Enterprise Icons
-		updateSites.put("OpenChrom xIdent", "http://updates.openchrom.net/plugins/identifier/xident/updates/0.9.x");
+		updateSites.put("OpenChrom Community Edition", "http://update.openchrom.net/repositories/community/0.9.x/repository");
+		updateSites.put("OpenChrom 3rd Party Libraries", "http://update.openchrom.net/repositories/community/0.9.x/plugins/openchrom3rdpl"); // 3rd Party Libraries
+		updateSites.put("OpenChrom Keys", "http://update.openchrom.net/repositories/community/0.9.x/plugins/openchromkeys"); // Keys Support
+		updateSites.put("OpenChrom Icons", "http://update.openchrom.net/repositories/community/0.9.x/plugins/enterprisesupport"); // Enterprise Icons
+		updateSites.put("OpenChrom xIdent", "http://update.openchrom.net/repositories/community/0.9.x/plugins/xident"); // xIdent Support
 		updateSiteSupport.addProvisioningRepositories(updateSites);
 	}
 }
