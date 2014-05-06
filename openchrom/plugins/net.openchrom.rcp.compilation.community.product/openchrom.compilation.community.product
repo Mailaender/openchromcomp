@@ -60,7 +60,6 @@ Contributors:
    </plugins>
 
    <features>
-      <feature id="net.openchrom.rcp.compilation.community.extras.feature" version="0.9.0.qualifier"/>
       <feature id="net.openchrom.rcp.compilation.community.feature" version="0.9.0.qualifier"/>
       <feature id="net.openchrom.rcp.compilation.community.ui.feature" version="0.9.0.qualifier"/>
    </features>
