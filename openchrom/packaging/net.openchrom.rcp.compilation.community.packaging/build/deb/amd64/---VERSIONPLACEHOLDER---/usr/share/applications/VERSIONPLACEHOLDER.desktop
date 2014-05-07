@@ -8,4 +8,4 @@ Type=Application
 StartupNotify=true
 Icon=/usr/share/icons/hicolor/scalable/apps/---EXECUTABLEPLACEHOLDER---.svg
 Categories=GNOME;Application;Development;
-Name[de]=VERSIONPLACEHOLDER
+Name[de]=---PACKAGENAME---

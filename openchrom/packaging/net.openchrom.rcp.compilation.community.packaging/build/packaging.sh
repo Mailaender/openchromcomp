@@ -130,15 +130,14 @@ echo "-----------------------------------"
 #
 # Build deb packages
 #
-v_i386=$package_name_lc'_'$package_version'_i386'
-v_amd64=$package_name_lc'_'$package_version'_amd64'
-v_i386_opt=$v_i386'/opt/'$package_name'/'$version
-v_amd64_opt=$v_amd64'/opt/'$package_name'/'$version
-executable_placeholder=$package_name_lc
-version_placeholder=$package_name_lc'_'$version
-package_version_placeholder=$package_name_lc'_'$package_version
 # _ underscores are not allowed in the version
 deb_version=${version//_/-}
+v_i386=$package_name_lc'_'$package_version'_i386'
+v_amd64=$package_name_lc'_'$package_version'_amd64'
+v_i386_opt=$v_i386'/opt/'$package_name'/'$deb_version
+v_amd64_opt=$v_amd64'/opt/'$package_name'/'$deb_version
+executable_placeholder=$package_name_lc
+version_placeholder=$package_name_lc'_'$deb_version
 
 # Rename the executable placeholder in start.sh
 sed -i s/"---EXECUTABLEPLACEHOLDER---"/$executable_placeholder/g ./deb/start.sh
@@ -152,11 +151,11 @@ mv ./deb/amd64/---VERSIONPLACEHOLDER---/ ./deb/amd64/$v_amd64/
 mv ./deb/i386/$v_i386/opt/---PACKAGENAME--- ./deb/i386/$v_i386/opt/$package_name
 mv ./deb/amd64/$v_amd64/opt/---PACKAGENAME--- ./deb/amd64/$v_amd64/opt/$package_name
 #
-mv ./deb/i386/$v_i386/opt/$package_name/---VERSION--- ./deb/i386/$v_i386/opt/$package_name/$version
-mv ./deb/amd64/$v_amd64/opt/$package_name/---VERSION--- ./deb/amd64/$v_amd64/opt/$package_name/$version
+mv ./deb/i386/$v_i386/opt/$package_name/---VERSION--- ./deb/i386/$v_i386/opt/$package_name/$deb_version
+mv ./deb/amd64/$v_amd64/opt/$package_name/---VERSION--- ./deb/amd64/$v_amd64/opt/$package_name/$deb_version
 #
-sed -i s/"---VERSIONPLACEHOLDER---"/$version_placeholder/g ./deb/i386/$v_i386/DEBIAN/postinst
-sed -i s/"---VERSIONPLACEHOLDER---"/$version_placeholder/g ./deb/amd64/$v_amd64/DEBIAN/postinst
+sed -i s/"---VERSIONPLACEHOLDER---"/$deb_version/g ./deb/i386/$v_i386/DEBIAN/postinst
+sed -i s/"---VERSIONPLACEHOLDER---"/$deb_version/g ./deb/amd64/$v_amd64/DEBIAN/postinst
 sed -i s/"---PACKAGENAME---"/$package_name/g ./deb/i386/$v_i386/DEBIAN/postinst
 sed -i s/"---PACKAGENAME---"/$package_name/g ./deb/amd64/$v_amd64/DEBIAN/postinst
 sed -i s/"---EXECUTABLEPLACEHOLDER---"/$package_name_lc/g ./deb/i386/$v_i386/DEBIAN/postinst
@@ -185,8 +184,8 @@ mv ./deb/i386/$v_i386/usr/share/icons/hicolor/32x32/apps/EXECUTABLEPLACEHOLDER.p
 mv ./deb/amd64/$v_amd64/usr/share/icons/hicolor/32x32/apps/EXECUTABLEPLACEHOLDER.png ./deb/amd64/$v_amd64/usr/share/icons/hicolor/32x32/apps/$package_name_lc.png
 mv ./deb/i386/$v_i386/usr/share/icons/hicolor/48x48/apps/EXECUTABLEPLACEHOLDER.png ./deb/i386/$v_i386/usr/share/icons/hicolor/48x48/apps/$package_name_lc.png
 mv ./deb/amd64/$v_amd64/usr/share/icons/hicolor/48x48/apps/EXECUTABLEPLACEHOLDER.png ./deb/amd64/$v_amd64/usr/share/icons/hicolor/48x48/apps/$package_name_lc.png
-mv ./deb/i386/$v_i386/usr/share/icons/hicolor/scalable/apps/EXECUTABLEPLACEHOLDER.svg ./deb/i386/$v_i386/usr/share/icons/hicolor/48x48/apps/$package_name_lc.svg
-mv ./deb/amd64/$v_amd64/usr/share/icons/hicolor/scalable/apps/EXECUTABLEPLACEHOLDER.svg ./deb/amd64/$v_amd64/usr/share/icons/hicolor/48x48/apps/$package_name_lc.svg
+mv ./deb/i386/$v_i386/usr/share/icons/hicolor/scalable/apps/EXECUTABLEPLACEHOLDER.svg ./deb/i386/$v_i386/usr/share/icons/hicolor/scalable/apps/$package_name_lc.svg
+mv ./deb/amd64/$v_amd64/usr/share/icons/hicolor/scalable/apps/EXECUTABLEPLACEHOLDER.svg ./deb/amd64/$v_amd64/usr/share/icons/hicolor/scalable/apps/$package_name_lc.svg
 
 # Remove the INFO.txt. It is used by Git only.
 rm ./deb/i386/$v_i386_opt'/INFO.txt'
@@ -229,25 +228,12 @@ alien -r --scripts $v_i386.deb
 alien -r --scripts $v_amd64.deb
 
 #
-# Replace package name and identifier in packaging_debs_as_root.sh
-#
-sed -i s/"---VERSIONPLACEHOLDER---"/$package_version_placeholder/g packaging_debs_as_root.sh
-
-#
 # INFO - deb files need root:root as owner and group
 # md5sums - 0644
 #
 echo "----------------------------------"
-echo "PLEASE RE-RUN THE DEB / RPM BUILDING"
-echo ""
-echo "sudo chown -R root:root deb/"
-echo "sudo chmod 0644 deb/.../"$package_name_lc".../DEBIAN/md5sums"
-echo "sudo chmod 0755 deb/.../"$package_name_lc".../DEBIAN/postinst"
-echo "sudo chmod 0755 deb/.../"$package_name_lc".../DEBIAN/prerm"
-echo "sudo dpkg -b ..."
-echo "sudo alien -r --scripts ..."
-echo ""
-echo "Use packaging_debs_as_root.sh"
+echo "PLEASE RE-RUN THE DEB / RPM BUILDING AS SUDO"
+echo "sudo ./packaging_debs_as_root.sh "$package_name" "$identifier
 echo "----------------------------------"
 
 
