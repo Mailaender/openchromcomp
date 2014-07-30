@@ -177,4 +177,12 @@ http://www.eclipse.org/legal/epl-v10.html
          id="net.chemclipse.chromatogram.msd.comparison.supplier.distance.feature"
          version="0.0.0"/>
 
+   <includes
+         id="net.chemclipse.chromatogram.xxd.calculator.supplier.noise.dyson.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.chemclipse.chromatogram.xxd.calculator.supplier.noise.stein.feature"
+         version="0.0.0"/>
+
 </feature>
