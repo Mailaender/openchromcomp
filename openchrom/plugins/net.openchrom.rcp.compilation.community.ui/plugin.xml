@@ -12,7 +12,7 @@
          point="org.eclipse.core.runtime.products">
       <product
             application="net.chemclipse.rcp.app.ui.net.chemclipse.rcp.application"
-            name="OpenChrom Community Edition (Mattauch) - Preview Release">
+            name="OpenChrom Community Edition (Mattauch)">
          <property
                name="windowImages"
                value="icons/logo_16x16.png,icons/logo_32x32.png,icons/logo_48x48.png,icons/logo_64x64.png,icons/logo_128x128.png">
@@ -27,7 +27,7 @@
          </property>
          <property
                name="appName"
-               value="OpenChrom Community Edition (Mattauch) - Preview Release">
+               value="OpenChrom Community Edition (Mattauch)">
          </property>
          <property
                name="preferenceCustomization"
