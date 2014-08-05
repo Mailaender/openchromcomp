@@ -1,0 +1,235 @@
+****************************************
+OpenChrom Community Edition
+****************************************
+
+----------------------------------------
+"0.9.0 Mattauch"
+----------------------------------------
+FID data is supported fully now.
+Libraries can be shown in a distinct editor. Library synonyms will be shown too.
+An AMDIS connector to detect deconvoluted peaks has been added.
+The Agilent ICP-MS is supported now.
+The Varian FID is supported in experimental status now.
+The Shimadzu FID format is supported now.
+The PerkinElmer FID is supported in experimental status now.
+The Arw FID is supported in now.
+An experimental ABSciex DAD has been added.
+It's possible to set Retention Indices now via the AMDIS *.cal file.
+A PCA editor to process *.ocb files has been added.
+A perspective to show chemical structures via the CDK package has been added.
+The mzML format has been added.
+The NetCDF FID format is supported now.
+
+----------------------------------------
+"0.8.0 Dempster"
+----------------------------------------
+The OpenChrom *.ocb format has been updated to version 0.8.0.3 to include baseline signals too.
+
+Methods in the peak/chromatogram integrator have been optimized. There is a check-box now, whether to include/exclude the background of the peak to the integrated area.
+
+The ion 0 is displayed as "TIC" now.
+
+The report formats the values with country specific encoding too.
+
+All listed values are formatted with country specific encoding.
+
+The NIST connector has been improved to parse the substance names without UTF-8 / ISO-8859-1 problems.
+
+OpenChrom offers an enhanced quantitation support now.
+
+The Perkin-Elmer "*.idx" chromatogram format is supported now.
+
+The VG "*.DAT_001;1" chromatogram format is supported now.
+
+The Finnigan "*.RAW" chromatogram format is supported now.
+
+The Finnigan MAT95 "*.dat" chromatogram format is supported now.
+
+The Agilent FID "*.ch" chromatogram format is supported now.
+
+The Bruker Flex "fid" mass spectrum format is supported now.
+
+The Chromtech "*.dat" chromatogram format is supported now.
+
+The JCAMP-DX "*.JDX" chromatogram format is supported now.
+
+The Waters "*.IDX" chromatogram format is supported now.
+
+Two normalizing filters have been added.
+
+A view has been added to display chromatograms by selected ions.
+
+OpenChrom has been migrated to Eclipse 4.3.0 Kepler.
+
+OpenChrom is based on Java 6 again to support Mac OS X users.
+
+The report supplier has been optimized.
+
+Web-Views for SciFinder, MassBank and MaSC are available.
+
+There is an option to import chromatograms to *.ocb format.
+
+There is an option to open several chromatogram in one step.
+
+The database plug-in ChromIdent, MultiScanIdent and PeakIdent offer support for remote databases now.
+
+----------------------------------------
+"0.7.0 Nernst"
+----------------------------------------
+A new peak integrator (PeakMax) has been added.
+
+The Varian XMS "*.xms" chromatogram format is supported now.
+
+The Shimadzu "*.qgd" chromatogram format is supported now.
+
+The serial key input form shows the product more clearly now.
+
+An own file format "*.ocb" has been created to store the chromatogram, the edit history, the detected and integrated peaks as well as the identification results. This makes it possible to share results with collaborators.
+
+A view to show the mass spectrum of the selected peak has been added.
+
+The selected peak and its background will be plotted in the chromatogram editor now. There is also an additional view to show the selected peak (red) with its background (black) in front of the chromatogram selection (gray). A separate view for the selected peaks is available too.
+
+There is a view to show the m/z - abundance values as a list available now.
+
+OpenChrom supports to store high precision m/z values now.
+
+The overlay view displays the selected chromatograms even if they have the same names now.
+
+A chromatogram heatmap (x -> m/z, y -> scans) is available now.
+
+An ion range can be added in the ion remover preference list. There's is also a button to clear the list now.
+
+There is a report extension point available now. Hence, plug-ins for specialized reporting can be included now. Furthermore, a report export wizard is available and an option to report chromatograms in the batch processor. 
+
+A support for Groovy scripts has been added. Groovy scripts can be used as a powerful alternative to ChemStation macros.
+
+The NetCDF converter is available from the marketplace now.
+
+A menu entry to delete unidentified peaks has been added.
+
+----------------------------------------
+"0.6.0 Synge"
+----------------------------------------
+OpenChrom has been ported from Eclipse 3.6.2 base to Eclipse 3.7.2 (Indigo SR2).
+
+The application is now based on JavaSE-1.7 instead of JavaSE-1.6.
+
+OpenChrom contains now a peak list identifier batch job.
+
+It's not necessary anymore to install the Keys plug-in before installing other plug-ins.
+
+OpenChrom has an update functionality now.
+
+SWTChart has been updated to version 0.8.0.
+
+Apache Commons Math has been updated to version 3.0.0.
+
+It's now possible to export chromatogram peaks to *.mpl format.
+
+It's also possible to export chromatogram peaks to *.msp format. The *.msp format can be used to import peaks into the NIST-DB.
+
+A converter to import and export zipped chromatograms has been added.
+
+It's now possible to export chromatograms to PDF format.
+
+There's a chromatogram database plug-in available now.
+
+----------------------------------------
+"0.5.0 Martin"
+----------------------------------------
+OpenChrom supports classifier now. In contrast to filters, classifier do not change the chromatographic data. They are used to determine e.g. the nitrogen percentage.
+
+There are retention time shift methods available now. It's possible to shift retention times forwards and backwards. The values to shift forwards and backwards can be stored in the settings dialog.
+
+It's now possible to switch the color of the selected position marker in the chromatogram editor. Furthermore, it shows now the retention time in milliseconds too.
+
+Now, the CODA and Backfolding algorithms are available as separate filter plug-ins.
+
+A toolbar icon has been added to take a image snapshot of the selected view or editor. The image will be stored in the clipboard after taking it. 
+
+A sum area integrator has been added to integrate the complete area of selected ions.
+
+The integration results view looks better now.
+
+A Microsoft office connector plug-in allows to connect to an existing office package. It enables to edit Word or Excel files without leaving the OpenChrom workbench.
+
+Some more plug-ins are now available in the marketplace.
+
+----------------------------------------
+"0.4.0 Tswett"
+----------------------------------------
+OpenChrom has been switched to Git version control system.
+
+A configuration settings page has been added to enable OpenChrom using internet proxy connections.  
+
+It's now possible to install features using the eclipse market place. An OpenChrom marketplace is now available too.
+
+A batch processor has been added.
+
+The chromatogram editor shows now the position of the selected scan.
+It shows the selected retention time (minutes) and abundance if the cursor moves over the chromatogram.
+
+The chromatogram editor shows the position of the detected peaks.
+
+A manual peak detection is now available.
+
+The scan mass spectrum view has now a label to show the scan number, retention time, retention index and total signal.
+
+There are now 3 different scan mass spectrum views available (nominal, accurate and exact). Furthermore, 3 views have been added and modified to show selected nominal, accurate or exact mass fragments.
+
+Three different perspectives are also available now to show mass spectra (scans) and selected mass fragment view in nominal, accurate and exact modus.
+
+It's now possible to show selected mass fragments in the "selected chromatogram ion view" by clicking on the mass fragment in the mass spectrum view. By clicking twice on it, it'll be removed.
+
+A logging perspective has been added to handle and show the log files.
+
+----------------------------------------
+"0.3.0 Wien"
+----------------------------------------
+OpenChrom has been ported from Eclipse 3.5.1 base to Eclipse 3.6 (Helios). 
+
+A "Edit History" view is now available.
+
+The S/N values of each peak will be now displayed in the peak values list view.
+
+It is now possible to select accurate mass fragment values and show them in the selected accurate mass fragment chromatogram view.
+
+Each user has now his own settings and is able to install software without getting in conflict with other local OpenChrom users.
+
+A Savitzky-Golay filter has been added.
+
+A denoising filter has been added.
+
+The NetCDF file reader has been improved.
+
+A chromatogram overlay view has been added.
+
+----------------------------------------
+"0.2.0 Goldstein"
+----------------------------------------
+Perspectives and views will be shown automatically on certain actions (baseline detection, mass fragment remover filter, ...).
+The user can choose if he wants to select the perspectives and views automatically.
+
+Views can be restored/shown using the view button on the lower left part of the application.
+
+The ionXML chromatogram file format is supported now.
+
+Some new features (ionXML support) have been added, but the download size has been shrunken from ~80MB to ~63MB.
+
+Peak list and integration results can now be exported using the context menu or CTRL+C & CTRL+V (copy & paste).
+
+The peak list can now be sorted by its columns.
+
+Detected peaks will be not added twice if they are still in the list.
+
+Chromatograms can be saved using CTRL+S without opening the interactive file dialog.
+
+Progress monitor support has been added for the import and export of chromatograms, background detectors, filters, peak detectors and integrators.
+
+Some basic help entries have been added.
+
+----------------------------------------
+"0.1.0 Thomson"
+----------------------------------------
+Initial release.

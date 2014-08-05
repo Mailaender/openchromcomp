@@ -1,0 +1,16 @@
+Maven/Tycho is used to compile the product.
+After a successful build, there is a folder called "target" which contains among others the folders:
+
+products
+repository
+
+Please navigate to products. There is a folder called:
+
+net.openchrom.rcp.compilation.product.id
+
+Please copy run_packaging.sh to the folder and edit the source code path. Then run the script, e.g. as a Hudson shell script:
+
+cd openchrom/plugins/net.openchrom.rcp.compilation.product/target/products/net.openchrom.rcp.compilation.product.id/
+cp ../../../../../packaging/net.openchrom.rcp.compilation.packaging/run_packaging.sh run_packaging.sh
+chmod a+x run_packaging.sh
+./run_packaging.sh

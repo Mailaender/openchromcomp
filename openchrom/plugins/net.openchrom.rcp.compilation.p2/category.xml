@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<site>
-   <feature url="features/net.openchrom.rcp.compilation.feature_0.8.0.qualifier.jar" id="net.openchrom.rcp.compilation.feature" version="0.8.0.qualifier">
-      <category name="additional_category"/>
-   </feature>
-   <category-def name="additional_category" label="Additional Components"/>
-</site>

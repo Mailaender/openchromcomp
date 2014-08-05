@@ -1,0 +1,4 @@
+#!/bin/sh
+
+groupadd ---EXECUTABLEPLACEHOLDER---
+chown -R $(whoami):---EXECUTABLEPLACEHOLDER--- /opt/---PACKAGENAME---/---VERSIONPLACEHOLDER---/
