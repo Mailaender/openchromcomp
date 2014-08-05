@@ -32,11 +32,11 @@ public class PluginStartup implements IStartup {
 		 * Set unique new update sites.
 		 */
 		Map<String, String> updateSites = new HashMap<String, String>();
-		updateSites.put("OpenChrom Community Edition", "http://update.openchrom.net/repositories/community/0.9.x/repository");
-		updateSites.put("OpenChrom 3rd Party Libraries", "http://update.openchrom.net/repositories/community/0.9.x/plugins/openchrom3rdpl"); // 3rd Party Libraries
-		updateSites.put("OpenChrom Keys", "http://update.openchrom.net/repositories/community/0.9.x/plugins/openchromkeys"); // Keys Support
-		updateSites.put("OpenChrom Icons", "http://update.openchrom.net/repositories/community/0.9.x/plugins/enterprisesupport"); // Enterprise Icons
-		updateSites.put("OpenChrom xIdent", "http://update.openchrom.net/repositories/community/0.9.x/plugins/xident"); // xIdent Support
+		updateSites.put("OpenChrom Community Edition", "http://update.openchrom.net/repositories/community/1.0.x/repository");
+		updateSites.put("OpenChrom 3rd Party Libraries", "http://update.openchrom.net/repositories/community/1.0.x/plugins/openchrom3rdpl"); // 3rd Party Libraries
+		updateSites.put("OpenChrom Keys", "http://update.openchrom.net/repositories/community/1.0.x/plugins/openchromkeys"); // Keys Support
+		updateSites.put("OpenChrom Icons", "http://update.openchrom.net/repositories/community/1.0.x/plugins/enterprisesupport"); // Enterprise Icons
+		updateSites.put("OpenChrom xIdent", "http://update.openchrom.net/repositories/community/1.0.x/plugins/xident"); // xIdent Support
 		updateSiteSupport.addProvisioningRepositories(updateSites);
 	}
 }

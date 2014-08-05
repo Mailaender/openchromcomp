@@ -23,7 +23,7 @@ echo "Compilation - Start"
 # _rel
 #
 package_name='OpenChrom'
-identifier='0.9.0_rel'
+identifier='1.0.0_prev'
 #
 build_folder='Compilation'
 path_repository='../../repository'

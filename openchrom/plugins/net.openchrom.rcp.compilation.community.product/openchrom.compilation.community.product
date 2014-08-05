@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="OpenChrom Community Edition (Mattauch)" uid="net.openchrom.rcp.compilation.community.product.id" id="net.openchrom.rcp.compilation.community.ui.product" application="net.chemclipse.rcp.app.ui.net.chemclipse.rcp.application" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
+<product name="OpenChrom Community Edition (Aston) - Preview" uid="net.openchrom.rcp.compilation.community.product.id" id="net.openchrom.rcp.compilation.community.ui.product" application="net.chemclipse.rcp.app.ui.net.chemclipse.rcp.application" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
       <image path="/net.openchrom.rcp.compilation.community.ui/icons/about_250x330.png"/>
       <text>
-         OpenChrom Community Edition (Mattauch) - the open source software for chromatography and mass spectrometry
+         OpenChrom Community Edition (Aston) - the open source software for chromatography and mass spectrometry
       </text>
    </aboutInfo>
 
@@ -19,8 +19,8 @@
 -Xmx512M
 -Dosgi.install.area.readOnly
 -Dapplication.name=OpenChrom_Community_Edition
--Dosgi.instance.area=@user.home/OpenChromCE/0.9.x
--Dosgi.user.area=@user.home/.openchromce/0.9.x</vmArgs>
+-Dosgi.instance.area=@user.home/OpenChromCE/1.0.x
+-Dosgi.user.area=@user.home/.openchromce/1.0.x</vmArgs>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
    </launcherArgs>
 
@@ -40,6 +40,7 @@
             winLargeLow="/net.openchrom.rcp.compilation.community.product/icons/windows/48x48-8.bmp"/>
       </win>
    </launcher>
+
 
    <vm>
    </vm>

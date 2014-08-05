@@ -12,14 +12,14 @@
          point="org.eclipse.core.runtime.products">
       <product
             application="net.chemclipse.rcp.app.ui.net.chemclipse.rcp.application"
-            name="OpenChrom Community Edition (Mattauch)">
+            name="OpenChrom Community Edition (Aston) - Preview">
          <property
                name="windowImages"
                value="icons/logo_16x16.png,icons/logo_32x32.png,icons/logo_48x48.png,icons/logo_64x64.png,icons/logo_128x128.png">
          </property>
          <property
                name="aboutText"
-               value="OpenChrom Community Edition (Mattauch) - the open source software for chromatography and mass spectrometry">
+               value="OpenChrom Community Edition (Aston) - the open source software for chromatography and mass spectrometry">
          </property>
          <property
                name="aboutImage"
@@ -27,7 +27,7 @@
          </property>
          <property
                name="appName"
-               value="OpenChrom Community Edition (Mattauch)">
+               value="OpenChrom Community Edition (Aston)">
          </property>
          <property
                name="preferenceCustomization"
