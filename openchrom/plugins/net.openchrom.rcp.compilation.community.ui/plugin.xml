@@ -27,11 +27,7 @@
          </property>
          <property
                name="appName"
-               value="OpenChrom Community Edition (Aston)">
-         </property>
-         <property
-               name="preferenceCustomization"
-               value="plugin_customization.ini">
+               value="OpenChrom Community Edition (Aston) - Preview">
          </property>
          <property
                name="applicationXMI"
