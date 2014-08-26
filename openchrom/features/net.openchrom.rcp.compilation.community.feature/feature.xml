@@ -185,4 +185,20 @@ http://www.eclipse.org/legal/epl-v10.html
          id="net.chemclipse.chromatogram.xxd.calculator.supplier.noise.stein.feature"
          version="0.0.0"/>
 
+   <includes
+         id="net.chemclipse.msd.converter.supplier.animl.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.chemclipse.msd.converter.supplier.massbank.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.chemclipse.msd.converter.supplier.mzdata.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.chemclipse.msd.converter.supplier.mz5.feature"
+         version="0.0.0"/>
+
 </feature>
