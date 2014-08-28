@@ -25,11 +25,13 @@ public class PluginStartup implements IStartup {
 
 		UpdateSiteSupport updateSiteSupport = new UpdateSiteSupport();
 		/*
-		 * Remove all existing update sites.
-		 */
-		updateSiteSupport.removeProvisioningRepositories();
-		/*
 		 * Set unique new update sites.
+		 * 
+		 * Marketplace Plugins
+		 * Don't remove the provisioning repositories to enable that
+		 * additionally installed plugins can be updated.
+		 * 
+		 * updateSiteSupport.removeProvisioningRepositories();
 		 */
 		Map<String, String> updateSites = new HashMap<String, String>();
 		updateSites.put("OpenChrom Community Edition", "http://update.openchrom.net/repositories/community/1.0.x/repository");
