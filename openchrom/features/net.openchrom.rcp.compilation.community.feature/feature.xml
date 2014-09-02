@@ -22,183 +22,22 @@ http://www.eclipse.org/legal/epl-v10.html
    </license>
 
    <includes
-         id="net.chemclipse.chromatogram.msd.baseline.detector.supplier.smoothed.feature"
+         id="net.chemclipse.rcp.compilation.feature.core"
          version="0.0.0"/>
-
+         
    <includes
-         id="net.chemclipse.chromatogram.msd.filter.supplier.ionremover.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.chromatogram.xxd.integrator.supplier.trapezoid.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.chromatogram.xxd.peak.detector.supplier.firstderivative.feature"
-         version="0.0.0"/>
-
+         id="net.chemclipse.rcp.compilation.feature.marketplace"
+         version="0.0.0"/>         
+         
    <includes
          id="net.openchrom.xxd.converter.supplier.openchrom.feature"
          version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.msd.converter.supplier.mzxml.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.msd.converter.supplier.amdis.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.chromatogram.msd.filter.supplier.denoising.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.chromatogram.msd.filter.supplier.savitzkygolay.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.chromatogram.msd.peak.detector.supplier.manual.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.chromatogram.msd.classifier.supplier.wnc.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.chromatogram.msd.filter.supplier.rtshifter.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.chromatogram.msd.integrator.supplier.sumarea.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.rcp.connector.supplier.microsoft.office.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.chromatogram.msd.filter.supplier.coda.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.chromatogram.msd.filter.supplier.backfolding.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.msd.converter.supplier.matlab.parafac.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.chromatogram.msd.process.supplier.peakidentification.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.chromatogram.msd.comparison.supplier.incos.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.chromatogram.msd.process.supplier.batchprocess.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.chromatogram.msd.integrator.supplier.peakmax.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.msd.converter.supplier.openchromx.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.chromatogram.xxd.report.supplier.openchrom.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.chromatogram.msd.process.supplier.groovy.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.fid.converter.supplier.xy.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.msd.converter.supplier.jcampdx.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.chromatogram.msd.quantitation.supplier.chemclipse.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.chromatogram.msd.identifier.supplier.manual.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.chromatogram.xxd.baseline.detector.supplier.snip.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.chromatogram.msd.filter.supplier.subtract.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.msd.converter.supplier.mzml.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.msd.converter.supplier.cdf.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.msd.converter.supplier.svg.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.chromatogram.msd.process.supplier.pca.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.fid.converter.supplier.cdf.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.chromatogram.xxd.filter.supplier.amdiscalri.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.openchrom.rcp.compilation.community.base.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.chromatogram.fid.filter.supplier.zeroset.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.chromatogram.msd.comparison.supplier.distance.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.chromatogram.xxd.calculator.supplier.noise.dyson.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.chromatogram.xxd.calculator.supplier.noise.stein.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.msd.converter.supplier.animl.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.msd.converter.supplier.massbank.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.msd.converter.supplier.mzdata.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.chemclipse.msd.converter.supplier.mz5.feature"
-         version="0.0.0"/>
+         
+   <plugin
+         id="net.openchrom.rcp.compilation.community.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>                  
 
 </feature>

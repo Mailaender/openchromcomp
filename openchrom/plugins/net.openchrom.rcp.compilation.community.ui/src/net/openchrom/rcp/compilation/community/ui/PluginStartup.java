@@ -26,11 +26,9 @@ public class PluginStartup implements IStartup {
 		UpdateSiteSupport updateSiteSupport = new UpdateSiteSupport();
 		/*
 		 * Set unique new update sites.
-		 * 
 		 * Marketplace Plugins
 		 * Don't remove the provisioning repositories to enable that
 		 * additionally installed plugins can be updated.
-		 * 
 		 * updateSiteSupport.removeProvisioningRepositories();
 		 */
 		Map<String, String> updateSites = new HashMap<String, String>();

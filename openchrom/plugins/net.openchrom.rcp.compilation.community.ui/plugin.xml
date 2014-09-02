@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin>
    <extension
-         id="net.openchrom.rcp.compilation.community.ui.modelContribution"
-         point="org.eclipse.e4.workbench.model">
-      <fragment
-            uri="fragment.e4xmi">
-      </fragment>
-   </extension>
-   <extension
          id="product"
          point="org.eclipse.core.runtime.products">
       <product
@@ -54,15 +47,6 @@
          point="org.eclipse.ui.startup">
       <startup
             class="net.openchrom.rcp.compilation.community.ui.PluginStartup"></startup>
-   </extension>    
-   <extension
-         point="org.eclipse.ui.preferencePages">
-      <page
-            category="net.chemclipse.rcp.app.ui.preferences.settingsPreferencePage"      
-            class="net.openchrom.rcp.compilation.community.ui.preferences.MarketplacePreferencePage"
-            id="net.openchrom.rcp.compilation.community.ui.preferences.marketplacePreferencePage"
-            name="OpenChrom Marketplace">
-      </page>
    </extension>
    <extension
          point="org.eclipse.epp.mpc.ui.catalog">
