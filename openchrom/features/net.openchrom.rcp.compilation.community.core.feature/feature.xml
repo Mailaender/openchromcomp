@@ -47,6 +47,10 @@ http://www.eclipse.org/legal/epl-v10.html
          
    <includes
          id="net.openchrom.thirdpartylibraries.matlabcontrol.feature"
-         version="0.0.0"/>             
+         version="0.0.0"/>
+         
+   <includes
+         id="net.openchrom.thirdpartylibraries.supercsv.feature"
+         version="0.0.0"/>               
 
 </feature>
