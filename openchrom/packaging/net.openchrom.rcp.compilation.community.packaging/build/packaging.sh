@@ -92,7 +92,6 @@ echo "-----------------------------------"
 releaseOsPackage linux.gtk.x86
 releaseOsPackage linux.gtk.x86_64
 releaseOsPackage macosx.cocoa.ppc
-releaseOsPackage macosx.cocoa.x86
 releaseOsPackage macosx.cocoa.x86_64
 releaseOsPackage solaris.gtk.x86
 releaseOsPackage win32.win32.x86
