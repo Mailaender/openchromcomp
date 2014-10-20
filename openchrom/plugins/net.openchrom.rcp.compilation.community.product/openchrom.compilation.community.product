@@ -44,6 +44,7 @@
       </win>
    </launcher>
 
+
    <vm>
    </vm>
 
@@ -80,5 +81,13 @@ Contributors:
       <property name="osgi.requiredJavaVersion" value="1.6" />
       <property name="sun.awt.xembedserver" value="true" />
    </configurations>
+
+   <preferencesInfo>
+      <targetfile overwrite="false"/>
+   </preferencesInfo>
+
+   <cssInfo>
+      <file path="/net.chemclipse.rcp.app.ui/css/chemclipse.css"/>
+   </cssInfo>
 
 </product>
