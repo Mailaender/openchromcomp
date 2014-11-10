@@ -73,7 +73,7 @@ public class MarketplacePreferencePage extends FieldEditorPreferencePage impleme
 						URL url = new URL("http://www.openchrom.net/");
 						CatalogDescriptor catalogDescriptor = new CatalogDescriptor(url, "OpenChrom Marketplace");
 						catalogDescriptor.setDescription("Install new plug-ins from the marketplace.");
-						catalogDescriptor.setIcon(Activator.imageDescriptorFromPlugin(Activator.PLUGIN_ID, "icons/logo_32x32.png"));
+						catalogDescriptor.setIcon(Activator.imageDescriptorFromPlugin(Activator.getDefault().getBundle().getSymbolicName(), "icons/logo_32x32.png"));
 						catalogDescriptor.setInstallFromAllRepositories(false);
 						MarketplaceClient.addCatalogDescriptor(catalogDescriptor);
 					} catch(MalformedURLException e1) {
