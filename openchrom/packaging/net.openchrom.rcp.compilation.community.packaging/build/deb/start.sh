@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #*******************************************************************************
-# Copyright (c) 2014 Lablicate UG (haftungsbeschränkt).
+# Copyright (c) 2014, 2015 Lablicate UG (haftungsbeschränkt).
 #
 # All rights reserved.
 # 
