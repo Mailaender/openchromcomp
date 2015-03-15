@@ -65,4 +65,8 @@ http://www.eclipse.org/legal/epl-v10.html
          id="net.openchrom.chromatogram.msd.process.supplier.jzy3d.feature"
          version="0.0.0"/>
 
+   <includes
+         id="net.openchrom.thirdpartylibraries.lzf.feature"
+         version="0.0.0"/>
+
 </feature>
