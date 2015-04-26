@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="OpenChrom Community Edition (Aston) - Preview" uid="net.openchrom.rcp.compilation.community.product.id" id="net.openchrom.rcp.compilation.community.ui.product" application="net.chemclipse.rcp.app.ui.net.chemclipse.rcp.application" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
+<product name="OpenChrom Community Edition (Aston) - Preview" uid="net.openchrom.rcp.compilation.community.product.id" id="net.openchrom.rcp.compilation.community.ui.product" application="org.eclipse.chemclipse.rcp.app.ui.org.eclipse.chemclipse.rcp.application" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
       <image path="/net.openchrom.rcp.compilation.community.ui/icons/about_250x330.png"/>
@@ -87,7 +87,7 @@ Contributors:
    </preferencesInfo>
 
    <cssInfo>
-      <file path="/net.chemclipse.rcp.app.ui/css/chemclipse.css"/>
+      <file path="/org.eclipse.chemclipse.rcp.app.ui/css/chemclipse.css"/>
    </cssInfo>
 
 </product>
