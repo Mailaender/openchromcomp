@@ -4,7 +4,7 @@
          id="product"
          point="org.eclipse.core.runtime.products">
       <product
-            application="net.chemclipse.rcp.app.ui.net.chemclipse.rcp.application"
+            application="org.eclipse.chemclipse.rcp.app.ui.org.eclipse.chemclipse.rcp.application"
             name="OpenChrom Community Edition (Aston) - Preview">
          <property
                name="windowImages"
@@ -24,11 +24,11 @@
          </property>
          <property
                name="applicationXMI"
-               value="net.chemclipse.rcp.app.ui/Application.e4xmi">
+               value="org.eclipse.chemclipse.rcp.app.ui/Application.e4xmi">
          </property>
          <property
                name="applicationCSS"
-               value="platform:/plugin/net.chemclipse.rcp.app.ui/css/chemclipse.css">
+               value="platform:/plugin/org.eclipse.chemclipse.rcp.app.ui/css/chemclipse.css">
          </property>     
       </product>
    </extension>

@@ -26,7 +26,7 @@ http://www.eclipse.org/legal/epl-v10.html
          version="0.0.0"/>
          
    <includes
-         id="net.chemclipse.rcp.app.compilation.marketplace.feature"
+         id="org.eclipse.chemclipse.rcp.app.compilation.marketplace.feature"
          version="0.0.0"/>
          
    <plugin

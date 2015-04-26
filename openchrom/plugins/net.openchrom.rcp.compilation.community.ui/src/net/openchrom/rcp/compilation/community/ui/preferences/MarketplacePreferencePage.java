@@ -26,9 +26,9 @@ import org.eclipse.swt.widgets.MessageBox;
 import org.eclipse.ui.IWorkbench;
 import org.eclipse.ui.IWorkbenchPreferencePage;
 
-import net.chemclipse.logging.core.Logger;
-import net.chemclipse.support.ui.preferences.fieldeditors.LabelFieldEditor;
-import net.chemclipse.support.ui.preferences.fieldeditors.SpacerFieldEditor;
+import org.eclipse.chemclipse.logging.core.Logger;
+import org.eclipse.chemclipse.support.ui.preferences.fieldeditors.LabelFieldEditor;
+import org.eclipse.chemclipse.support.ui.preferences.fieldeditors.SpacerFieldEditor;
 import net.openchrom.rcp.compilation.community.ui.Activator;
 
 public class MarketplacePreferencePage extends FieldEditorPreferencePage implements IWorkbenchPreferencePage {
