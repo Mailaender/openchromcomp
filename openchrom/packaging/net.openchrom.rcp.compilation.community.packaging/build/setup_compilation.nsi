@@ -20,13 +20,6 @@ SetCompressor lzma
 # PARAMETERS WILL BE PASSED BY makensis:
 # makensis -DARCHITECTURE=x64 -DSOFTWARE_VERSION=0.1.0_prev -DPACKAGE_NAME=OpenChrom -DPACKAGE_NAME_LC=openchrom setup_compilation.nsi
 #
-!if ${ARCHITECTURE} == x64
-  !define PROCESSOR_TYPE "x86_64"
-  !define JRE_URL "http://www.openchrom.net/main/downloads/JRE/runtime-x86_64.exe"
-!else
-  !define PROCESSOR_TYPE "x86"
-  !define JRE_URL "http://www.openchrom.net/main/downloads/JRE/runtime-x86.exe"
-!endif
 
 #
 # Company
@@ -102,11 +95,6 @@ Name ${PACKAGE_NAME}
 !include MUI2.nsh
 
 #
-# JRE DOWNLOAD
-#
-!include "JREDyna.nsh"
-
-#
 # PROFILES
 #
 !include "NTProfiles.nsh"
@@ -133,7 +121,6 @@ Var StartMenuGroup
 #
 !insertmacro MUI_PAGE_WELCOME
 !insertmacro MUI_PAGE_LICENSE "${SOURCE_CODE}\LICENSE.txt"
-!insertmacro CUSTOM_PAGE_JREINFO
 !insertmacro MUI_PAGE_DIRECTORY
 #
 # The Multiuser page doesn't use the
@@ -199,6 +186,9 @@ Section -XCompilation SEC0000
     #
     # INSTALL APPLICATION FILES
     #
+    SetOutPath $INSTDIR\jre
+    File /r "${SOURCE_CODE}\jre\*"
+
     SetOutPath $INSTDIR\configuration
     File /r "${SOURCE_CODE}\configuration\*"
 
@@ -333,6 +323,7 @@ Section -un.post UNSEC0001
     #
     # RMDir /REBOOTOK $INSTDIR (DELETE IF NOT EMPTY => WITHOUT /R)
     #
+    RMDir /R /REBOOTOK "$INSTDIR\jre"
     RMDir /R /REBOOTOK "$INSTDIR\configuration"
     RMDir /R /REBOOTOK "$INSTDIR\features"
     RMDir /R /REBOOTOK "$INSTDIR\p2"
