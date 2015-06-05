@@ -41,6 +41,9 @@ package_version=$identifier'-1'
 #
 function fetchOsPackage {
 
+  echo "-----------------------------------"
+  echo "Run fetchOSPackage > Maven/Tycho."
+  echo "-----------------------------------"
   package=$1
   #
   # Replaces
@@ -64,12 +67,6 @@ function fetchOsPackage {
 function releaseOsPackage {
 
   package=$1
-  
-echo "-----------------------------------"
-  echo "Run fetchOSPackage > Maven/Tycho."
-  echo "-----------------------------------"
-  fetchOsPackage $package
-
   echo "-----------------------------------"
   echo $package
   echo "-----------------------------------"
@@ -87,6 +84,16 @@ echo "-----------------------------------"
 }
 
 #
+# Fetch the packages
+#
+fetchOsPackage linux.gtk.x86
+fetchOsPackage linux.gtk.x86_64
+fetchOsPackage macosx.cocoa.x86_64
+fetchOsPackage solaris.gtk.x86
+fetchOsPackage win32.win32.x86
+fetchOsPackage win32.win32.x86_64
+
+#
 # Prepares the JRE for each release except Linux, Solaris.
 #
 tar -xvzf jre/jre-8u45-macosx-x64.tar.gz -C ./macosx.cocoa.x86_64/OpenChrom/
@@ -99,7 +106,7 @@ tar -xvzf jre/jre-8u45-windows-x64.tar.gz -C ./win32.win32.x86_64/OpenChrom/
 mv ./win32.win32.x86_64/OpenChrom/jre1.8.0_45 ./win32.win32.x86_64/OpenChrom/jre
 
 #
-# Releases
+# Release the packages
 #
 releaseOsPackage linux.gtk.x86
 releaseOsPackage linux.gtk.x86_64
