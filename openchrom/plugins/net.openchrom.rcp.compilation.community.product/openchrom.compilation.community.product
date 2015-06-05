@@ -16,6 +16,12 @@
    <launcherArgs>
       <programArgs>-clearPersistedState
       </programArgs>
+      <programArgsMac>-vm
+../../../jre/Contents/Home/bin/java
+      </programArgsMac>
+      <programArgsWin>-vm
+./jre/bin/java.exe
+      </programArgsWin>
       <vmArgs>-Xms256M
 -Xmx512M
 -Dosgi.install.area.readOnly
@@ -23,13 +29,8 @@
 -Dosgi.instance.area=@user.home/OpenChromCE/1.0.x
 -Dosgi.user.area=@user.home/.openchromce/1.0.x
       </vmArgs>
-      <vmArgsMac>-vm
-../../../jre/Contents/Home/bin/java
--XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
       </vmArgsMac>
-      <vmArgsWin>-vm
-./jre/bin/java.exe
-      </vmArgsWin>
    </launcherArgs>
 
    <windowImages i16="/net.openchrom.rcp.compilation.community.ui/icons/logo_16x16.png" i32="/net.openchrom.rcp.compilation.community.ui/icons/logo_32x32.png" i48="/net.openchrom.rcp.compilation.community.ui/icons/logo_48x48.png" i64="/net.openchrom.rcp.compilation.community.ui/icons/logo_64x64.png" i128="/net.openchrom.rcp.compilation.community.ui/icons/logo_128x128.png"/>
