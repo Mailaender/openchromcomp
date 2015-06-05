@@ -64,7 +64,7 @@ function fetchOsPackage {
 #
 # Copies the README, CHANGELOG and LICENSE files and zips the package.
 #
-function releaseOsPackage {
+function releaseOsPackageZIP {
 
   package=$1
   echo "-----------------------------------"
@@ -82,6 +82,29 @@ function releaseOsPackage {
     zip -r $package_name_lc'_'$package'_'$version'.zip' $package/
   echo "done"
 }
+
+#
+# Copies the README, CHANGELOG and LICENSE files and tar.gz the package.
+#
+function releaseOsPackageTAR {
+
+  package=$1
+  echo "-----------------------------------"
+  echo $package
+  echo "-----------------------------------"
+
+  echo "prepare: " $package
+    cp README.txt ./$package/$package_name/
+    cp CHANGELOG.txt ./$package/$package_name/
+    cp LICENSE.txt ./$package/$package_name/
+    cp INFO-TRADEMARK.txt ./$package/$package_name/
+    cp DemoChromatogram.ocb ./$package/$package_name/
+    cp keystore ./$package/$package_name/
+  echo "tar.gz: " $package
+    tar cfvz $package_name_lc'_'$package'_'$version'.tar.gz' $package/
+  echo "done"
+}
+
 
 #
 # Fetch the packages
@@ -108,12 +131,12 @@ mv ./win32.win32.x86_64/OpenChrom/jre1.8.0_45 ./win32.win32.x86_64/OpenChrom/jre
 #
 # Release the packages
 #
-releaseOsPackage linux.gtk.x86
-releaseOsPackage linux.gtk.x86_64
-releaseOsPackage macosx.cocoa.x86_64
-releaseOsPackage solaris.gtk.x86
-releaseOsPackage win32.win32.x86
-releaseOsPackage win32.win32.x86_64
+releaseOsPackageTAR linux.gtk.x86
+releaseOsPackageTAR linux.gtk.x86_64
+releaseOsPackageTAR macosx.cocoa.x86_64
+releaseOsPackageZIP solaris.gtk.x86
+releaseOsPackageZIP win32.win32.x86
+releaseOsPackageZIP win32.win32.x86_64
 
 #
 # Repository
