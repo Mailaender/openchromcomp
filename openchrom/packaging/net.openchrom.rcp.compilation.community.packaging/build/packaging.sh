@@ -90,9 +90,9 @@ echo "-----------------------------------"
 # Prepares the JRE for each release except Linux, Solaris.
 #
 tar -xvzf jre/jre-8u45-macosx-x64.tar.gz -C ./macosx.cocoa.x86_64/OpenChrom/
-mv ./macosx.cocoa.x86_64/OpenChrom/jre1.8.0_45 ./macosx.cocoa.x86_64/OpenChrom/jre
+mv ./macosx.cocoa.x86_64/OpenChrom/jre1.8.0_45.jre ./macosx.cocoa.x86_64/OpenChrom/jre
 #
-tar -xvzf jre/jre-8u45-windows-i586.tar.gz -C ./win32.win32.x86/jre/OpenChrom/
+tar -xvzf jre/jre-8u45-windows-i586.tar.gz -C ./win32.win32.x86/OpenChrom/
 mv ./win32.win32.x86/OpenChrom/jre1.8.0_45 ./win32.win32.x86/OpenChrom/jre
 #
 tar -xvzf jre/jre-8u45-windows-x64.tar.gz -C ./win32.win32.x86_64/OpenChrom/
