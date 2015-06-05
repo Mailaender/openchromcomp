@@ -85,7 +85,7 @@ Contributors:
       <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
       <plugin id="org.eclipse.update.configurator" autoStart="true" startLevel="4" />
       <property name="org.eclipse.update.reconcile" value="false" />
-      <property name="osgi.requiredJavaVersion" value="1.6" />
+      <property name="osgi.requiredJavaVersion" value="1.7" />
       <property name="sun.awt.xembedserver" value="true" />
    </configurations>
 
