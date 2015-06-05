@@ -11,15 +11,13 @@
 #*******************************************************************************
 
 #
+# PARAMETERS WILL BE PASSED BY makensis:
+# makensis -DARCHITECTURE=x64 -DSOFTWARE_VERSION=0.1.0_prev -DPACKAGE_NAME=OpenChrom -DPACKAGE_NAME_LC=openchrom setup_compilation.nsi
+#
 # COMPRESSION
 # USE lzma, otherwise Windows will throw an error when the script was compiled under linux.
 #
 SetCompressor lzma
-
-#
-# PARAMETERS WILL BE PASSED BY makensis:
-# makensis -DARCHITECTURE=x64 -DSOFTWARE_VERSION=0.1.0_prev -DPACKAGE_NAME=OpenChrom -DPACKAGE_NAME_LC=openchrom setup_compilation.nsi
-#
 
 #
 # Company
@@ -40,11 +38,6 @@ Name ${PACKAGE_NAME}
 # SOURCE CODE, PROCESSOR DEFINITIONS
 #
 !define SOURCE_CODE "win32.win32.${PROCESSOR_TYPE}\${PACKAGE_NAME}"
-
-#
-# DETECT AND DOWNLOAD AN APPROPRIATE JRE (1.7)
-#
-!define JRE_VERSION "1.7"
 
 #
 # MULTIUSER SYMBOL DEFINITIONS

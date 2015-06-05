@@ -23,8 +23,16 @@
 -Dosgi.instance.area=@user.home/OpenChromCE/1.0.x
 -Dosgi.user.area=@user.home/.openchromce/1.0.x
       </vmArgs>
-      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
+      <vmArgsLin>-vm
+./jre/bin/java
+      </vmArgsLin>
+      <vmArgsMac>-vm
+../../../jre/Contents/Home/bin/java
+-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
       </vmArgsMac>
+      <vmArgsWin>-vm
+./jre/bin/java.exe
+      </vmArgsWin>
    </launcherArgs>
 
    <windowImages i16="/net.openchrom.rcp.compilation.community.ui/icons/logo_16x16.png" i32="/net.openchrom.rcp.compilation.community.ui/icons/logo_32x32.png" i48="/net.openchrom.rcp.compilation.community.ui/icons/logo_48x48.png" i64="/net.openchrom.rcp.compilation.community.ui/icons/logo_64x64.png" i128="/net.openchrom.rcp.compilation.community.ui/icons/logo_128x128.png"/>
@@ -43,7 +51,6 @@
             winLargeLow="/net.openchrom.rcp.compilation.community.product/icons/windows/48x48-8.bmp"/>
       </win>
    </launcher>
-
 
    <vm>
    </vm>
@@ -81,13 +88,5 @@ Contributors:
       <property name="osgi.requiredJavaVersion" value="1.6" />
       <property name="sun.awt.xembedserver" value="true" />
    </configurations>
-
-   <preferencesInfo>
-      <targetfile overwrite="false"/>
-   </preferencesInfo>
-
-   <cssInfo>
-      <file path="/org.eclipse.chemclipse.rcp.app.ui/css/chemclipse.css"/>
-   </cssInfo>
 
 </product>
