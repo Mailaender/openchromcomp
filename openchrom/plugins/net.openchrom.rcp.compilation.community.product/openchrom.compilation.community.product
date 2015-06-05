@@ -23,9 +23,6 @@
 -Dosgi.instance.area=@user.home/OpenChromCE/1.0.x
 -Dosgi.user.area=@user.home/.openchromce/1.0.x
       </vmArgs>
-      <vmArgsLin>-vm
-./jre/bin/java
-      </vmArgsLin>
       <vmArgsMac>-vm
 ../../../jre/Contents/Home/bin/java
 -XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
