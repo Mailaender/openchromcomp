@@ -11,13 +11,20 @@
 #*******************************************************************************
 
 #
-# PARAMETERS WILL BE PASSED BY makensis:
-# makensis -DARCHITECTURE=x64 -DSOFTWARE_VERSION=0.1.0_prev -DPACKAGE_NAME=OpenChrom -DPACKAGE_NAME_LC=openchrom setup_compilation.nsi
-#
 # COMPRESSION
 # USE lzma, otherwise Windows will throw an error when the script was compiled under linux.
 #
 SetCompressor lzma
+
+#
+# PARAMETERS WILL BE PASSED BY makensis:
+# makensis -DARCHITECTURE=x64 -DSOFTWARE_VERSION=0.1.0_prev -DPACKAGE_NAME=OpenChrom -DPACKAGE_NAME_LC=openchrom setup_compilation.nsi
+#
+!if ${ARCHITECTURE} == x64
+  !define PROCESSOR_TYPE "x86_64"
+!else
+  !define PROCESSOR_TYPE "x86"
+!endif
 
 #
 # Company
@@ -170,12 +177,7 @@ Section -XCompilation SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
     File "${SOURCE_CODE}\LICENSE.txt"
-    
-    #
-    # INSTALL JRE IF NEEDED
-    #
-    call DownloadAndInstallJREIfNecessary
-    
+      
     #
     # INSTALL APPLICATION FILES
     #

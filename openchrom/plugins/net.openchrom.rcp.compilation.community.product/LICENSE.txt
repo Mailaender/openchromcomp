@@ -1,12 +1,12 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-OpenChrom Community Edition 0.9.0 (Mattauch)
+OpenChrom Community Edition 1.0.0 (Aston)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The Community Edition contains several additional plug-ins, published under
 distinct OSI (http://www.opensource.org) approved open source licenses.
 All bundles and licenses of the compilation are listed on the webpage overview.
 Additional plug-ins can be fetched from the OpenChrom marketplace.
 
-OpenChrom is a trademark of Dr. Philip Wenig.
+OpenChrom is a trademark of Lablicate UG (haftungsbeschränkt).
 
 ---------------------------------------------
 RCP (Rich Client Platform)
@@ -20,6 +20,12 @@ OpenChrom is based on the Eclipse Rich Client Platform.
 OpenChrom plug-ins and licenses
 ---------------------------------------------
 https://marketplace.openchrom.net
+
+---------------------------------------------
+Oracle JRE
+---------------------------------------------
+Java is needed to run OpenChrom. Java is a trademark of Oracle.
+	http://www.oracle.com/technetwork/java/javase/downloads/index.html
 	
 ---------------------------------------------
 NSIS Installer
