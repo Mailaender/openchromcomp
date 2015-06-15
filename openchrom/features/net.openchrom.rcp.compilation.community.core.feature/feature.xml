@@ -92,13 +92,17 @@ http://www.eclipse.org/legal/epl-v10.html
    <includes
          id="net.openchrom.chromatogram.xxd.filter.supplier.scanremover.feature"
          version="0.0.0"/>
-         
+
    <includes
          id="net.openchrom.chromatogram.msd.comparison.supplier.alfassi.feature"
          version="0.0.0"/>
 
    <includes
          id="net.openchrom.chromatogram.msd.comparison.supplier.pbm.feature"
-         version="0.0.0"/>         
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.chromatogram.xxd.filter.supplier.unitsumnormalizer.feature"
+         version="0.0.0"/>
 
 </feature>
