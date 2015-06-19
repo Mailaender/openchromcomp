@@ -20,7 +20,7 @@
 ../../../jre/Contents/Home/bin/java
       </programArgsMac>
       <programArgsWin>-vm
-./jre/bin/java.exe
+./jre/bin/javaw.exe
       </programArgsWin>
       <vmArgs>-Xms256M
 -Xmx512M
