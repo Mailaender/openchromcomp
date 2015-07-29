@@ -79,7 +79,10 @@ function releaseOsPackageZIP {
     cp DemoChromatogram.ocb ./$package/$package_name/
     cp keystore ./$package/$package_name/
   echo "zip: " $package
-    zip -r $package_name_lc'_'$package'_'$version'.zip' $package/
+    cd $package/'OpenChrom'
+    zip -r $package_name_lc'_'$package'_'$version'.zip' .
+    mv $package_name_lc'_'$package'_'$version'.zip' ../../
+    cd ../../
   echo "done"
 }
 
