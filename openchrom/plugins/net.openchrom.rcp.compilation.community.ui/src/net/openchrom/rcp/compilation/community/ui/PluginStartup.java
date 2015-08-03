@@ -14,9 +14,8 @@ package net.openchrom.rcp.compilation.community.ui;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.eclipse.ui.IStartup;
-
 import org.eclipse.chemclipse.rcp.app.ui.support.UpdateSiteSupport;
+import org.eclipse.ui.IStartup;
 
 public class PluginStartup implements IStartup {
 
@@ -32,11 +31,11 @@ public class PluginStartup implements IStartup {
 		 * updateSiteSupport.removeProvisioningRepositories();
 		 */
 		Map<String, String> updateSites = new HashMap<String, String>();
-		updateSites.put("OpenChrom Community Edition", "http://update.openchrom.net/repositories/community/1.0.x/repository");
-		updateSites.put("OpenChrom 3rd Party Libraries", "http://update.openchrom.net/repositories/community/1.0.x/plugins/openchrom3rdpl"); // 3rd Party Libraries
-		updateSites.put("OpenChrom Keys", "http://update.openchrom.net/repositories/community/1.0.x/plugins/openchromkeys"); // Keys Support
-		updateSites.put("OpenChrom Icons", "http://update.openchrom.net/repositories/community/1.0.x/plugins/enterprisesupport"); // Enterprise Icons
-		updateSites.put("OpenChrom xIdent", "http://update.openchrom.net/repositories/community/1.0.x/plugins/xident"); // xIdent Support
+		updateSites.put("OpenChrom Community Edition", "http://update.openchrom.net/repositories/community/1.1.x/repository");
+		updateSites.put("OpenChrom 3rd Party Libraries", "http://update.openchrom.net/repositories/community/1.1.x/plugins/openchrom3rdpl"); // 3rd Party Libraries
+		updateSites.put("OpenChrom Keys", "http://update.openchrom.net/repositories/community/1.1.x/plugins/openchromkeys"); // Keys Support
+		updateSites.put("OpenChrom Icons", "http://update.openchrom.net/repositories/community/1.1.x/plugins/enterprisesupport"); // Enterprise Icons
+		updateSites.put("OpenChrom xIdent", "http://update.openchrom.net/repositories/community/1.1.x/plugins/xident"); // xIdent Support
 		updateSiteSupport.addProvisioningRepositories(updateSites);
 	}
 }

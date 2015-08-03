@@ -2,7 +2,7 @@
 <feature
       id="net.openchrom.rcp.compilation.community.extras.feature"
       label="Compilation Extras"
-      version="1.0.0.qualifier"
+      version="1.1.0.qualifier"
       provider-name="ChemClipse">
 
    <description url="http://www.openchrom.net">

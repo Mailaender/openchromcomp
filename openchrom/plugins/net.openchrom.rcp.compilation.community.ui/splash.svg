@@ -14,11 +14,11 @@
    height="295"
    id="svg2"
    version="1.0"
-   inkscape:version="0.48.3.1 r9886"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="splash.svg"
    sodipodi:version="0.32"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   inkscape:export-filename="/home/pwenig/Arbeitsfläche/splash-ce.png"
+   inkscape:export-filename="/home/pwenig/Schreibtisch/openchrom.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -372,14 +372,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.6280971"
-     inkscape:cx="329.67226"
+     inkscape:cx="164.14159"
      inkscape:cy="73.167058"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1056"
-     inkscape:window-x="0"
+     inkscape:window-x="1920"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
      showguides="true"
@@ -437,7 +437,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1537,13 +1537,13 @@
        id="text2452"
        y="174.2541"
        x="290.64755"
-       style="font-size:27.13738823px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#666666;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.13738823px;font-family:Arial;-inkscape-font-specification:Arial;fill:#666666;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          y="174.2541"
          x="290.64755"
          id="tspan2454"
          sodipodi:role="line"
-         style="font-size:10px;fill:#666666">Community Edition 1.0.0 (Aston)</tspan></text>
+         style="font-size:10px;fill:#666666">Community Edition 1.1.0 (Diels)</tspan></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot6147"
@@ -1667,7 +1667,7 @@
            sodipodi:cy="190.95706"
            sodipodi:rx="8.6298246"
            sodipodi:ry="8.6298246"
-           d="m 119.17378,190.95706 c 0,4.76612 -3.86371,8.62983 -8.62983,8.62983 -4.76612,0 -8.62982,-3.86371 -8.62982,-8.62983 0,-4.76612 3.8637,-8.62982 8.62982,-8.62982 4.76612,0 8.62983,3.8637 8.62983,8.62982 z"
+           d="m 119.17378,190.95706 a 8.6298246,8.6298246 0 0 1 -8.62983,8.62983 8.6298246,8.6298246 0 0 1 -8.62982,-8.62983 8.6298246,8.6298246 0 0 1 8.62982,-8.62982 8.6298246,8.6298246 0 0 1 8.62983,8.62982 z"
            transform="matrix(0.66859053,0,0,0.66859053,363.1133,-2.9471442)" />
       </g>
     </g>
