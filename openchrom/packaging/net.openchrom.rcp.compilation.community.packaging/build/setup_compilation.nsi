@@ -1,5 +1,5 @@
 #*******************************************************************************
-# Copyright (c) 2011, 2014 Dr. Philip Wenig.
+# Copyright (c) 2011, 2015 Dr. Philip Wenig.
 #
 # All rights reserved.
 # This program and the accompanying materials are made available under the
@@ -22,10 +22,8 @@ SetCompressor lzma
 #
 !if ${ARCHITECTURE} == x64
   !define PROCESSOR_TYPE "x86_64"
-  !define JRE_URL "http://www.openchrom.net/main/downloads/JRE/runtime-x86_64.exe"
 !else
   !define PROCESSOR_TYPE "x86"
-  !define JRE_URL "http://www.openchrom.net/main/downloads/JRE/runtime-x86.exe"
 !endif
 
 #
@@ -47,11 +45,6 @@ Name ${PACKAGE_NAME}
 # SOURCE CODE, PROCESSOR DEFINITIONS
 #
 !define SOURCE_CODE "win32.win32.${PROCESSOR_TYPE}\${PACKAGE_NAME}"
-
-#
-# DETECT AND DOWNLOAD AN APPROPRIATE JRE (1.7)
-#
-!define JRE_VERSION "1.7"
 
 #
 # MULTIUSER SYMBOL DEFINITIONS
@@ -102,11 +95,6 @@ Name ${PACKAGE_NAME}
 !include MUI2.nsh
 
 #
-# JRE DOWNLOAD
-#
-!include "JREDyna.nsh"
-
-#
 # PROFILES
 #
 !include "NTProfiles.nsh"
@@ -133,7 +121,6 @@ Var StartMenuGroup
 #
 !insertmacro MUI_PAGE_WELCOME
 !insertmacro MUI_PAGE_LICENSE "${SOURCE_CODE}\LICENSE.txt"
-!insertmacro CUSTOM_PAGE_JREINFO
 !insertmacro MUI_PAGE_DIRECTORY
 #
 # The Multiuser page doesn't use the
@@ -190,15 +177,13 @@ Section -XCompilation SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
     File "${SOURCE_CODE}\LICENSE.txt"
-    
-    #
-    # INSTALL JRE IF NEEDED
-    #
-    call DownloadAndInstallJREIfNecessary
-    
+      
     #
     # INSTALL APPLICATION FILES
     #
+    SetOutPath $INSTDIR\jre
+    File /r "${SOURCE_CODE}\jre\*"
+
     SetOutPath $INSTDIR\configuration
     File /r "${SOURCE_CODE}\configuration\*"
 
@@ -333,6 +318,7 @@ Section -un.post UNSEC0001
     #
     # RMDir /REBOOTOK $INSTDIR (DELETE IF NOT EMPTY => WITHOUT /R)
     #
+    RMDir /R /REBOOTOK "$INSTDIR\jre"
     RMDir /R /REBOOTOK "$INSTDIR\configuration"
     RMDir /R /REBOOTOK "$INSTDIR\features"
     RMDir /R /REBOOTOK "$INSTDIR\p2"

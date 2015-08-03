@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="OpenChrom Community Edition (Mattauch)" uid="net.openchrom.rcp.compilation.community.product.id" id="net.openchrom.rcp.compilation.community.ui.product" application="net.chemclipse.rcp.app.ui.net.chemclipse.rcp.application" version="0.9.0.qualifier" useFeatures="true" includeLaunchers="true">
+<product name="OpenChrom Community Edition (Aston)" uid="net.openchrom.rcp.compilation.community.product.id" id="net.openchrom.rcp.compilation.community.ui.product" application="org.eclipse.chemclipse.rcp.app.ui.org.eclipse.chemclipse.rcp.application" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
       <image path="/net.openchrom.rcp.compilation.community.ui/icons/about_250x330.png"/>
       <text>
-         OpenChrom Community Edition (Mattauch) - the open source software for chromatography and mass spectrometry
+         OpenChrom Community Edition (Aston) - the open source software for chromatography and mass spectrometry
       </text>
    </aboutInfo>
 
@@ -14,14 +14,23 @@
    </configIni>
 
    <launcherArgs>
-      <programArgs>-clearPersistedState</programArgs>
+      <programArgs>-clearPersistedState
+      </programArgs>
+      <programArgsMac>-vm
+../../../jre/Contents/Home/bin/java
+      </programArgsMac>
+      <programArgsWin>-vm
+./jre/bin/javaw.exe
+      </programArgsWin>
       <vmArgs>-Xms256M
 -Xmx512M
 -Dosgi.install.area.readOnly
 -Dapplication.name=OpenChrom_Community_Edition
--Dosgi.instance.area=@user.home/OpenChromCE/0.9.x
--Dosgi.user.area=@user.home/.openchromce/0.9.x</vmArgs>
-      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
+-Dosgi.instance.area=@user.home/OpenChromCE/1.0.x
+-Dosgi.user.area=@user.home/.openchromce/1.0.x
+      </vmArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
+      </vmArgsMac>
    </launcherArgs>
 
    <windowImages i16="/net.openchrom.rcp.compilation.community.ui/icons/logo_16x16.png" i32="/net.openchrom.rcp.compilation.community.ui/icons/logo_32x32.png" i48="/net.openchrom.rcp.compilation.community.ui/icons/logo_48x48.png" i64="/net.openchrom.rcp.compilation.community.ui/icons/logo_64x64.png" i128="/net.openchrom.rcp.compilation.community.ui/icons/logo_128x128.png"/>
@@ -47,7 +56,7 @@
    <license>
         <url>http://www.openchrom.net</url>
         <text>
-   Copyright (c) 2008, 2014 Dr. Philip Wenig
+   Copyright (c) 2008, 2015 Dr. Philip Wenig
 
 All rights reserved. This program and the accompanying materials
 are made available under the terms of the Eclipse Public License v1.0
@@ -63,8 +72,7 @@ Contributors:
    </plugins>
 
    <features>
-      <feature id="net.openchrom.rcp.compilation.community.feature" version="0.9.0.qualifier"/>
-      <feature id="net.openchrom.rcp.compilation.community.ui.feature" version="0.9.0.qualifier"/>
+      <feature id="net.openchrom.rcp.compilation.community.feature" version="1.0.0.qualifier"/>
    </features>
 
    <configurations>
@@ -75,7 +83,7 @@ Contributors:
       <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
       <plugin id="org.eclipse.update.configurator" autoStart="true" startLevel="4" />
       <property name="org.eclipse.update.reconcile" value="false" />
-      <property name="osgi.requiredJavaVersion" value="1.6" />
+      <property name="osgi.requiredJavaVersion" value="1.7" />
       <property name="sun.awt.xembedserver" value="true" />
    </configurations>
 

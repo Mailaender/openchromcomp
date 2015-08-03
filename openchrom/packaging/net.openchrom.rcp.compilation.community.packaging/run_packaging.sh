@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #*******************************************************************************
-# Copyright (c) 2012, 2014 Dr. Philip Wenig.
+# Copyright (c) 2012, 2015 Dr. Philip Wenig.
 #
 # All rights reserved.
 # This program and the accompanying materials are made available under the
@@ -23,7 +23,7 @@ echo "Compilation - Start"
 # _rel
 #
 package_name='OpenChrom'
-identifier='0.9.0_rel'
+identifier='1.0.0_rel'
 #
 build_folder='Compilation'
 path_repository='../../repository'

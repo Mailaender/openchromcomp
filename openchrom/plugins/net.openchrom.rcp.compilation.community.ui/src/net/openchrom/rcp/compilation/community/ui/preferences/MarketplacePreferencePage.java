@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2012, 2014 Dr. Philip Wenig.
+ * Copyright (c) 2012, 2015 Dr. Philip Wenig.
  * 
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
@@ -26,9 +26,9 @@ import org.eclipse.swt.widgets.MessageBox;
 import org.eclipse.ui.IWorkbench;
 import org.eclipse.ui.IWorkbenchPreferencePage;
 
-import net.chemclipse.logging.core.Logger;
-import net.chemclipse.support.ui.preferences.fieldeditors.LabelFieldEditor;
-import net.chemclipse.support.ui.preferences.fieldeditors.SpacerFieldEditor;
+import org.eclipse.chemclipse.logging.core.Logger;
+import org.eclipse.chemclipse.support.ui.preferences.fieldeditors.LabelFieldEditor;
+import org.eclipse.chemclipse.support.ui.preferences.fieldeditors.SpacerFieldEditor;
 import net.openchrom.rcp.compilation.community.ui.Activator;
 
 public class MarketplacePreferencePage extends FieldEditorPreferencePage implements IWorkbenchPreferencePage {
@@ -73,7 +73,7 @@ public class MarketplacePreferencePage extends FieldEditorPreferencePage impleme
 						URL url = new URL("http://www.openchrom.net/");
 						CatalogDescriptor catalogDescriptor = new CatalogDescriptor(url, "OpenChrom Marketplace");
 						catalogDescriptor.setDescription("Install new plug-ins from the marketplace.");
-						catalogDescriptor.setIcon(Activator.imageDescriptorFromPlugin(Activator.PLUGIN_ID, "icons/logo_32x32.png"));
+						catalogDescriptor.setIcon(Activator.imageDescriptorFromPlugin(Activator.getDefault().getBundle().getSymbolicName(), "icons/logo_32x32.png"));
 						catalogDescriptor.setInstallFromAllRepositories(false);
 						MarketplaceClient.addCatalogDescriptor(catalogDescriptor);
 					} catch(MalformedURLException e1) {

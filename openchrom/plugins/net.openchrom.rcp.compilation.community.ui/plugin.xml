@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin>
    <extension
-         id="net.openchrom.rcp.compilation.community.ui.modelContribution"
-         point="org.eclipse.e4.workbench.model">
-      <fragment
-            uri="fragment.e4xmi">
-      </fragment>
-   </extension>
-   <extension
          id="product"
          point="org.eclipse.core.runtime.products">
       <product
-            application="net.chemclipse.rcp.app.ui.net.chemclipse.rcp.application"
-            name="OpenChrom Community Edition (Mattauch)">
+            application="org.eclipse.chemclipse.rcp.app.ui.org.eclipse.chemclipse.rcp.application"
+            name="OpenChrom Community Edition (Aston)">
          <property
                name="windowImages"
                value="icons/logo_16x16.png,icons/logo_32x32.png,icons/logo_48x48.png,icons/logo_64x64.png,icons/logo_128x128.png">
          </property>
          <property
                name="aboutText"
-               value="OpenChrom Community Edition (Mattauch) - the open source software for chromatography and mass spectrometry">
+               value="OpenChrom Community Edition (Aston) - the open source software for chromatography and mass spectrometry">
          </property>
          <property
                name="aboutImage"
@@ -27,19 +20,15 @@
          </property>
          <property
                name="appName"
-               value="OpenChrom Community Edition (Mattauch)">
-         </property>
-         <property
-               name="preferenceCustomization"
-               value="plugin_customization.ini">
+               value="OpenChrom Community Edition (Aston)">
          </property>
          <property
                name="applicationXMI"
-               value="net.chemclipse.rcp.app.ui/Application.e4xmi">
+               value="org.eclipse.chemclipse.rcp.app.ui/Application.e4xmi">
          </property>
          <property
                name="applicationCSS"
-               value="platform:/plugin/net.chemclipse.rcp.app.ui/css/chemclipse.css">
+               value="platform:/plugin/org.eclipse.chemclipse.rcp.app.ui/css/chemclipse.css">
          </property>     
       </product>
    </extension>
@@ -58,15 +47,6 @@
          point="org.eclipse.ui.startup">
       <startup
             class="net.openchrom.rcp.compilation.community.ui.PluginStartup"></startup>
-   </extension>    
-   <extension
-         point="org.eclipse.ui.preferencePages">
-      <page
-            category="net.chemclipse.rcp.app.ui.preferences.settingsPreferencePage"      
-            class="net.openchrom.rcp.compilation.community.ui.preferences.MarketplacePreferencePage"
-            id="net.openchrom.rcp.compilation.community.ui.preferences.marketplacePreferencePage"
-            name="OpenChrom Marketplace">
-      </page>
    </extension>
    <extension
          point="org.eclipse.epp.mpc.ui.catalog">

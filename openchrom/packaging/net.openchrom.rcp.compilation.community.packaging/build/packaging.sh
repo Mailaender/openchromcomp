@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #*******************************************************************************
-# Copyright (c) 2011, 2014 Dr. Philip Wenig.
+# Copyright (c) 2011, 2015 Dr. Philip Wenig.
 #
 # All rights reserved.
 # This program and the accompanying materials are made available under the
@@ -41,6 +41,9 @@ package_version=$identifier'-1'
 #
 function fetchOsPackage {
 
+  echo "-----------------------------------"
+  echo "Run fetchOSPackage > Maven/Tycho."
+  echo "-----------------------------------"
   package=$1
   #
   # Replaces
@@ -61,15 +64,9 @@ function fetchOsPackage {
 #
 # Copies the README, CHANGELOG and LICENSE files and zips the package.
 #
-function releaseOsPackage {
+function releaseOsPackageZIP {
 
   package=$1
-  
-echo "-----------------------------------"
-  echo "Run fetchOSPackage > Maven/Tycho."
-  echo "-----------------------------------"
-  fetchOsPackage $package
-
   echo "-----------------------------------"
   echo $package
   echo "-----------------------------------"
@@ -82,21 +79,67 @@ echo "-----------------------------------"
     cp DemoChromatogram.ocb ./$package/$package_name/
     cp keystore ./$package/$package_name/
   echo "zip: " $package
-    zip -r $package_name_lc'_'$package'_'$version'.zip' $package/
+    cd $package/'OpenChrom'
+    zip -r $package_name_lc'_'$package'_'$version'.zip' .
+    mv $package_name_lc'_'$package'_'$version'.zip' ../../
+    cd ../../
   echo "done"
 }
 
 #
-# Releases
+# Copies the README, CHANGELOG and LICENSE files and tar.gz the package.
 #
-releaseOsPackage linux.gtk.x86
-releaseOsPackage linux.gtk.x86_64
-releaseOsPackage macosx.cocoa.ppc
-releaseOsPackage macosx.cocoa.x86
-releaseOsPackage macosx.cocoa.x86_64
-releaseOsPackage solaris.gtk.x86
-releaseOsPackage win32.win32.x86
-releaseOsPackage win32.win32.x86_64
+function releaseOsPackageTAR {
+
+  package=$1
+  echo "-----------------------------------"
+  echo $package
+  echo "-----------------------------------"
+
+  echo "prepare: " $package
+    cp README.txt ./$package/$package_name/
+    cp CHANGELOG.txt ./$package/$package_name/
+    cp LICENSE.txt ./$package/$package_name/
+    cp INFO-TRADEMARK.txt ./$package/$package_name/
+    cp DemoChromatogram.ocb ./$package/$package_name/
+    cp keystore ./$package/$package_name/
+  echo "tar.gz: " $package
+    tar cfvz $package_name_lc'_'$package'_'$version'.tar.gz' $package/
+  echo "done"
+}
+
+
+#
+# Fetch the packages
+#
+fetchOsPackage linux.gtk.x86
+fetchOsPackage linux.gtk.x86_64
+fetchOsPackage macosx.cocoa.x86_64
+fetchOsPackage solaris.gtk.x86
+fetchOsPackage win32.win32.x86
+fetchOsPackage win32.win32.x86_64
+
+#
+# Prepares the JRE for each release except Linux, Solaris.
+#
+tar -xvzf jre/jre-8u51-macosx-x64.tar.gz -C ./macosx.cocoa.x86_64/OpenChrom/
+mv ./macosx.cocoa.x86_64/OpenChrom/jre1.8.0_51.jre ./macosx.cocoa.x86_64/OpenChrom/jre
+#
+tar -xvzf jre/jre-8u51-windows-i586.tar.gz -C ./win32.win32.x86/OpenChrom/
+mv ./win32.win32.x86/OpenChrom/jre1.8.0_51 ./win32.win32.x86/OpenChrom/jre
+#
+tar -xvzf jre/jre-8u51-windows-x64.tar.gz -C ./win32.win32.x86_64/OpenChrom/
+mv ./win32.win32.x86_64/OpenChrom/jre1.8.0_51 ./win32.win32.x86_64/OpenChrom/jre
+
+#
+# Release the packages
+#
+releaseOsPackageTAR linux.gtk.x86
+releaseOsPackageTAR linux.gtk.x86_64
+releaseOsPackageTAR macosx.cocoa.x86_64
+releaseOsPackageZIP solaris.gtk.x86
+releaseOsPackageZIP win32.win32.x86
+releaseOsPackageZIP win32.win32.x86_64
 
 #
 # Repository

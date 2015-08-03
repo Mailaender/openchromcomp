@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2014 Dr. Philip Wenig.
+ * Copyright (c) 2014, 2015 Dr. Philip Wenig.
  * 
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
@@ -16,7 +16,7 @@ import java.util.Map;
 
 import org.eclipse.ui.IStartup;
 
-import net.chemclipse.rcp.app.ui.support.UpdateSiteSupport;
+import org.eclipse.chemclipse.rcp.app.ui.support.UpdateSiteSupport;
 
 public class PluginStartup implements IStartup {
 
@@ -25,18 +25,18 @@ public class PluginStartup implements IStartup {
 
 		UpdateSiteSupport updateSiteSupport = new UpdateSiteSupport();
 		/*
-		 * Remove all existing update sites.
-		 */
-		updateSiteSupport.removeProvisioningRepositories();
-		/*
 		 * Set unique new update sites.
+		 * Marketplace Plugins
+		 * Don't remove the provisioning repositories to enable that
+		 * additionally installed plugins can be updated.
+		 * updateSiteSupport.removeProvisioningRepositories();
 		 */
 		Map<String, String> updateSites = new HashMap<String, String>();
-		updateSites.put("OpenChrom Community Edition", "http://update.openchrom.net/repositories/community/0.9.x/repository");
-		updateSites.put("OpenChrom 3rd Party Libraries", "http://update.openchrom.net/repositories/community/0.9.x/plugins/openchrom3rdpl"); // 3rd Party Libraries
-		updateSites.put("OpenChrom Keys", "http://update.openchrom.net/repositories/community/0.9.x/plugins/openchromkeys"); // Keys Support
-		updateSites.put("OpenChrom Icons", "http://update.openchrom.net/repositories/community/0.9.x/plugins/enterprisesupport"); // Enterprise Icons
-		updateSites.put("OpenChrom xIdent", "http://update.openchrom.net/repositories/community/0.9.x/plugins/xident"); // xIdent Support
+		updateSites.put("OpenChrom Community Edition", "http://update.openchrom.net/repositories/community/1.0.x/repository");
+		updateSites.put("OpenChrom 3rd Party Libraries", "http://update.openchrom.net/repositories/community/1.0.x/plugins/openchrom3rdpl"); // 3rd Party Libraries
+		updateSites.put("OpenChrom Keys", "http://update.openchrom.net/repositories/community/1.0.x/plugins/openchromkeys"); // Keys Support
+		updateSites.put("OpenChrom Icons", "http://update.openchrom.net/repositories/community/1.0.x/plugins/enterprisesupport"); // Enterprise Icons
+		updateSites.put("OpenChrom xIdent", "http://update.openchrom.net/repositories/community/1.0.x/plugins/xident"); // xIdent Support
 		updateSiteSupport.addProvisioningRepositories(updateSites);
 	}
 }

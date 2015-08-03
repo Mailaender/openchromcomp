@@ -18,7 +18,7 @@
    sodipodi:docname="splash.svg"
    sodipodi:version="0.32"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   inkscape:export-filename="/home/openchrom/Arbeitsfläche/splash-ce.png"
+   inkscape:export-filename="/home/pwenig/Arbeitsfläche/splash-ce.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -371,15 +371,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.0354025"
-     inkscape:cx="170.1973"
-     inkscape:cy="86.643199"
+     inkscape:zoom="1.6280971"
+     inkscape:cx="329.67226"
+     inkscape:cy="73.167058"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1056"
-     inkscape:window-x="1920"
+     inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
      showguides="true"
@@ -1536,14 +1536,14 @@
     <text
        id="text2452"
        y="174.2541"
-       x="275.08115"
+       x="290.64755"
        style="font-size:27.13738823px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#666666;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
        xml:space="preserve"><tspan
          y="174.2541"
-         x="275.08115"
+         x="290.64755"
          id="tspan2454"
          sodipodi:role="line"
-         style="font-size:10px;fill:#666666">Community Edition 0.9.0 (Mattauch)</tspan></text>
+         style="font-size:10px;fill:#666666">Community Edition 1.0.0 (Aston)</tspan></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot6147"
@@ -1612,9 +1612,9 @@
            sodipodi:role="line">OPEN SOURCE</tspan></text>
     </g>
     <g
-       transform="translate(4.6719826,92.77767)"
-       id="g3004">
+       id="g3256">
       <g
+         transform="translate(4.6719826,92.77767)"
          id="g3020">
         <path
            inkscape:connector-curvature="0"
@@ -1646,7 +1646,7 @@
            sodipodi:nodetypes="czzzzsc" />
       </g>
       <g
-         transform="matrix(1.2943023,0,0,1.2943023,-132.76293,-138.53238)"
+         transform="matrix(1.2943023,0,0,1.2943023,-128.09095,-45.75471)"
          id="g4109-8">
         <text
            xml:space="preserve"
