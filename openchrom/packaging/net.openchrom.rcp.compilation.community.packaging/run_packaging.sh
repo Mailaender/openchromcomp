@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -xe
 
 #*******************************************************************************
 # Copyright (c) 2012, 2015 Dr. Philip Wenig.
@@ -10,7 +10,9 @@
 # 
 # Contributors:
 # Dr. Philip Wenig - initial API and implementation
+# Dr. Janos Binder - Added -xe to know the failure
 #*******************************************************************************
+
 
 
 #
