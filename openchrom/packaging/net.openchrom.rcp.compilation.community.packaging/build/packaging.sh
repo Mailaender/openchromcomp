@@ -22,7 +22,7 @@ isalien=$(command -v alien)
 iszip=$(command -v zip)
 
 if [ -z "$isnsis" ] || [ -z "$isalien" ] || [ -z "$iszip" ]; then
-  echo "Please check, whether nsis, alien or zip are installed."
+  echo "FAIL: Please check, whether nsis, alien or zip are installed."
   exit -1
 fi
 
