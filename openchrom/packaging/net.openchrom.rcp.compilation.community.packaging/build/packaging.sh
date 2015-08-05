@@ -23,7 +23,7 @@ iszip=$(command -v zip)
 
 if [ -z "$isnsis" ] || [ -z "$isalien" ] || [ -z "$iszip" ]; then
   echo "FAIL: Please check, whether nsis, alien or zip are installed."
-  exit -1
+  exit 1
 fi
 
 #
@@ -32,7 +32,7 @@ fi
 package_name=$1
 if [ -z $package_name ]; then
   echo "The package name is not available (OpenChrom)."
-  exit -1
+  exit 1
 fi
 
 # Lower case package name
@@ -44,7 +44,7 @@ package_name_lc=${package_name,,}
 identifier=$2
 if [ -z $identifier ]; then
   echo "There is no valid compilation version available (e.g.: 0.9.0_prev)."
-  exit -1
+  exit 1
 fi
 
 version=$identifier
