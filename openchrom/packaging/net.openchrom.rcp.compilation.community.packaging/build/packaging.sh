@@ -10,7 +10,21 @@
 # 
 # Contributors:
 # Dr. Philip Wenig - initial API and implementation
+# Dr. Janos Binder - checking for the available commands
 #*******************************************************************************
+
+#
+# Checking whether the command are available
+# 
+
+isnsis=$(command -v makensis)
+isalien=$(command -v alien)
+iszip=$(command -v zip)
+
+if [ -z "$isnsis" ] || [ -z "$isalien" ] || [ -z "$iszip" ]; then
+  echo "Please check, whether nsis, alien or zip are installed."
+  exit -1
+fi
 
 #
 # Package name
@@ -18,7 +32,7 @@
 package_name=$1
 if [ -z $package_name ]; then
   echo "The package name is not available (OpenChrom)."
-  exit
+  exit -1
 fi
 
 # Lower case package name
@@ -30,7 +44,7 @@ package_name_lc=${package_name,,}
 identifier=$2
 if [ -z $identifier ]; then
   echo "There is no valid compilation version available (e.g.: 0.9.0_prev)."
-  exit
+  exit -1
 fi
 
 version=$identifier
