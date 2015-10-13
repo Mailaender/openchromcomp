@@ -23,7 +23,7 @@
 ./jre/bin/javaw.exe
       </programArgsWin>
       <vmArgs>-Xms512M
--Xmx1024M
+-Xmx2048M
 -Dosgi.install.area.readOnly
 -Dapplication.name=OpenChrom_Community_Edition
 -Dosgi.instance.area=@user.home/OpenChromCE/1.1.x
