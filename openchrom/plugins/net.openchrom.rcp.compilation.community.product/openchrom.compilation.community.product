@@ -26,8 +26,9 @@
 -Xmx2048M
 -Dosgi.install.area.readOnly
 -Dapplication.name=OpenChrom_Community_Edition
--Dosgi.instance.area=@user.home/OpenChromCE/1.1.x
--Dosgi.user.area=@user.home/.openchromce/1.1.x
+-Dapplication.version=1.1.x
+-Dosgi.instance.area=@user.home/OpenChromCommunityEdition/1.1.x
+-Dosgi.user.area=@user.home/.openchromcommunityedition/1.1.x
       </vmArgs>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
       </vmArgsMac>
