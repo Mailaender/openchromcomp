@@ -122,6 +122,33 @@ function releaseOsPackageTAR {
   echo "done"
 }
 
+#
+# Adds -Dosgi.install.area.readOnly to the .ini file
+#
+function addInstallAreaReadOnly {
+
+  package=$1
+  echo "-----------------------------------"
+  echo $package
+  echo "-----------------------------------"
+
+  version_x=${version%?}"x"
+  sed -i '/-Dapplication.version='$version_x'/a -Dosgi.install.area.readOnly' $package/$package_name/$package_name_lc.ini
+}
+
+#
+# Removes -Dosgi.install.area.readOnly from the .ini file
+#
+function removeInstallAreaReadOnly {
+
+  package=$1
+  echo "-----------------------------------"
+  echo $package
+  echo "-----------------------------------"
+
+  version_x=${version%?}"x"
+  sed -i '/-Dosgi.install.area.readOnly/d' $package/$package_name/$package_name_lc.ini
+}
 
 #
 # Fetch the packages
@@ -162,6 +189,17 @@ echo "-----------------------------------"
 echo "ZIP the repository"
 echo "-----------------------------------"
 zip -r repository.zip repository/
+
+#
+# Add the install area read only directive
+#
+echo "-----------------------------------"
+echo "Add the read only directive"
+echo "-----------------------------------"
+addInstallAreaReadOnly linux.gtk.x86
+addInstallAreaReadOnly linux.gtk.x86_64
+addInstallAreaReadOnly win32.win32.x86
+addInstallAreaReadOnly win32.win32.x86_64
 
 #
 # Build Windows installer
@@ -285,6 +323,17 @@ alien -r --scripts $v_i386.deb
 alien -r --scripts $v_amd64.deb
 
 #
+# Remove the install area read only directive
+#
+echo "-----------------------------------"
+echo "Remove the read only directive"
+echo "-----------------------------------"
+removeInstallAreaReadOnly linux.gtk.x86
+removeInstallAreaReadOnly linux.gtk.x86_64
+removeInstallAreaReadOnly win32.win32.x86
+removeInstallAreaReadOnly win32.win32.x86_64
+
+#
 # INFO - deb files need root:root as owner and group
 # md5sums - 0644
 #
@@ -292,6 +341,5 @@ echo "----------------------------------"
 echo "PLEASE RE-RUN THE DEB / RPM BUILDING AS SUDO"
 echo "sudo ./packaging_debs_as_root.sh "$package_name" "$identifier
 echo "----------------------------------"
-
 
 echo "Done"

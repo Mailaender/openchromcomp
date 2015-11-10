@@ -24,7 +24,6 @@
       </programArgsWin>
       <vmArgs>-Xms512M
 -Xmx2048M
--Dosgi.install.area.readOnly
 -Dapplication.name=OpenChrom_Community_Edition
 -Dapplication.version=1.1.x
 -Dosgi.instance.area=@user.home/OpenChromCommunityEdition/1.1.x
