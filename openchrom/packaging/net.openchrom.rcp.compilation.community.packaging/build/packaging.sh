@@ -132,7 +132,7 @@ function addInstallAreaReadOnly {
   echo $package
   echo "-----------------------------------"
 
-  version_x=${version%?}"x"
+  version_x=${version:0:4}"x"
   sed -i '/-Dapplication.version='$version_x'/a -Dosgi.install.area.readOnly' $package/$package_name/$package_name_lc.ini
 }
 
@@ -146,7 +146,6 @@ function removeInstallAreaReadOnly {
   echo $package
   echo "-----------------------------------"
 
-  version_x=${version%?}"x"
   sed -i '/-Dosgi.install.area.readOnly/d' $package/$package_name/$package_name_lc.ini
 }
 
