@@ -162,14 +162,16 @@ fetchOsPackage win32.win32.x86_64
 #
 # Prepares the JRE for each release except Linux, Solaris.
 #
-tar -xvzf jre/jre-8u60-macosx-x64.tar.gz -C ./macosx.cocoa.x86_64/OpenChrom/
-mv ./macosx.cocoa.x86_64/OpenChrom/jre1.8.0_60.jre ./macosx.cocoa.x86_64/OpenChrom/jre
+java_prefix='jre-8u60'
+java_identifer='jre1.8.0_60'
+tar -xvzf jre/$java_prefix-macosx-x64.tar.gz -C ./macosx.cocoa.x86_64/$package_name/
+mv ./macosx.cocoa.x86_64/$package_name/$java_identifer.jre ./macosx.cocoa.x86_64/$package_name/jre
 #
-tar -xvzf jre/jre-8u60-windows-i586.tar.gz -C ./win32.win32.x86/OpenChrom/
-mv ./win32.win32.x86/OpenChrom/jre1.8.0_60 ./win32.win32.x86/OpenChrom/jre
+tar -xvzf jre/$java_prefix-windows-i586.tar.gz -C ./win32.win32.x86/$package_name/
+mv ./win32.win32.x86/$package_name/$java_identifer ./win32.win32.x86/$package_name/jre
 #
-tar -xvzf jre/jre-8u60-windows-x64.tar.gz -C ./win32.win32.x86_64/OpenChrom/
-mv ./win32.win32.x86_64/OpenChrom/jre1.8.0_60 ./win32.win32.x86_64/OpenChrom/jre
+tar -xvzf jre/$java_prefix-windows-x64.tar.gz -C ./win32.win32.x86_64/$package_name/
+mv ./win32.win32.x86_64/$package_name/$java_identifer ./win32.win32.x86_64/$package_name/jre
 
 #
 # Release the packages
