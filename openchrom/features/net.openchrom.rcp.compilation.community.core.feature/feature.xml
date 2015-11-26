@@ -80,11 +80,11 @@ http://www.eclipse.org/legal/epl-v10.html
    <includes
          id="net.openchrom.chromatogram.xxd.filter.supplier.meannormalizer.feature"
          version="0.0.0"/>
-         
+
    <includes
          id="net.openchrom.chromatogram.xxd.filter.supplier.multiplier.feature"
          version="0.0.0"/>
-   
+
    <includes
          id="net.openchrom.chromatogram.xxd.filter.supplier.scanremover.feature"
          version="0.0.0"/>
@@ -135,6 +135,10 @@ http://www.eclipse.org/legal/epl-v10.html
 
    <includes
          id="net.openchrom.chromatogram.xxd.filter.supplier.unitsumnormalizer.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.msd.identifier.supplier.opentyper.feature"
          version="0.0.0"/>
 
 </feature>
