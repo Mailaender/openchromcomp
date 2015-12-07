@@ -149,4 +149,8 @@ http://www.eclipse.org/legal/epl-v10.html
          id="net.openchrom.msqbatlibs.feature"
          version="0.0.0"/>
 
+   <includes
+         id="net.openchrom.msd.identifier.supplier.triplequad.feature"
+         version="0.0.0"/>
+
 </feature>
