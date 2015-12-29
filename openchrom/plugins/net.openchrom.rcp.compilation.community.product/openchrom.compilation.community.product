@@ -16,6 +16,9 @@
    <launcherArgs>
       <programArgs>-clearPersistedState
       </programArgs>
+      <programArgsLin>--launcher.GTK_version
+2
+      </programArgsLin>
       <programArgsMac>-vm
 ../../../jre/Contents/Home/bin/java
       </programArgsMac>
@@ -24,6 +27,7 @@
       </programArgsWin>
       <vmArgs>-Xms512M
 -Xmx2048M
+-Dosgi.framework.extensions=org.eclipse.fx.osgi
 -Dapplication.name=OpenChrom_Community_Edition
 -Dapplication.version=1.1.x
 -Dosgi.instance.area=@user.home/OpenChromCommunityEdition/1.1.x
