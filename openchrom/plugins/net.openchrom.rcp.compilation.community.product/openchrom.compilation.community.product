@@ -16,6 +16,9 @@
    <launcherArgs>
       <programArgs>-clearPersistedState
       </programArgs>
+      <programArgsLin>--launcher.GTK_version
+2
+      </programArgsLin>
       <programArgsMac>-vm
 ../../../jre/Contents/Home/bin/java
       </programArgsMac>
@@ -24,6 +27,7 @@
       </programArgsWin>
       <vmArgs>-Xms512M
 -Xmx2048M
+-Dosgi.framework.extensions=org.eclipse.fx.osgi
 -Dapplication.name=OpenChrom_Community_Edition
 -Dapplication.version=1.1.x
 -Dosgi.instance.area=@user.home/OpenChromCommunityEdition/1.1.x
@@ -56,7 +60,7 @@
    <license>
         <url>http://www.openchrom.net</url>
         <text>
-   Copyright (c) 2008, 2015 Dr. Philip Wenig
+   Copyright (c) 2008, 2016 Dr. Philip Wenig
 
 All rights reserved. This program and the accompanying materials
 are made available under the terms of the Eclipse Public License v1.0
@@ -83,7 +87,7 @@ Contributors:
       <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
       <plugin id="org.eclipse.update.configurator" autoStart="true" startLevel="4" />
       <property name="org.eclipse.update.reconcile" value="false" />
-      <property name="osgi.requiredJavaVersion" value="1.7" />
+      <property name="osgi.requiredJavaVersion" value="1.8" />
       <property name="sun.awt.xembedserver" value="true" />
    </configurations>
 
