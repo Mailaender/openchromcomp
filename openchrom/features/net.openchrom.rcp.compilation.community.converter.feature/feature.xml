@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="net.openchrom.rcp.compilation.community.converter.feature"
+      label="Feature"
+      version="1.1.0.qualifier"
+      provider-name="OpenChrom">
+
+   <description url="http://www.openchrom.net">
+      This is the converter package of OpenChrom.
+   </description>
+
+   <copyright url="http://www.openchrom.net">
+      Copyright (c) 2016 Lablicate UG (haftungsbeschränkt).
+The contained converter are published under different open source licenses.
+   </copyright>
+
+   <license url="http://www.openchrom.net">
+      Copyright (c) 2016 Lablicate UG (haftungsbeschränkt).
+The contained converter are published under different open source licenses.
+   </license>
+   
+   <includes
+         id="net.openchrom.msd.converter.supplier.finnigan.itds.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.msd.converter.supplier.finnigan.its40.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.msd.converter.supplier.shimadzu.qgd.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.msd.converter.supplier.shimadzu.spc.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.msd.converter.supplier.varian.sms.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.msd.converter.supplier.varian.xms.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.msd.converter.supplier.finnigan.raw.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.csd.converter.supplier.agilent.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.msd.converter.supplier.vg.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.msd.converter.supplier.bruker.flex.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.msd.converter.supplier.finnigan.mat.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.msd.converter.supplier.masshunter.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.msd.converter.supplier.waters.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.msd.converter.supplier.perkinelmer.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.msd.converter.supplier.chromtech.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.msd.converter.supplier.agilent.hp.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.msd.converter.supplier.agilent.icp.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.wsd.converter.supplier.agilent.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.msd.converter.supplier.absciex.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.wsd.converter.supplier.absciex.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.csd.converter.supplier.shimadzu.gcd.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.msd.converter.supplier.finnigan.icis.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.csd.converter.supplier.finnigan.dat.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.csd.converter.supplier.varian.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.csd.converter.supplier.perkinelmer.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.chemclipse.msd.converter.supplier.animl.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.chemclipse.msd.converter.supplier.massbank.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.msd.converter.supplier.nist.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.csd.converter.supplier.shimadzu.gc10.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.msd.converter.supplier.finnigan.cgm.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.csd.converter.supplier.finnigan.raw.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.msd.converter.supplier.finnigan.element.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.csd.converter.supplier.masshunter.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.xxd.converter.supplier.massfinder.feature"
+         version="0.0.0"/>   
+
+</feature>
