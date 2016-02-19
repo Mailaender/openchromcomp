@@ -156,5 +156,17 @@ http://www.eclipse.org/legal/epl-v10.html
    <includes
          id="org.chromulan.system.control.feature"
          version="0.0.0"/>
+         
+   <includes
+         id="net.openchrom.chromatogram.msd.identifier.supplier.nist.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.chromatogram.msd.peak.detector.supplier.amdis.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.thirdpartylibraries.odfdom.feature"
+         version="0.0.0"/>         
 
 </feature>
