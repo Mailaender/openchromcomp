@@ -156,7 +156,7 @@ http://www.eclipse.org/legal/epl-v10.html
    <includes
          id="org.chromulan.system.control.feature"
          version="0.0.0"/>
-         
+
    <includes
          id="net.openchrom.chromatogram.msd.identifier.supplier.nist.feature"
          version="0.0.0"/>
@@ -167,6 +167,10 @@ http://www.eclipse.org/legal/epl-v10.html
 
    <includes
          id="net.openchrom.thirdpartylibraries.odfdom.feature"
-         version="0.0.0"/>         
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.chromatogram.xxd.process.supplier.workflows.feature"
+         version="0.0.0"/>
 
 </feature>

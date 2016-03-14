@@ -18,7 +18,7 @@ The contained import converter are published under different open source license
       Copyright (c) 2016 Lablicate UG (haftungsbeschränkt).
 The contained import converter are published under different open source licenses.
    </license>
-   
+
    <includes
          id="net.openchrom.msd.converter.supplier.finnigan.itds.feature"
          version="0.0.0"/>
@@ -153,6 +153,10 @@ The contained import converter are published under different open source license
 
    <includes
          id="net.openchrom.xxd.converter.supplier.massfinder.feature"
-         version="0.0.0"/>   
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.msd.converter.supplier.bruker.baf.feature"
+         version="0.0.0"/>
 
 </feature>
