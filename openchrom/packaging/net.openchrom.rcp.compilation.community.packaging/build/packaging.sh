@@ -162,8 +162,12 @@ fetchOsPackage win32.win32.x86_64
 #
 # Prepares the JRE for each release except Linux, Solaris.
 #
-java_prefix='jre-8u60'
-java_identifer='jre1.8.0_60'
+current_jre=$(find ./jre -type f -name 'jre-*.tar.gz')
+current_version=$(echo $current_jre | cut -d '-' -f 2)
+current_update=$(echo $current_version | cut -d 'u' -f 2)
+java_prefix='jre-'$current_version
+java_identifer='jre1.8.0_'$current_update
+#
 tar -xvzf jre/$java_prefix-macosx-x64.tar.gz -C ./macosx.cocoa.x86_64/$package_name/
 mv ./macosx.cocoa.x86_64/$package_name/$java_identifer.jre ./macosx.cocoa.x86_64/$package_name/jre
 #
