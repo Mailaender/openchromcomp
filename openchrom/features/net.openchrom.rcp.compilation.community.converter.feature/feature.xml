@@ -164,10 +164,6 @@ The contained import converter are published under different open source license
          version="0.0.0"/>
 
    <includes
-         id="net.openchrom.msd.converter.supplier.bruker.baf.feature"
-         version="0.0.0"/>
-
-   <includes
          id="net.openchrom.msd.converter.supplier.shimadzu.lcd.feature"
          version="0.0.0"/>
 
