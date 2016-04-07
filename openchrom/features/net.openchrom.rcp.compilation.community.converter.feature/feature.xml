@@ -171,4 +171,8 @@ The contained import converter are published under different open source license
          id="net.openchrom.xxd.converter.supplier.gson.feature"
          version="0.0.0"/>
 
+   <includes
+         id="net.openchrom.xxd.converter.supplier.ascii.feature"
+         version="0.0.0"/>
+
 </feature>
